@@ -20,11 +20,11 @@
 			]
 		},
 		"spacing": {
-			"units": []
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
 		},
 		"layout": {
-			"contentSize": "",
-			"wideSize": ""
+			"contentSize": "1540px",
+			"wideSize": "1800px"
 		},
 		"typography": {
 			"dropCap": true,
