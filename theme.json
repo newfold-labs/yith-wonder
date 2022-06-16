@@ -23,7 +23,7 @@
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ]
 		},
 		"layout": {
-			"contentSize": "1540px",
+			"contentSize": "1510px",
 			"wideSize": "1800px"
 		},
 		"typography": {
@@ -158,6 +158,121 @@
 							"src": [ "file:./assets/fonts/jost-v13-latin-900italic.woff2" ]
 						}
 
+					]
+				},
+				{
+					"fontFamily": "Montserrat",
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-100.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-100italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-200.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-200italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-300.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-300italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-500.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-500italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-600.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-600italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-700italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-800.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-800italic.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-900.woff2" ]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/montserrat-v24-latin-900italic.woff2" ]
+						}
 					]
 				}
 			],
