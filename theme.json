@@ -496,9 +496,39 @@
 			],
 			"fontSizes":[
 				{
-					"slug": "",
-					"size": "",
-					"name": ""
+					"name": "Extra Small",
+					"size": "0.875rem",
+					"slug": "x-small"
+				},
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"name": "Normal",
+					"size": "1.125rem",
+					"slug": "normal"
+				},
+				{
+					"name": "Medium",
+					"size": "1.5rem",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"name": "Extra Large",
+					"size": "2rem",
+					"slug": "x-large"
+				},
+				{
+					"name": "Huge",
+					"size": "3rem",
+					"slug": "huge"
 				}
 			]
 		},
