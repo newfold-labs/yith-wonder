@@ -565,7 +565,27 @@
 	"templateParts": [
 		{
 			"name": "header",
-			"title": "Header",
+			"title": "Header default",
+			"area": "header"
+		},
+		{
+			"name": "header-left-logo-nav-below",
+			"title": "Header - Left Logo and navigation below",
+			"area": "header"
+		},
+		{
+			"name": "header-left-logo-nav-inline",
+			"title": "Header - Left Logo and navigation inline",
+			"area": "header"
+		},
+		{
+			"name": "header-left-logo-nav-inline-wide",
+			"title": "Header - Left Logo and navigation inline (wide)",
+			"area": "header"
+		},
+		{
+			"name": "header-centered",
+			"title": "Header - Centered layout",
 			"area": "header"
 		},
 		{
