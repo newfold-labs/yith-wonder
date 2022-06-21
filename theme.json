@@ -6,9 +6,29 @@
 		"color": {
 			"palette": [
 				{
-					"slug": "",
-					"color": "",
-					"name": ""
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#404040",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#01af8d",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#107774",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#00a79c",
+					"name": "Tertiary"
 				}
 			],
 			"gradients": [
