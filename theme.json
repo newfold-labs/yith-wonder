@@ -33,9 +33,9 @@
 			],
 			"gradients": [
 				{
-					"slug": "",
-					"gradient": "",
-					"name": ""
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #00a79c 0%,#01af8d 100%)",
+					"name": "Vertical tertiary to primary"
 				}
 			]
 		},
