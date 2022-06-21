@@ -565,18 +565,18 @@
 			}
 		},
 		"color": {
-			"background": "",
-			"text": ""
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
 		},
 		"typography": {
-			"fontSize": "",
-			"fontFamily": "",
-			"lineHeight": ""
+			"fontSize": "var(--wp--preset--font-size--normal)",
+			"fontFamily": "var(--wp--preset--font-family--montserrat)",
+			"lineHeight": "1.75"
 		},
 		"elements": {
 			"link": {
 				"color": {
-					"text": ""
+					"text": "var(--wp--preset--color--foreground)"
 				}
 			}
 		},
