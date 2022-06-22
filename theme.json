@@ -720,7 +720,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
-			"fontFamily": "var(--wp--preset--font-family--nunito)",
+			"fontFamily": "var(--wp--preset--font-family--montserrat)",
 			"lineHeight": "1.75"
 		},
 		"elements": {
@@ -731,7 +731,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontFamily": "var(--wp--preset--font-family--jost)",
 					"fontWeight": "700",
 					"fontSize": "var(--wp--preset--font-size--huge)"
 				}
