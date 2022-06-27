@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Food",
+	"title": "Desire",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,25 +16,25 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#709422",
+					"color": "#ea0061",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#4f6818",
+					"color": "#ef3381",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#8daa4f",
+					"color": "#a40044",
 					"name": "Tertiary"
 				}
 			],
 			"gradients": [
 				{
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #709422 0%,#8daa4f 100%)",
-					"name": "Vertical tertiary to primary"
+					"gradient": "linear-gradient(to bottom, #ea0061 0%,#ef3381 100%)",
+					"name": "Vertical primary to secondary"
 				}
 			]
 		}

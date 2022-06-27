@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Food",
+	"title": "Baby",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,25 +16,25 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#709422",
+					"color": "#3e5389",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#4f6818",
+					"color": "#6576a1",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#8daa4f",
+					"color": "#d48620",
 					"name": "Tertiary"
 				}
 			],
 			"gradients": [
 				{
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #709422 0%,#8daa4f 100%)",
-					"name": "Vertical tertiary to primary"
+					"gradient": "linear-gradient(to bottom, #3e5389 0%,#6576a1 100%)",
+					"name": "Vertical primary to secondary"
 				}
 			]
 		}

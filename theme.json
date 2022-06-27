@@ -706,7 +706,7 @@
 	},
 	"styles": {
 		"spacing":{
-			"blockGap": "",
+			"blockGap": "1rem",
 			"margin": {
 				"top": "",
 				"right": "",
@@ -763,6 +763,11 @@
 							"textDecoration": "none"
 						}
 					}
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			}
 		}
