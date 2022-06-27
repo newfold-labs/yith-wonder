@@ -1,0 +1,42 @@
+{
+	"version": 2,
+	"title": "Black and white",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#709422",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#4f6818",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#8daa4f",
+					"name": "Tertiary"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #709422 0%,#8daa4f 100%)",
+					"name": "Vertical tertiary to primary"
+				}
+			]
+		}
+	}
+}

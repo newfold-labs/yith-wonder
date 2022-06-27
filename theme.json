@@ -726,14 +726,43 @@
 		"elements": {
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		},
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--jost)"
+					"fontFamily": "var(--wp--preset--font-family--jost)",
+					"textDecoration": "none"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--foreground)"
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
+			"core/site-title": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--foreground)"
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		}
