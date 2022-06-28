@@ -37,7 +37,7 @@ body {
 /*
  * Increase horizontal padding on smaller screens.
 */
-@media ( max-width: 1024px ) {
+@media ( max-width: 1510px ) {
 
     header > .wp-block-group,
 	main > :not(.alignfull),
