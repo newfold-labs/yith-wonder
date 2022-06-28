@@ -820,8 +820,13 @@
 	],
 	"customTemplates": [
 		{
-			"name": "",
-			"title": "",
+			"name": "sidebar-right",
+			"title": "Sidebar (right)",
+			"postTypes": [ "post","page" ]
+		},
+		{
+			"name": "sidebar-left",
+			"title": "Sidebar (left)",
 			"postTypes": [ "post","page" ]
 		}
 	]
