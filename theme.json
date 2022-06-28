@@ -706,13 +706,7 @@
 	},
 	"styles": {
 		"spacing":{
-			"blockGap": "1rem",
-			"margin": {
-				"top": "",
-				"right": "",
-				"bottom": "",
-				"left": ""
-			}
+			"blockGap": "1rem"
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
