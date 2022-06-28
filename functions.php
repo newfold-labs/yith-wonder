@@ -37,3 +37,8 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 	}
 	add_action( 'after_setup_theme', 'wonder_theme_setup' );
 }
+
+/**
+ * Enable again the customizer
+ */
+add_action( 'customize_register', '__return_true' );
