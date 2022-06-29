@@ -820,12 +820,12 @@
 		{
 			"name": "vertical-sidebar",
 			"title": "Vertical Sidebar 1",
-			"area": "general"
+			"area": "uncategorized"
 		},
 		{
 			"name": "vertical-sidebar-2",
 			"title": "Vertical Sidebar 2",
-			"area": "general"
+			"area": "uncategorized"
 		}
 	],
 	"customTemplates": [
