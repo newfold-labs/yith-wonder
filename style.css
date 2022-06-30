@@ -54,3 +54,39 @@ body {
 		padding-right: 1rem;
 	}
 }
+
+
+/*
+* Navigation fix
+*/
+html:not(.has-modal-open) .wp-block-navigation__container ul.wp-block-navigation__submenu-container {
+    box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
+    padding: 20px;
+}
+html:not(.has-modal-open) .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+	border: none;
+}
+
+html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navigation__submenu-container {
+    margin-top: 15px;
+}
+
+html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navigation__submenu-container:before {
+    content: "";
+    left: 0;
+    right: 0;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+}
+
+html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navigation__submenu-container:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent var(--wp--preset--color--background) transparent;
+    position: absolute;
+    top: -10px;
+}

@@ -30,7 +30,7 @@
 			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation /-->
+		<!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} /-->
 		<!-- wp:search {"showLabel":false,"width":100,"widthUnit":"%","buttonUseIcon":true} /-->
 	</div>
 	<!-- /wp:group -->
