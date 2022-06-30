@@ -30,8 +30,10 @@
 			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} /-->
-		<!-- wp:search {"showLabel":false,"width":100,"widthUnit":"%","buttonUseIcon":true} /-->
+		<!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small"} /-->
+		<?php if ( class_exists( 'woocommerce' ) ) : ?>
+		<!-- wp:woocommerce/mini-cart {"addToCartBehaviour":"open_drawer","fontSize":"x-small","fontWeight":"600"} /-->
+		<?php endif; ?>
 	</div>
 	<!-- /wp:group -->
 </div>

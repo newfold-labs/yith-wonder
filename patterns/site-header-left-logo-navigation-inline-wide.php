@@ -30,7 +30,10 @@
 			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} /-->
+		<!-- wp:navigation {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small","fontWeight":"600"} /-->
+		<?php if ( class_exists( 'woocommerce' ) ) : ?>
+		<!-- wp:woocommerce/mini-cart {"addToCartBehaviour":"open_drawer","fontSize":"x-small","fontWeight":"600"} /-->
+		<?php endif; ?>
 	</div>
 	<!-- /wp:group -->
 </div>
