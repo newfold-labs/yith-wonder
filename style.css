@@ -102,3 +102,13 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
     z-index: 10;
     position: relative;
 }
+
+/* STICKY POSTS FIX */
+.wp-block-post.sticky {
+	width: 100% !important;
+}
+
+.wp-block-post-excerpt__more-text {
+	font-size: var(--wp--preset--font-size--x-small);
+	font-weight: 600;
+}
