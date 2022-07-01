@@ -95,3 +95,10 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
 .wc-block-mini-cart__button {
 	font-family: inherit;
 }
+
+/* SINGLE POST OVERLAP LAYOUT */
+.wp-block-post-featured-image + .wp-block-group .vertical-overlap {
+    margin-top: -250px;
+    z-index: 10;
+    position: relative;
+}
