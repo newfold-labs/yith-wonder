@@ -49,7 +49,8 @@ body {
 	.woocommerce :not(.related) > ul.products,
 	.sidebar .wp-block-query > :not(.alignfull),
 	.sidebar .entry-content > :not(.alignfull),
-	.sidebar .entry-content .wp-block-columns.alignfull p {
+	.sidebar .entry-content .wp-block-columns.alignfull p,
+	footer > .wp-block-group {
 		padding-left: 1rem;
 		padding-right: 1rem;
 	}
