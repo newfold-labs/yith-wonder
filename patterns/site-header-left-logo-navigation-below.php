@@ -38,6 +38,3 @@
 	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->
-<!-- wp:spacer {"height":"40px"} -->
-<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
