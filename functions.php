@@ -34,6 +34,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 	 */
 	function wonder_theme_setup() {
 		add_theme_support( 'wp-block-styles' );
+		add_editor_style( './assets/css/general-block-style.css' );
 	}
 	add_action( 'after_setup_theme', 'wonder_theme_setup' );
 }
