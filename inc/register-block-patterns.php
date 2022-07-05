@@ -25,5 +25,10 @@ function wonder_register_block_pattern_category() {
 		array( 'label' => esc_html__( 'Wonder - Site Headers', 'wonder' ) )
 	);
 
+	register_block_pattern_category(
+		'wonder-pages',
+		array( 'label' => esc_html__( 'Wonder - Pages', 'wonder' ) )
+	);
+
 }
 add_action( 'init', 'wonder_register_block_pattern_category', 5 );

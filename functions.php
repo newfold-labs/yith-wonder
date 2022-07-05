@@ -45,3 +45,6 @@ add_action( 'customize_register', '__return_true' );
 
 // Block patterns.
 require_once get_theme_file_path( 'inc/register-block-patterns.php' );
+
+// Block styles.
+require_once get_theme_file_path( 'inc/register-block-styles.php' );
