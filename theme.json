@@ -811,6 +811,11 @@
 			"area": "header"
 		},
 		{
+			"name": "header-centered-logo-split-menu",
+			"title": "Header - Centered layout with splitted menu",
+			"area": "header"
+		},
+		{
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"
