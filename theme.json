@@ -763,6 +763,29 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
+			},
+			"core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--background)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				},
+				"border": {
+					"radius": "4px",
+					"width": "0",
+					"style": "solid",
+					"color": "var(--wp--preset--color--primary)"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.3rem",
+						"right": "1rem",
+						"bottom": "0.3rem",
+						"left": "1rem"
+					}
+				}
 			}
 		}
 	},

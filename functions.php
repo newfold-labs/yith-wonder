@@ -24,6 +24,12 @@ function wonder_styles() {
 		array(),
 		WONDER_VERSION
 	);
+	wp_enqueue_style(
+		'general-block-style',
+		get_theme_file_uri( 'assets/css/general-block-style.css' ),
+		array(),
+		WONDER_VERSION
+	);
 }
 add_action( 'wp_enqueue_scripts', 'wonder_styles' );
 
