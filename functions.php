@@ -30,6 +30,12 @@ function wonder_styles() {
 		array(),
 		WONDER_VERSION
 	);
+	wp_enqueue_style(
+		'registered-block-style',
+		get_theme_file_uri( 'assets/css/registered-block-styles.css' ),
+		array(),
+		WONDER_VERSION
+	);
 }
 add_action( 'wp_enqueue_scripts', 'wonder_styles' );
 
@@ -41,6 +47,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 	function wonder_theme_setup() {
 		add_theme_support( 'wp-block-styles' );
 		add_editor_style( './assets/css/general-block-style.css' );
+		add_editor_style( './assets/css/registered-block-styles.css' );
 	}
 	add_action( 'after_setup_theme', 'wonder_theme_setup' );
 }

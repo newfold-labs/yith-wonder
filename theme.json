@@ -780,9 +780,9 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "0.3rem",
+						"top": "0.5rem",
 						"right": "1rem",
-						"bottom": "0.3rem",
+						"bottom": "0.5rem",
 						"left": "1rem"
 					}
 				}
