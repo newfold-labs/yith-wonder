@@ -14,11 +14,14 @@
 
 <!-- wp:group {"tagName":"main","align":"full","layout":{"inherit":true}} -->
 <main class="wp-block-group alignfull">
+	<!-- wp:spacer {"height":"40px"} -->
+	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->	
 	<!-- wp:heading {"textAlign":"center","level":1,"fontSize":"huge"} -->
 	<h1 class="has-text-align-center has-huge-font-size"><?php esc_html_e( 'Our news', 'wonder' ); ?></h1>
 	<!-- /wp:heading -->
-	<!-- wp:spacer {"height":"30px"} -->
-	<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- wp:spacer {"height":"80px"} -->
+	<div style="height:80px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	<!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2},"align":"full","layout":{"inherit":true}} -->
 <div class="wp-block-query alignfull"><!-- wp:post-template -->
@@ -56,11 +59,14 @@
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
-<!-- wp:query-pagination-previous {"label":"Previous"} /-->
+<!-- wp:query-pagination {"paginationArrow":"arrow","layout":{"type":"flex","justifyContent":"center"}} -->
+<!-- wp:query-pagination-previous {"label":"Previous","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
 
-<!-- wp:query-pagination-next {"label":"Next"} /-->
-<!-- /wp:query-pagination --></div>
+<!-- wp:query-pagination-numbers {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
+
+<!-- wp:query-pagination-next {"label":"Next","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} /-->
+<!-- /wp:query-pagination -->
+</div>
 <!-- /wp:query --></main>
 <!-- /wp:group -->
 
