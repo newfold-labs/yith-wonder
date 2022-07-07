@@ -9,8 +9,7 @@
 .is-style-outline .wp-block-button__link:hover,
 .is-style-outline .wp-block-button__link:focus,
 .is-style-outline .wp-block-button__link:visited {
-    border-color: var(--wp--preset--color--foreground);
-    border-width: 1px;
+    border-width: 2px;
 }
 .is-style-outline .wp-block-button__link:hover {
     background: var(--wp--preset--color--background);

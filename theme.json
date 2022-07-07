@@ -770,13 +770,13 @@
 					"text": "var(--wp--preset--color--background)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "500"
 				},
 				"border": {
 					"radius": "4px",
 					"width": "0",
-					"style": "solid",
-					"color": "var(--wp--preset--color--primary)"
+					"style": "solid"
 				},
 				"spacing": {
 					"padding": {

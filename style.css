@@ -92,24 +92,10 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
     top: -10px;
 }
 
-/* MINICART FIC */
-.wc-block-mini-cart__button {
-	font-family: inherit;
-}
-
-/* SINGLE POST OVERLAP LAYOUT */
-.wp-block-post-featured-image + .wp-block-group .vertical-overlap {
-    margin-top: -250px;
-    z-index: 10;
-    position: relative;
-}
-
-/* STICKY POSTS FIX */
-.wp-block-post.sticky {
-	width: 100% !important;
-}
-
-.wp-block-post-excerpt__more-text {
-	font-size: var(--wp--preset--font-size--x-small);
-	font-weight: 600;
+input[type="submit"] {
+    font-size: var(--wp--preset--font-size--small);
+    font-family: inherit;
+	font-weight: 500;
+	padding: 0.5rem 1rem;
+	line-height: inherit;
 }
