@@ -16,16 +16,16 @@
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner1.jpg","id":436,"dimRatio":0,"minHeight":680,"isDark":false,"className":"has-custom-content-position is-position-bottom-left ek-linked-block ek-linked-block-animate"} -->
-<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left ek-linked-block ek-linked-block-animate" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-436" alt="" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"primary","textColor":"background"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner1.jpg","dimRatio":0,"minHeight":680,"isDark":false,"className":"has-custom-content-position is-position-bottom-left"} -->
+<div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"primary","textColor":"background"} -->
 <p class="has-background-color has-primary-background-color has-text-color has-background"><strong>A romantic touch of black<br></strong>Start to shop <strong>⟶</strong></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner2.jpg","id":437,"dimRatio":0,"minHeight":680,"style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"100px","left":"100px"}}}} -->
-<div class="wp-block-cover" style="padding-top:100px;padding-right:100px;padding-bottom:100px;padding-left:100px;min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-437" alt="" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","fontSize":"large"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg","dimRatio":0,"minHeight":680,"style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"100px","left":"100px"}}}} -->
+<div class="wp-block-cover" style="padding-top:100px;padding-right:100px;padding-bottom:100px;padding-left:100px;min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","fontSize":"large"} -->
 <p class="has-text-align-left has-large-font-size">JEANS &amp;<br>DENIM</p>
 <!-- /wp:paragraph -->
 
@@ -36,8 +36,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner3.jpg","id":438,"dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left ek-linked-block ek-linked-block-animate"} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-left ek-linked-block ek-linked-block-animate" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-438" alt="" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/banner3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"black","textColor":"background"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner3.jpg","dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left"} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"black","textColor":"background"} -->
 <p class="has-background-color has-black-background-color has-text-color has-background"><strong>Accessories</strong><br>Start to shop <strong>⟶</strong></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
@@ -56,8 +56,8 @@
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:cover {"url":"http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/triangle.png","id":465,"dimRatio":0,"focalPoint":{"x":"0.00","y":"0.50"},"isDark":false,"align":"full"} -->
-<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-465" alt="" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/triangle.png" style="object-position:0% 50%" data-object-fit="cover" data-object-position="0% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","style":{"color":{}},"layout":{"inherit":true}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/triangle.png","dimRatio":0,"focalPoint":{"x":"0.00","y":"0.50"},"isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/triangle.png" style="object-position:0% 50%" data-object-fit="cover" data-object-position="0% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","style":{"color":{}},"layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull"><!-- wp:woocommerce/product-new {"columns":5,"rows":1,"alignButtons":true,"contentVisibility":{"image":true,"title":true,"price":true,"rating":false,"button":false}} /-->
 
 <!-- wp:spacer -->
@@ -66,8 +66,8 @@
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":"140px"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":441,"width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/buysafe.png" alt="" class="wp-image-441" width="61" height="61"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/buysafe.png" alt="" width="61" height="61"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -88,8 +88,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":450,"width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/freedelivery.png" alt="" class="wp-image-450" width="70" height="52"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.png" alt="" width="70" height="52"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -110,8 +110,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":451,"width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/customercare.png" alt="" class="wp-image-451" width="62" height="56"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/customercare.png" alt="" width="62" height="56"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -150,8 +150,8 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:cover {"url":"http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/wardrobecapsule-scaled.jpg","id":455,"dimRatio":0,"isDark":false} -->
-<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-455" alt="" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/wardrobecapsule-scaled.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/wardrobecapsule.jpg","dimRatio":0,"isDark":false} -->
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/wardrobecapsule.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
