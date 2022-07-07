@@ -1,4 +1,4 @@
-/* MINICART FIC */
+/* MINICART FIX */
 .wc-block-mini-cart__button {
 	font-family: inherit;
 }
@@ -15,6 +15,9 @@
 	width: 100% !important;
 }
 
+.wp-block-post.sticky .wp-block-cover {
+	padding-top: 30% !important;
+}
 .wp-block-post-excerpt__more-text {
 	font-size: var(--wp--preset--font-size--x-small);
 	font-weight: 600;
