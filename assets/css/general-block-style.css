@@ -32,3 +32,14 @@
 	filter: brightness(94%) !important;
 }
 
+/* POST QUERY LOOP */
+@media (min-width: 1200px) {
+	.wp-block-post-template.is-flex-container,
+	.wp-block-query-loop.is-flex-container {
+		gap: 120px;
+	}
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
+		width: calc((100% / 2) - 120px + (120px / 2));
+	}
+}
