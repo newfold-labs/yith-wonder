@@ -51,12 +51,12 @@
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--jost)"
+			"fontFamily": "var(--wp--preset--font-family--montserrat)"
 		},
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--jost)"
+					"fontFamily": "var(--wp--preset--font-family--playfair)"
 				}
 			}
 		}
