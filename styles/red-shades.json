@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Food",
+	"title": "Red Shades",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,39 +16,37 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#709422",
+					"color": "#C14B36",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#4f6818",
+					"color": "#a15142",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#8daa4f",
+					"color": "#d48620",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#C14B36",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#ffffff",
+					"name": "Secondary foreground"
 				}
 			],
 			"gradients": [
 				{
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #709422 0%,#8daa4f 100%)",
-					"name": "Vertical tertiary to primary"
+					"gradient": "linear-gradient(to bottom, #C14B36 0%,#d48620 100%)",
+					"name": "Vertical primary to secondary"
 				}
 			]
-		}
-	},
-	"styles": {
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--jost)"
-		},
-		"blocks": {
-			"core/heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--jost)"
-				}
-			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Baby",
+	"title": "Blue Shades",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,7 +16,7 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#3e5389",
+					"color": "#1B5377",
 					"name": "Primary"
 				},
 				{
@@ -43,7 +43,7 @@
 			"gradients": [
 				{
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #3e5389 0%,#6576a1 100%)",
+					"gradient": "linear-gradient(to bottom, #1B5377 0%,#6576a1 100%)",
 					"name": "Vertical primary to secondary"
 				}
 			]

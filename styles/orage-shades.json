@@ -1,0 +1,64 @@
+{
+	"version": 2,
+	"title": "Orange Shades",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#B37602",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#c4a05c",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#c48a1a",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#ECCA93",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#000000",
+					"name": "Secondary foreground"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #B37602 0%,#c48a1a 100%)",
+					"name": "Vertical tertiary to primary"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--jost)"
+		},
+		"blocks": {
+			"core/heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--jost)"
+				}
+			}
+		}
+	}
+}

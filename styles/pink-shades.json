@@ -1,0 +1,64 @@
+{
+	"version": 2,
+	"title": "Pink shades",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "primary",
+					"color": "#A65E68",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#ef3381",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#a40044",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#EDE1E1",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#7B0000",
+					"name": "Secondary foreground"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #A65E68 0%,#a40044 100%)",
+					"name": "Vertical primary to secondary"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--jost)"
+		},
+		"blocks": {
+			"core/heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--jost)"
+				}
+			}
+		}
+	}
+}

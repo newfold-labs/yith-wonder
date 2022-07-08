@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Desire",
+	"title": "Black Shades",
 	"settings": {
 		"color": {
 			"palette": [
@@ -16,39 +16,37 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#ea0061",
+					"color": "#000000",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#ef3381",
+					"color": "#3f403e",
 					"name": "Secondary"
 				},
 				{
 					"slug": "tertiary",
-					"color": "#a40044",
+					"color": "#808080",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#000000",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#ffffff",
+					"name": "Secondary foreground"
 				}
 			],
 			"gradients": [
 				{
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #ea0061 0%,#ef3381 100%)",
+					"gradient": "linear-gradient(to bottom, #000000 0%,#808080 100%)",
 					"name": "Vertical primary to secondary"
 				}
 			]
-		}
-	},
-	"styles": {
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--jost)"
-		},
-		"blocks": {
-			"core/heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--jost)"
-				}
-			}
 		}
 	}
 }
