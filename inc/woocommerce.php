@@ -51,3 +51,16 @@ function proteo_woocommerce_active_body_class( $classes ) {
 
 add_filter( 'body_class', 'proteo_woocommerce_active_body_class' );
 
+/**
+ * Remove the breadcrumbs from the shop page.
+ *
+ * @since 1.0.4
+ */
+add_filter(
+	'template_redirect',
+	function() {
+		if ( is_shop() || is_product() ) {
+			remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+		}
+	}
+);
