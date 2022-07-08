@@ -28,6 +28,16 @@
 					"slug": "tertiary",
 					"color": "#d48620",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#245376",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#ffffff",
+					"name": "Secondary foreground"
 				}
 			],
 			"gradients": [
@@ -37,18 +47,6 @@
 					"name": "Vertical primary to secondary"
 				}
 			]
-		}
-	},
-	"styles": {
-		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--poppins)"
-		},
-		"blocks": {
-			"core/heading": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--poppins)"
-				}
-			}
 		}
 	}
 }

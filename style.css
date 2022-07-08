@@ -63,6 +63,7 @@ body {
 html:not(.has-modal-open) .wp-block-navigation__container ul.wp-block-navigation__submenu-container {
     box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
     padding: 20px;
+	background: var(--wp--preset--color--secondary-background);
 }
 html:not(.has-modal-open) .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
 	border: none;
@@ -87,7 +88,7 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
     height: 0;
     border-style: solid;
     border-width: 0 10px 10px 10px;
-    border-color: transparent transparent var(--wp--preset--color--background) transparent;
+    border-color: transparent transparent var(--wp--preset--color--secondary-background) transparent;
     position: absolute;
     top: -10px;
 }

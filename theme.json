@@ -29,6 +29,16 @@
 					"slug": "tertiary",
 					"color": "#00a79c",
 					"name": "Tertiary"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#e8e8e8",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#000000",
+					"name": "Secondary foreground"
 				}
 			],
 			"gradients": [
@@ -714,7 +724,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
-			"fontFamily": "var(--wp--preset--font-family--montserrat)",
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
 			"lineHeight": "1.75"
 		},
 		"elements": {
@@ -727,16 +737,16 @@
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--jost)",
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
 					"textDecoration": "none"
 				},
 				"color": {
-					"text": "var(--wp--preset--color--foreground)"
+					"text": "var(--wp--preset--color--secondary-foreground)"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--foreground)"
+							"text": "var(--wp--preset--color--secondary-foreground)"
 						},
 						"typography": {
 							"textDecoration": "none"
