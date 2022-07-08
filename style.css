@@ -92,11 +92,3 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
     position: absolute;
     top: -10px;
 }
-
-input[type="submit"] {
-    font-size: var(--wp--preset--font-size--small);
-    font-family: inherit;
-	font-weight: 500;
-	padding: 0.5rem 1rem;
-	line-height: inherit;
-}

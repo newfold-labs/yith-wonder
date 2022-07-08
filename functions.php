@@ -36,6 +36,15 @@ function wonder_styles() {
 		array(),
 		WONDER_VERSION
 	);
+	// WooCommerce.
+	if ( class_exists( 'woocommerce' ) ) {
+		wp_enqueue_style(
+			'wonder-woocommerce',
+			get_theme_file_uri( 'assets/css/woocommerce.css' ),
+			array(),
+			WONDER_VERSION
+		);
+	}
 }
 add_action( 'wp_enqueue_scripts', 'wonder_styles' );
 
