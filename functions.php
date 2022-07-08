@@ -62,3 +62,8 @@ require_once get_theme_file_path( 'inc/register-block-patterns.php' );
 
 // Block styles.
 require_once get_theme_file_path( 'inc/register-block-styles.php' );
+
+// WooCommerce.
+if ( class_exists( 'woocommerce' ) ) {
+	require_once get_theme_file_path( 'inc/woocommerce.php' );
+}
