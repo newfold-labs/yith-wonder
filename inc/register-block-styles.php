@@ -21,6 +21,13 @@ function wonder_register_block_styles() {
 			'label' => esc_html__( 'Button Style 1', 'wonder' ),
 		)
 	);
+	register_block_style(
+		'core/image',
+		array(
+			'name'  => 'wonder-image-creative',
+			'label' => esc_html__( 'Creative', 'wonder' ),
+		)
+	);
 }
 
 add_action( 'init', 'wonder_register_block_styles' );
