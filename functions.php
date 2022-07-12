@@ -18,6 +18,8 @@ if ( ! defined( 'WONDER_VERSION' ) ) {
  * @since 1.0.0
  */
 function wonder_styles() {
+	$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+
 	wp_enqueue_style(
 		'wonder-style',
 		get_stylesheet_uri(),
@@ -26,13 +28,13 @@ function wonder_styles() {
 	);
 	wp_enqueue_style(
 		'general-block-style',
-		get_theme_file_uri( 'assets/css/general-block-style.css' ),
+		get_theme_file_uri( 'assets/css/general-block-style' . $suffix . '.css' ),
 		array(),
 		WONDER_VERSION
 	);
 	wp_enqueue_style(
 		'registered-block-style',
-		get_theme_file_uri( 'assets/css/registered-block-styles.css' ),
+		get_theme_file_uri( 'assets/css/registered-block-styles' . $suffix . '.css' ),
 		array(),
 		WONDER_VERSION
 	);
@@ -40,7 +42,7 @@ function wonder_styles() {
 	if ( class_exists( 'woocommerce' ) ) {
 		wp_enqueue_style(
 			'wonder-woocommerce',
-			get_theme_file_uri( 'assets/css/woocommerce.css' ),
+			get_theme_file_uri( 'assets/css/woocommerce' . $suffix . '.css' ),
 			array(),
 			WONDER_VERSION
 		);
@@ -54,9 +56,10 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 	 * Theme support declarations
 	 */
 	function wonder_theme_setup() {
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		add_theme_support( 'wp-block-styles' );
-		add_editor_style( './assets/css/general-block-style.css' );
-		add_editor_style( './assets/css/registered-block-styles.css' );
+		add_editor_style( './assets/css/general-block-style' . $suffix . '.css' );
+		add_editor_style( './assets/css/registered-block-styles' . $suffix . '.css' );
 	}
 	add_action( 'after_setup_theme', 'wonder_theme_setup' );
 }
