@@ -1,0 +1,25 @@
+{
+  "name": "wonder",
+  "version": "0.0.3",
+  "description": "A new block and full site editing theme by YITH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/yithemes/wonder.git"
+  },
+  "author": "YITH",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://bitbucket.org/yithemes/wonder/issues"
+  },
+  "homepage": "https://bitbucket.org/yithemes/wonder#readme",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
