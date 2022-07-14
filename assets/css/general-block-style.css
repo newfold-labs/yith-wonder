@@ -24,16 +24,6 @@
   font-weight: 600;
 }
 
-/* BUTTONS */
-.wp-block-button__link {
-  transition: all ease 0.3s;
-}
-
-.wp-block-button__link:focus,
-.wp-block-button__link:hover {
-  filter: brightness(94%) !important;
-}
-
 /* POST QUERY LOOP */
 @media (min-width: 1200px) {
   .wp-block-post-template.is-flex-container,
@@ -94,3 +84,5 @@ input[type=week] {
 .wp-block-table figcaption {
   color: var(--wp--preset--color--foreground);
 }
+
+/*# sourceMappingURL=general-block-style.css.map */
