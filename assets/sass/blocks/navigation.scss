@@ -33,3 +33,7 @@ html:not(.has-modal-open) .wp-block-navigation__container > li> ul.wp-block-navi
     position: absolute;
     top: -10px;
 }
+
+nav.wp-block-navigation {
+    flex: 1;
+}
