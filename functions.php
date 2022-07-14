@@ -66,6 +66,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 		*/
 		$styled_blocks = array(
 			'button',
+			'navigation',
 		);
 
 		foreach ( $styled_blocks as $block_name ) {
@@ -82,9 +83,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 	add_action( 'after_setup_theme', 'wonder_theme_setup' );
 }
 
-/**
- * Enable again the customizer
- */
+// Enable customizer (mainly for Additional CSS feature).
 add_action( 'customize_register', '__return_true' );
 
 // Block patterns.
