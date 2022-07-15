@@ -36,23 +36,6 @@
     width: calc(50% - 120px + 60px);
   }
 }
-input[type=submit] {
-  font-size: var(--wp--preset--font-size--small);
-  font-family: inherit;
-  font-weight: 500;
-  padding: 0.5rem 1rem;
-  line-height: inherit;
-}
-
-textarea {
-  padding: 1rem;
-  width: 100%;
-}
-
-select {
-  padding: 3px;
-}
-
 textarea,
 select,
 input[type=color],
@@ -71,10 +54,41 @@ input[type=text],
 input[type=time],
 input[type=url],
 input[type=week] {
+  padding: 0.3rem 1rem;
   font-size: var(--wp--preset--font-size--small);
   font-family: var(--wp--preset--font-family--system);
   line-height: 1.7;
   min-height: 2.5rem;
+  border: 2px solid;
+  border-color: var(--wp--custom--input-border-color);
+  background-color: var(--wp--preset--color--background);
+}
+
+textarea {
+  padding: 1rem;
+  width: 100%;
+}
+
+select {
+  padding: 3px;
+}
+
+input[type=submit] {
+  font-size: var(--wp--preset--font-size--small);
+  font-family: inherit;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  line-height: inherit;
+}
+
+textarea,
+input[type=email],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url] {
+  width: 100%;
 }
 
 .wp-block-image figcaption,
@@ -83,6 +97,22 @@ input[type=week] {
 .wp-block-gallery figcaption,
 .wp-block-table figcaption {
   color: var(--wp--preset--color--foreground);
+}
+
+input.wpcf7-not-valid {
+  border-color: #dc3232;
+}
+
+.wpcf7-not-valid-tip {
+  font-size: 0.8em;
+}
+
+/* EDITOR CREATIVE CSS CLASSES */
+@media (min-width: 1200px) {
+  .negative-right-margin {
+    margin-right: -100px !important;
+    z-index: 1;
+  }
 }
 
 /*# sourceMappingURL=general-block-style.css.map */

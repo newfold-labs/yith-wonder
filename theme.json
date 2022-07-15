@@ -712,7 +712,9 @@
 			"style": true,
 			"width": true
 		},
-		"custom": {}
+		"custom": {
+			"input-border-color": "rgba(0, 0, 0, 0.2)"
+		}
 	},
 	"styles": {
 		"spacing":{
