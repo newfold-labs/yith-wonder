@@ -6,15 +6,12 @@ html:not(.has-modal-open) .wp-block-navigation__container ul.wp-block-navigation
   padding: 20px;
   background: var(--wp--preset--color--secondary-background);
 }
-
 html:not(.has-modal-open) .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
   border: none;
 }
-
 html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-navigation__submenu-container {
   margin-top: 15px;
 }
-
 html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-navigation__submenu-container:before {
   content: "";
   left: 0;
@@ -23,7 +20,6 @@ html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-nav
   position: absolute;
   top: -20px;
 }
-
 html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-navigation__submenu-container:after {
   content: "";
   width: 0;
@@ -38,3 +34,9 @@ html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-nav
 nav.wp-block-navigation {
   flex: 1;
 }
+
+.wp-block-navigation.items-justified-right ul.wp-block-navigation__submenu-container:after {
+  right: 20px;
+}
+
+/*# sourceMappingURL=navigation.css.map */
