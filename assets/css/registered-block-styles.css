@@ -19,13 +19,13 @@
 }
 
 /* Image creative style */
-figure.is-style-wonder-image-creative {
+figure[class*=is-style-wonder-image-creative] {
   position: relative;
 }
-figure.is-style-wonder-image-creative img {
+figure[class*=is-style-wonder-image-creative] img {
   position: relative;
 }
-figure.is-style-wonder-image-creative:before {
+figure[class*=is-style-wonder-image-creative]:before {
   content: "";
   display: block;
   background: var(--wp--preset--color--primary);
@@ -38,6 +38,11 @@ figure.is-style-wonder-image-creative:before {
   right: -20px;
   border-radius: 0;
   box-shadow: none;
+}
+
+figure.is-style-wonder-image-creative-alt:before {
+  right: auto;
+  left: -20px;
 }
 
 /* Quote wonder-quote-with-icon */

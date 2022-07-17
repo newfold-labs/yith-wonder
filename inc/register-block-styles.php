@@ -29,6 +29,13 @@ function wonder_register_block_styles() {
 		)
 	);
 	register_block_style(
+		'core/image',
+		array(
+			'name'  => 'wonder-image-creative-alt',
+			'label' => esc_html__( 'Creative #2', 'wonder' ),
+		)
+	);
+	register_block_style(
 		'core/quote',
 		array(
 			'name'  => 'wonder-quote-with-icon',

@@ -16,7 +16,7 @@
 }
 
 /* Image creative style */
-figure.is-style-wonder-image-creative {
+figure[class*="is-style-wonder-image-creative"] {
     position: relative;
 
     img {
@@ -37,6 +37,10 @@ figure.is-style-wonder-image-creative {
         border-radius: 0;
         box-shadow: none;
     }
+}
+figure.is-style-wonder-image-creative-alt:before {
+    right: auto;
+    left: -20px;
 }
 
 /* Quote wonder-quote-with-icon */
