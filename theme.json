@@ -84,14 +84,37 @@
 						{
 							"fontFamily": "Mulish",
 							"fontWeight": "200 900",
+							"fontStyle": "normal",
 							"fontStretch": "normal",
 							"src": [ "file:./assets/fonts/Mulish-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontWeight": "200 900",
-							"fontStretch": "italic",
-							"src": [ "file:./assets/fonts/Mulish-Mulish-Italic-VariableFont_wght.ttf" ]
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Mulish-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Raleway",
+					"name": "Raleway, sans-serif",
+					"slug": "raleway",
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/Raleway-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/Raleway-Italic-VariableFont_wght.ttf" ]
 						}
 					]
 				},
