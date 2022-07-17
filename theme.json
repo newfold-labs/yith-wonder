@@ -134,118 +134,23 @@
 				},
 				{
 					"fontFamily": "Jost",
-					"name": "Jost",
+					"name": "Jost, sans-serif",
 					"slug": "jost",
 					"fontFace": [
 						{
 							"fontFamily": "Jost",
-							"fontWeight": "100",
+							"fontWeight": "100 900",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-100.woff2" ]
+							"src": [ "file:./assets/fonts/Jost-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "Jost",
-							"fontWeight": "100",
+							"fontWeight": "100 900",
+							"fontStretch": "normal",
 							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-100italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-200.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "200",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-200italic.woff2" ]
-						}						,
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-300.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "300",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-300italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-regular.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "400",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-500.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "500",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-500italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-600.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "600",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-600italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-700.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "700",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-700italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "800",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-800.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "800",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-800italic.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "900",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/jost-v13-latin-900.woff2" ]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontWeight": "900",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/jost-v13-latin-900italic.woff2" ]
+							"src": [ "file:./assets/fonts/Jost-Italic-VariableFont_wght.ttf" ]
 						}
-
 					]
 				},
 				{
