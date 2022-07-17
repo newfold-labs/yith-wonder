@@ -104,17 +104,31 @@
 					"fontFace": [
 						{
 							"fontFamily": "Raleway",
-							"fontWeight": "200 900",
+							"fontWeight": "100 900",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/Raleway-VariableFont_wght.ttf" ]
 						},
 						{
 							"fontFamily": "Raleway",
-							"fontWeight": "200 900",
+							"fontWeight": "100 900",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/Raleway-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "Roboto slab",
+					"name": "Roboto Slab, serif",
+					"slug": "roboto-slab",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto Slab",
+							"fontWeight": "100 900",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/RobotoSlab-VariableFont_wght.ttf" ]
 						}
 					]
 				},
