@@ -77,6 +77,25 @@
 					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
 				},
 				{
+					"fontFamily": "Mulish",
+					"name": "Mulish, sans-serif",
+					"slug": "mulish",
+					"fontFace": [
+						{
+							"fontFamily": "Mulish",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
+							"src": [ "file:./assets/fonts/Mulish-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Mulish",
+							"fontWeight": "200 900",
+							"fontStretch": "italic",
+							"src": [ "file:./assets/fonts/Mulish-Mulish-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Jost",
 					"name": "Jost",
 					"slug": "jost",
