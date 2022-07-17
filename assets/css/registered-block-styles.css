@@ -45,13 +45,14 @@ blockquote.is-style-wonder-quote-with-icon {
   border: none;
   padding: 0;
 }
-blockquote.is-style-wonder-quote-with-icon:before {
+blockquote.is-style-wonder-quote-with-icon p:first-child::before {
   content: "“";
   font-size: 3em;
   line-height: 1em;
   color: var(--wp--preset--color--primary);
   font-family: Georgia, serif;
   font-weight: bold;
+  display: block;
 }
 blockquote.is-style-wonder-quote-with-icon p:first-child {
   margin-top: 0;

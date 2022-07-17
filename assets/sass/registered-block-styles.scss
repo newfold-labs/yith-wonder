@@ -44,13 +44,14 @@ blockquote.is-style-wonder-quote-with-icon {
     border: none;
     padding: 0;
 
-    &:before {
+    p:first-child::before {
         content: '“';
         font-size: 3em;
         line-height: 1em;
         color: var(--wp--preset--color--primary);
         font-family: Georgia, serif;
         font-weight: bold;
+        display: block;
     }
 
     p:first-child {
