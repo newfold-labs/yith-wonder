@@ -18,19 +18,42 @@
 /* Image creative style */
 figure.is-style-wonder-image-creative {
     position: relative;
+
+    img {
+        position: relative
+    }
+
+    &:before {
+        content: '';
+        display: block;
+        background: var(--wp--preset--color--primary);
+        position: absolute;
+        height: 60%;
+        width: 20%;
+        top: auto;
+        left: auto;
+        bottom: -20px;
+        right: -20px;
+        border-radius: 0;
+        box-shadow: none;
+    }
 }
-figure.is-style-wonder-image-creative:before {
-    content: '';
-    display: block;
-    z-index: -1;
-    background: var(--wp--preset--color--primary);
-    position: absolute;
-    height: 60%;
-    width: 20%;
-    top: auto;
-    left: auto;
-    bottom: -20px;
-    right: -20px;
-    border-radius: 0;
-    box-shadow: none;
+
+/* Quote wonder-quote-with-icon */
+blockquote.is-style-wonder-quote-with-icon {
+    border: none;
+    padding: 0;
+
+    &:before {
+        content: '“';
+        font-size: 3em;
+        line-height: 1em;
+        color: var(--wp--preset--color--primary);
+        font-family: Georgia, serif;
+        font-weight: bold;
+    }
+
+    p:first-child {
+        margin-top: 0;
+    }
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Button styles */
 .is-style-wonder-button-style-1 .wp-block-button__link,
 .is-style-wonder-button-style-1 .wp-block-button__link:hover,
@@ -21,11 +22,12 @@
 figure.is-style-wonder-image-creative {
   position: relative;
 }
-
+figure.is-style-wonder-image-creative img {
+  position: relative;
+}
 figure.is-style-wonder-image-creative:before {
   content: "";
   display: block;
-  z-index: -1;
   background: var(--wp--preset--color--primary);
   position: absolute;
   height: 60%;
@@ -36,4 +38,21 @@ figure.is-style-wonder-image-creative:before {
   right: -20px;
   border-radius: 0;
   box-shadow: none;
+}
+
+/* Quote wonder-quote-with-icon */
+blockquote.is-style-wonder-quote-with-icon {
+  border: none;
+  padding: 0;
+}
+blockquote.is-style-wonder-quote-with-icon:before {
+  content: "“";
+  font-size: 3em;
+  line-height: 1em;
+  color: var(--wp--preset--color--primary);
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+blockquote.is-style-wonder-quote-with-icon p:first-child {
+  margin-top: 0;
 }

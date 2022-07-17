@@ -28,6 +28,13 @@ function wonder_register_block_styles() {
 			'label' => esc_html__( 'Creative', 'wonder' ),
 		)
 	);
+	register_block_style(
+		'core/quote',
+		array(
+			'name'  => 'wonder-quote-with-icon',
+			'label' => esc_html__( 'With Icon', 'wonder' ),
+		)
+	);
 }
 
 add_action( 'init', 'wonder_register_block_styles' );
