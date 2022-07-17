@@ -196,6 +196,27 @@
 					]
 				},
 				{
+					"fontFamily": "Source Sans 3",
+					"name": "Source Sans 3, sans-serif",
+					"slug": "source-sans-3",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/SourceSans3-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Poppins",
 					"name": "Poppins",
 					"slug": "poppins",
