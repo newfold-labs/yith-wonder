@@ -217,6 +217,43 @@
 					]
 				},
 				{
+					"fontFamily": "Solway",
+					"name": "Solway, serif",
+					"slug": "solway",
+					"fontFace": [
+						{
+							"fontFamily": "Solway",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/solway-v15-latin-300.woff2" ]
+						},
+						{
+							"fontFamily": "Solway",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/solway-v15-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Solway",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/solway-v15-latin-500.woff2" ]
+						},
+						{
+							"fontFamily": "Solway",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/solway-v15-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Solway",
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/solway-v15-latin-800.woff2" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Poppins",
 					"name": "Poppins",
 					"slug": "poppins",
