@@ -254,6 +254,25 @@
 					]
 				},
 				{
+					"fontFamily": "Changa One",
+					"name": "Changa One, display",
+					"slug": "changa-one",
+					"fontFace": [
+						{
+							"fontFamily": "Changa One",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/changa-one-v18-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Changa One",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/changa-one-v18-latin-italic.woff2" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Poppins",
 					"name": "Poppins",
 					"slug": "poppins",
