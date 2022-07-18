@@ -48,5 +48,17 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--roboto-slab)"
+		},
+		"blocks": {
+			"core/heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--changa-one)"
+				}
+			}
+		}
 	}
 }

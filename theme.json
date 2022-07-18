@@ -643,7 +643,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
-			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontFamily": "var(--wp--preset--font-family--mulish)",
 			"lineHeight": "1.75"
 		},
 		"elements": {

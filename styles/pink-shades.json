@@ -51,7 +51,7 @@
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--montserrat)"
+			"fontFamily": "var(--wp--preset--font-family--source-sans-3)"
 		},
 		"blocks": {
 			"core/heading": {
