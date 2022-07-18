@@ -273,6 +273,61 @@
 					]
 				},
 				{
+					"fontFamily": "Merriweather",
+					"name": "Merriweather, serif",
+					"slug": "merriweather",
+					"fontFace": [
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-300.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-300italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-700italic.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-900.woff2" ]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/merriweather-v30-latin-900italic.woff2" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "Poppins",
 					"name": "Poppins",
 					"slug": "poppins",
