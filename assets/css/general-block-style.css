@@ -5,7 +5,7 @@
 
 /* SINGLE POST OVERLAP LAYOUT */
 .wp-block-post-featured-image + .wp-block-group .vertical-overlap {
-  margin-top: -250px;
+  margin-top: var(--wp--custom--single-post-feature-image-orverlap-vertical-margin);
   z-index: 10;
   position: relative;
 }
@@ -110,7 +110,7 @@ input.wpcf7-not-valid {
 /* EDITOR CREATIVE CSS CLASSES */
 @media (min-width: 1200px) {
   .negative-right-margin {
-    margin-right: -100px !important;
+    margin-right: var(--wp--custom--colum-negative-margin-right) !important;
     z-index: 1;
   }
 }

@@ -690,7 +690,9 @@
 			"width": true
 		},
 		"custom": {
-			"input-border-color": "rgba(0, 0, 0, 0.2)"
+			"input-border-color": "rgba(0, 0, 0, 0.2)",
+			"colum-negative-margin-right": "-100px",
+			"single-post-feature-image-orverlap-vertical-margin": "-250px"
 		}
 	},
 	"styles": {
