@@ -3,9 +3,6 @@
   "version": "0.0.3",
   "description": "A new block and full site editing theme by YITH",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/yithemes/wonder.git"
@@ -20,6 +17,10 @@
     "grunt": "^1.5.3",
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-watch": "^1.1.0"
+    "grunt-contrib-watch": "^1.1.0",
+    "dir-archiver": "^1.1.1"
+  },
+  "scripts": {
+    "bundle": "dir-archiver --src . --dest ../wonder.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore README.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js"
   }
 }
