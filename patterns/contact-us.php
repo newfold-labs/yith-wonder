@@ -22,7 +22,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><img class="wp-image-844" style="width: 30px;" src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/phone-handset.png" alt=""> 800 - 647 - 927</p>
+<p class="has-medium-font-size"><img class="wp-image-844" style="width: 30px;" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/phone-handset.png" alt=""> 800 - 647 - 927</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -68,68 +68,68 @@
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":"140px"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":441,"width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/buysafe.png" alt="" class="wp-image-441" width="61" height="61"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/buysafe.png" alt="" width="61" height="61"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:700">Buy safe: our 30 days money back guarantee</p>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Buy safe: our 30 days money back guarantee</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p class="has-text-align-center" style="font-style:normal;font-weight:600">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":450,"width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/freedelivery.png" alt="" class="wp-image-450" width="70" height="52"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.png" alt="" width="70" height="52"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:700">Free delivery<br>for orders over 100$</p>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Free delivery<br>for orders over 100$</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p class="has-text-align-center" style="font-style:normal;font-weight:600">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"align":"center","id":451,"width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://blocktheme.test/wonder/wp-content/uploads/sites/3/2022/07/customercare.png" alt="" class="wp-image-451" width="62" height="56"/></figure>
+<div class="wp-block-column"><!-- wp:image {"align":"center","width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/customercare.png" alt="" width="62" height="56"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:700">Contact our Customer Care for any question or doubt</p>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Contact our Customer Care for any question or doubt</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
 <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
-<p class="has-text-align-center" style="font-style:normal;font-weight:600">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
