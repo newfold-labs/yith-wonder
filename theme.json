@@ -196,27 +196,6 @@
 					]
 				},
 				{
-					"fontFamily": "Source Sans 3",
-					"name": "Source Sans 3, sans-serif",
-					"slug": "source-sans-3",
-					"fontFace": [
-						{
-							"fontFamily": "Source Sans 3",
-							"fontWeight": "200 900",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"src": [ "file:./assets/fonts/SourceSans3-VariableFont_wght.ttf" ]
-						},
-						{
-							"fontFamily": "Source Sans 3",
-							"fontWeight": "200 900",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"src": [ "file:./assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf" ]
-						}
-					]
-				},
-				{
 					"fontFamily": "Solway",
 					"name": "Solway, serif",
 					"slug": "solway",
@@ -272,6 +251,87 @@
 						}
 					]
 				},
+				
+				{
+					"fontFamily": "Source Sans Pro",
+					"name": "Source Sans Pro, sans-serif",
+					"slug": "source-sans-pro",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-200.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-200italic.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-300.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-300italic.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-regular.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-italic.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-600.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-600italic.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-700.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-700italic.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-900.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans Pro",
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"src": [ "file:./assets/fonts/source-sans-pro-v21-latin-900italic.woff2" ]
+						}
+					]
+				},
+
 				{
 					"fontFamily": "Merriweather",
 					"name": "Merriweather, serif",
