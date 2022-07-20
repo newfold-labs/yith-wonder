@@ -73,7 +73,8 @@ select {
   padding: 3px;
 }
 
-input[type=submit] {
+input[type=submit],
+button[type=submit] {
   font-size: var(--wp--preset--font-size--small);
   font-family: inherit;
   font-weight: 500;
@@ -85,7 +86,9 @@ input[type=submit] {
   border-width: 0;
   cursor: pointer;
 }
-input[type=submit]:focus, input[type=submit]:hover {
+input[type=submit]:focus, input[type=submit]:hover,
+button[type=submit]:focus,
+button[type=submit]:hover {
   filter: brightness(94%) !important;
 }
 

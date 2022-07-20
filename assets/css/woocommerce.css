@@ -222,7 +222,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 }
 
 .wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined {
-  background: var(--wp--preset--color--secondary);
+  background: transparent;
   color: var(--wp--preset--color--foreground);
   border: 2px solid var(--wp--preset--color--foreground);
   padding: var(--wp--custom--button-padding);

@@ -72,7 +72,8 @@ select {
 	padding: 3px;
 }
 
-input[type="submit"] {
+input[type="submit"],
+button[type="submit"] {
     font-size: var(--wp--preset--font-size--small);
     font-family: inherit;
 	font-weight: 500;
