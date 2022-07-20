@@ -23,6 +23,11 @@
 	font-weight: 600;
 }
 
+/* REMOVE MAIN UPPER BLOCK SPACING */
+header.wp-block-template-part + main {
+	margin-block-start: 0;
+}
+
 /* POST QUERY LOOP */
 @media (min-width: 1200px) {
 	.wp-block-post-template.is-flex-container,
