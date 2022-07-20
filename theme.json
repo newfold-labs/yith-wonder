@@ -691,13 +691,18 @@
 		},
 		"custom": {
 			"input-border-color": "rgba(0, 0, 0, 0.2)",
+			"input-border-width": "2px",
+			"input-min-height": "2.5rem",
+			"button-padding": "0.5rem 1rem;",
+			"button-border-radius": "4px",
 			"colum-negative-margin-right": "-100px",
-			"single-post-feature-image-orverlap-vertical-margin": "-250px"
+			"single-post-feature-image-orverlap-vertical-margin": "-250px",
+			"vertical-spacing": "1.25rem"
 		}
 	},
 	"styles": {
 		"spacing":{
-			"blockGap": "1rem"
+			"blockGap": "var(--wp--custom--vertical-spacing)"
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",

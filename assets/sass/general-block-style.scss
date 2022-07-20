@@ -57,8 +57,8 @@ input[type="week"] {
 	font-size: var(--wp--preset--font-size--small);
 	font-family: var(--wp--preset--font-family--system);
 	line-height: 1.7;
-	min-height: 2.5rem;
-	border: 2px solid;
+	min-height: var(--wp--custom--input-min-height);
+	border: var(--wp--custom--input-border-width) solid;
 	border-color: var(--wp--custom--input-border-color);
 	background-color: var(--wp--preset--color--background);
 }
@@ -78,6 +78,16 @@ input[type="submit"] {
 	font-weight: 500;
 	padding: 0.5rem 1rem;
 	line-height: inherit;
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--background);
+	border-radius: var(--wp--custom--button-border-radius);
+	border-width: 0;
+	cursor: pointer;
+
+	&:focus,
+	&:hover {
+		filter: brightness(94%) !important;
+	}
 }
 
 textarea,
