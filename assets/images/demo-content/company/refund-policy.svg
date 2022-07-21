@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>refund-policy</title>
+    <g id="Wonder-Theme" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Company" transform="translate(-1420.000000, -2050.000000)" stroke="#1D1D1B" stroke-width="4">
+            <g id="refund-policy" transform="translate(1422.528428, 2052.000000)">
+                <path d="M59.4715719,16.3636364 C59.4715719,40.4818182 47.2018749,51.5787879 29.4715719,60 C11.7412689,51.5787879 -0.528428094,40.4818182 -0.528428094,16.3636364 L-0.528428094,0 L59.4715719,0 L59.4715719,16.3636364 Z" id="Path"></path>
+                <polyline id="Path" points="43.4715719 18 27.2715719 35 16.4715719 23.6666667"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -695,7 +695,7 @@
 			"input-min-height": "2.5rem",
 			"button-padding": "0.5rem 1rem;",
 			"button-border-radius": "4px",
-			"colum-negative-margin-right": "-100px",
+			"colum-negative-horizontal-margin": "-100px",
 			"single-post-feature-image-orverlap-vertical-margin": "-250px",
 			"vertical-spacing": "1.25rem"
 		}

@@ -126,7 +126,12 @@ input.wpcf7-not-valid {
 /* EDITOR CREATIVE CSS CLASSES */
 @media (min-width: 1200px) {
   .negative-right-margin {
-    margin-right: var(--wp--custom--colum-negative-margin-right) !important;
+    margin-right: var(--wp--custom--colum-negative-horizontal-margin) !important;
+    z-index: 1;
+  }
+
+  .negative-left-margin {
+    margin-left: var(--wp--custom--colum-negative-horizontal-margin) !important;
     z-index: 1;
   }
 }
