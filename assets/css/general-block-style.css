@@ -15,13 +15,19 @@
   width: 100% !important;
 }
 
-.wp-block-post.sticky .wp-block-cover {
+.wp-block-post.has-post-thumbnail.sticky .wp-block-cover {
   padding-top: 30% !important;
 }
 
 .wp-block-post-excerpt__more-text {
   font-size: var(--wp--preset--font-size--x-small);
   font-weight: 600;
+}
+
+/* STYLE POSTS WITHOUT FEATURED IMAGE */
+.wp-block-post-template.is-flex-container li.wp-block-post:not(.has-post-thumbnail) .wp-block-cover,
+.wp-block-query-loop.is-flex-container li.wp-block-post:not(.has-post-thumbnail) .wp-block-cover {
+  padding-top: 0 !important;
 }
 
 /* REMOVE MAIN UPPER BLOCK SPACING */
