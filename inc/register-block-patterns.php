@@ -40,5 +40,10 @@ function wonder_register_block_pattern_category() {
 		array( 'label' => esc_html__( 'Wonder - Banners', 'wonder' ) )
 	);
 
+	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
+		'wonder-page-sections',
+		array( 'label' => esc_html__( 'Wonder - Page sections', 'wonder' ) )
+	);
+
 }
 add_action( 'init', 'wonder_register_block_pattern_category', 5 );
