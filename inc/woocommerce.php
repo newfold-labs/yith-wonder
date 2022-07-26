@@ -43,13 +43,13 @@ add_action( 'after_setup_theme', 'wonder_woocommerce_setup' );
  *
  * @return array $classes modified to include 'woocommerce-active' class.
  */
-function proteo_woocommerce_active_body_class( $classes ) {
+function wonder_woocommerce_active_body_class( $classes ) {
 	$classes[] = 'woocommerce-active';
 
 	return $classes;
 }
 
-add_filter( 'body_class', 'proteo_woocommerce_active_body_class' );
+add_filter( 'body_class', 'wonder_woocommerce_active_body_class' );
 
 /**
  * Remove the breadcrumbs from the shop page.
@@ -59,7 +59,7 @@ add_filter( 'body_class', 'proteo_woocommerce_active_body_class' );
 add_filter(
 	'template_redirect',
 	function() {
-		if ( is_shop() || is_product() ) {
+		if ( is_shop() || is_product() || is_product_category() || is_product_taxonomy() ) {
 			remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
 		}
 	}

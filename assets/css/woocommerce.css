@@ -1,4 +1,9 @@
-/* Classic template
+/* Classic template */
+:where(div[data-block-name="woocommerce/legacy-template"]) {
+  max-width: none;
+}
+
+/*
 * Product count and Order select list
 */
 .woocommerce .woocommerce-ordering,
