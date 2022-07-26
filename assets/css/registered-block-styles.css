@@ -40,7 +40,8 @@ figure[class*=is-style-wonder-image-creative]:before {
   box-shadow: none;
 }
 
-figure.is-style-wonder-image-creative-alt:before {
+figure.is-style-wonder-image-creative-alt:before,
+figure.is-style-wonder-image-creative-2:before {
   right: auto;
   left: -20px;
 }

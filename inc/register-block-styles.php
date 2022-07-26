@@ -25,13 +25,13 @@ function wonder_register_block_styles() {
 		'core/image',
 		array(
 			'name'  => 'wonder-image-creative',
-			'label' => esc_html__( 'Creative', 'wonder' ),
+			'label' => esc_html__( 'Creative #1', 'wonder' ),
 		)
 	);
 	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
 		'core/image',
 		array(
-			'name'  => 'wonder-image-creative-alt',
+			'name'  => 'wonder-image-creative-2',
 			'label' => esc_html__( 'Creative #2', 'wonder' ),
 		)
 	);
