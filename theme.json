@@ -566,78 +566,78 @@
 					]
 				},
 				{
-					"fontFamily": "PlayFair Display",
-					"name": "PlayFair Display",
+					"fontFamily": "Playfair Display",
+					"name": "Playfair Display",
 					"slug": "playfair",
 					"fontFace": [
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "400",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-regular.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "400",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-italic.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "500",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-500.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "500",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-500italic.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "600",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-600.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "600",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-600italic.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "700",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-700.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "700",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-700italic.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "800",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-800.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "800",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-800italic.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "900",
 							"fontStyle": "normal",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-900.woff2" ]
 						},
 						{
-							"fontFamily": "PlayFair Display",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "900",
 							"fontStyle": "italic",
 							"src": [ "file:./assets/fonts/playfair-display-v29-latin-900italic.woff2" ]
