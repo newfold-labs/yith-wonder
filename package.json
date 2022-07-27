@@ -1,18 +1,18 @@
 {
   "name": "yith-wonder",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A new block and full site editing theme by YITH",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/yithemes/wonder.git"
+    "url": "git+https://bitbucket.org/yithemes/yith-wonder.git"
   },
   "author": "YITH",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://bitbucket.org/yithemes/wonder/issues"
+    "url": "https://bitbucket.org/yithemes/yith-wonder/issues"
   },
-  "homepage": "https://bitbucket.org/yithemes/wonder#readme",
+  "homepage": "https://bitbucket.org/yithemes/yith-wonder#readme",
   "devDependencies": {
     "grunt": "^1.5.3",
     "grunt-contrib-cssmin": "^4.0.0",
