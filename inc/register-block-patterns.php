@@ -17,32 +17,32 @@ function yith_wonder_register_block_pattern_category() {
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-site-footer',
-		array( 'label' => esc_html__( 'Wonder - Site Footers', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Site Footers', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-site-header',
-		array( 'label' => esc_html__( 'Wonder - Site Headers', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Site Headers', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-pages',
-		array( 'label' => esc_html__( 'Wonder - Pages', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Pages', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-testimonials',
-		array( 'label' => esc_html__( 'Wonder - Testimonials', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Testimonials', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-banners',
-		array( 'label' => esc_html__( 'Wonder - Banners', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Banners', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
 		'yith-wonder-page-sections',
-		array( 'label' => esc_html__( 'Wonder - Page sections', 'wonder' ) )
+		array( 'label' => esc_html__( 'Wonder - Page sections', 'yith-wonder' ) )
 	);
 
 }

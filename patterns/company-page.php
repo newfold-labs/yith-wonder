@@ -77,7 +77,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"800"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:800"><a href="#"><?php esc_html_e( 'Read all testimonials &gt;', 'wonder' ); ?></a></p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:800"><a href="#"><?php esc_html_e( 'Read all testimonials &gt;', 'yith-wonder' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

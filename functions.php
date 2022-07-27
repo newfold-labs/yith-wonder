@@ -4,12 +4,12 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
-if ( ! defined( 'WONDER_VERSION' ) ) {
-	define( 'WONDER_VERSION', wp_get_theme()->get( 'Version' ) );
+if ( ! defined( 'YITH_WONDER_VERSION' ) ) {
+	define( 'YITH_WONDER_VERSION', wp_get_theme()->get( 'Version' ) );
 }
 
 /**
@@ -24,7 +24,7 @@ function yith_wonder_styles() {
 		'yith-wonder-style',
 		get_stylesheet_uri(),
 		array(),
-		WONDER_VERSION
+		YITH_WONDER_VERSION
 	);
 	wp_enqueue_style( 'yith-wonder-style' );
 
@@ -32,7 +32,7 @@ function yith_wonder_styles() {
 		'general-block-style',
 		get_theme_file_uri( 'assets/css/general-block-style' . $suffix . '.css' ),
 		array(),
-		WONDER_VERSION
+		YITH_WONDER_VERSION
 	);
 	wp_enqueue_style( 'general-block-style' );
 
@@ -40,7 +40,7 @@ function yith_wonder_styles() {
 		'registered-block-style',
 		get_theme_file_uri( 'assets/css/registered-block-styles' . $suffix . '.css' ),
 		array(),
-		WONDER_VERSION
+		YITH_WONDER_VERSION
 	);
 	wp_enqueue_style( 'registered-block-style' );
 
@@ -50,7 +50,7 @@ function yith_wonder_styles() {
 			'yith-wonder-woocommerce',
 			get_theme_file_uri( 'assets/css/woocommerce' . $suffix . '.css' ),
 			array(),
-			WONDER_VERSION
+			YITH_WONDER_VERSION
 		);
 		wp_enqueue_style( 'yith-wonder-woocommerce' );
 	}
@@ -81,7 +81,7 @@ if ( ! function_exists( 'yith_wonder_theme_setup' ) ) {
 				'handle' => 'yith-wonder-' . $block_name,
 				'src'    => get_theme_file_uri( './assets/css/blocks/' . $block_name . $suffix . '.css' ),
 				'path'   => get_theme_file_path( './assets/css/blocks/' . $block_name . $suffix . '.css' ),
-				'ver'    => WONDER_VERSION,
+				'ver'    => YITH_WONDER_VERSION,
 			);
 			wp_enqueue_block_style( 'core/' . $block_name, $args );
 		}
