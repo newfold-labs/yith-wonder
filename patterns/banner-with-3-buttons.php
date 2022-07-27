@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Banner with 3 buttons
- * Slug: wonder/banner-with-3-buttons
- * Categories: wonder-banners
+ * Slug: yith-wonder/banner-with-3-buttons
+ * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

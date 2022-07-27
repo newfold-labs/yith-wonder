@@ -2,7 +2,7 @@
 /**
  * Index.php file of the theme.
  *
- * @package Wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

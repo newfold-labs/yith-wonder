@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Site header with splitted menu
- * Slug: wonder/site-header-splitted-menu
- * Categories: wonder-site-header
+ * Slug: yith-wonder/site-header-splitted-menu
+ * Categories: yith-wonder-site-header
  * Block Types: core/site-title, core/site-logo, core/navigation
  * Keywords: site header
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

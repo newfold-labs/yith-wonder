@@ -2,7 +2,7 @@
 /**
  * Block patterns categories.
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
@@ -13,37 +13,37 @@
  *
  * @return void
  */
-function wonder_register_block_pattern_category() {
+function yith_wonder_register_block_pattern_category() {
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-site-footer',
-		array( 'label' => esc_html__( 'Wonder - Site Footers', 'wonder' ) )
+		'yith-wonder-site-footer',
+		array( 'label' => esc_html__( 'Wonder - Site Footers', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-site-header',
-		array( 'label' => esc_html__( 'Wonder - Site Headers', 'wonder' ) )
+		'yith-wonder-site-header',
+		array( 'label' => esc_html__( 'Wonder - Site Headers', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-pages',
-		array( 'label' => esc_html__( 'Wonder - Pages', 'wonder' ) )
+		'yith-wonder-pages',
+		array( 'label' => esc_html__( 'Wonder - Pages', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-testimonials',
-		array( 'label' => esc_html__( 'Wonder - Testimonials', 'wonder' ) )
+		'yith-wonder-testimonials',
+		array( 'label' => esc_html__( 'Wonder - Testimonials', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-banners',
-		array( 'label' => esc_html__( 'Wonder - Banners', 'wonder' ) )
+		'yith-wonder-banners',
+		array( 'label' => esc_html__( 'Wonder - Banners', 'yith-wonder' ) )
 	);
 
 	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
-		'wonder-page-sections',
-		array( 'label' => esc_html__( 'Wonder - Page sections', 'wonder' ) )
+		'yith-wonder-page-sections',
+		array( 'label' => esc_html__( 'Wonder - Page sections', 'yith-wonder' ) )
 	);
 
 }
-add_action( 'init', 'wonder_register_block_pattern_category', 5 );
+add_action( 'init', 'yith_wonder_register_block_pattern_category', 5 );

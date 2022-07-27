@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Site header (left logo - navigation below)
- * Slug: wonder/site-header-left-logo-navigation-below
- * Categories: wonder-site-header
+ * Slug: yith-wonder/site-header-left-logo-navigation-below
+ * Categories: yith-wonder-site-header
  * Block Types: core/site-title, core/site-logo, core/navigation
  * Keywords: site header
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

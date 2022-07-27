@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Company page
- * Slug: wonder/company-page
- * Categories: wonder-pages
+ * Slug: yith-wonder/company-page
+ * Categories: yith-wonder-pages
  * Block Types: core/post-content
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
@@ -77,7 +77,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"800"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:800"><a href="#"><?php esc_html_e( 'Read all testimonials &gt;', 'wonder' ); ?></a></p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:800"><a href="#"><?php esc_html_e( 'Read all testimonials &gt;', 'yith-wonder' ); ?></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

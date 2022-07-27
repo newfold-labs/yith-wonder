@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Banner with CTA #
- * Slug: wonder/banner-with-cta-1
- * Categories: wonder-banners
+ * Slug: yith-wonder/banner-with-cta-1
+ * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

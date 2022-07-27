@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Homepage #2
- * Slug: wonder/homepage-2
- * Categories: wonder-pages
+ * Slug: yith-wonder/homepage-2
+ * Categories: yith-wonder-pages
  * Block Types: core/post-content
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

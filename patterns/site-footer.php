@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Site footer
- * Slug: wonder/site-footer
- * Categories: wonder-site-footer
+ * Slug: yith-wonder/site-footer
+ * Categories: yith-wonder-site-footer
  * Block Types: core/columns, core/navigation
  * Keywords: site footer
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
@@ -22,7 +22,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":3,"textColor":"secondary"} -->
-			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Our company', 'demo contents', 'wonder' ); ?></h3>
+			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Our company', 'demo contents', 'yith-wonder' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"},"overlayMenu":"never","style":{"spacing":{"blockGap":"0px"}},"fontSize":"small"} /-->
@@ -32,7 +32,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":3,"textColor":"secondary"} -->
-			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Our products', 'demo contents', 'wonder' ); ?></h3>
+			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Our products', 'demo contents', 'yith-wonder' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"},"overlayMenu":"never","style":{"spacing":{"blockGap":"0px"}},"fontSize":"small"} /-->
@@ -42,7 +42,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":3,"textColor":"secondary"} -->
-			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Special sales', 'demo contents', 'wonder' ); ?></h3>
+			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Special sales', 'demo contents', 'yith-wonder' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"},"overlayMenu":"never","style":{"spacing":{"blockGap":"0px"}},"fontSize":"small"} /-->
@@ -52,7 +52,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"level":3,"textColor":"secondary"} -->
-			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Customer service', 'demo contents', 'wonder' ); ?></h3>
+			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Customer service', 'demo contents', 'yith-wonder' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"},"overlayMenu":"never","style":{"spacing":{"blockGap":"0px"}},"fontSize":"small"} /-->
@@ -62,7 +62,7 @@
 		<!-- wp:column {"width":"33%"} -->
 		<div class="wp-block-column" style="flex-basis:33%">
 			<!-- wp:heading {"level":3,"textColor":"secondary"} -->
-			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Stay connected', 'demo contents', 'wonder' ); ?></h3>
+			<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Stay connected', 'demo contents', 'yith-wonder' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
@@ -100,7 +100,7 @@
 	<!-- /wp:spacer -->
 
 	<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"x-small"} -->
-	<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Wonder – A WordPress Block theme by YITH', 'demo contents', 'wonder' ); ?></p>
+	<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Wonder – A WordPress Block theme by YITH', 'demo contents', 'yith-wonder' ); ?></p>
 	<!-- /wp:paragraph -->
 	<!-- wp:spacer {"height":"20px"} -->
 	<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
