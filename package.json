@@ -21,6 +21,6 @@
     "dir-archiver": "^1.1.1"
   },
   "scripts": {
-    "bundle": "dir-archiver --src . --dest ../wonder.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js"
+    "bundle": "dir-archiver --src . --dest ../yith-wonder.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js"
   }
 }
