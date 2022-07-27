@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: 3 columns banner
- * Slug: wonder/3-columns-banner
- * Categories: wonder-banners
+ * Slug: yith-wonder/3-columns-banner
+ * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

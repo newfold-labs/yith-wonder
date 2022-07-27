@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Creative list with image
- * Slug: wonder/creative-list-with-image
- * Categories: wonder-page-sections
+ * Slug: yith-wonder/creative-list-with-image
+ * Categories: yith-wonder-page-sections
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
@@ -20,8 +20,8 @@
 		<div class="wp-block-columns are-vertically-aligned-center" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
 		<!-- wp:column {"verticalAlignment":"center","width":"45%","style":{"spacing":{"padding":{"top":"0px","right":"40px","bottom":"0px","left":"20px"}}},"className":"animated fadeIn","layout":{"inherit":false}} -->
 		<div class="wp-block-column is-vertically-aligned-center animated fadeIn" style="padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:20px;flex-basis:45%">
-		<!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none","className":"is-style-wonder-image-creative"} -->
-		<figure class="wp-block-image aligncenter size-large is-style-wonder-image-creative"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/yellow-woman.jpg" alt=""/></figure>
+		<!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none","className":"is-style-yith-wonder-image-creative"} -->
+		<figure class="wp-block-image aligncenter size-large is-style-yith-wonder-image-creative"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/yellow-woman.jpg" alt=""/></figure>
 		<!-- /wp:image -->
 		</div>
 		<!-- /wp:column -->

@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Contact page
- * Slug: wonder/contact-us
- * Categories: wonder-pages
+ * Slug: yith-wonder/contact-us
+ * Categories: yith-wonder-pages
  * Block Types: core/post-content
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

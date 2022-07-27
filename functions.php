@@ -17,16 +17,16 @@ if ( ! defined( 'WONDER_VERSION' ) ) {
  *
  * @since 1.0.0
  */
-function wonder_styles() {
+function yith_wonder_styles() {
 	$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
 	wp_register_style(
-		'wonder-style',
+		'yith-wonder-style',
 		get_stylesheet_uri(),
 		array(),
 		WONDER_VERSION
 	);
-	wp_enqueue_style( 'wonder-style' );
+	wp_enqueue_style( 'yith-wonder-style' );
 
 	wp_register_style(
 		'general-block-style',
@@ -47,22 +47,22 @@ function wonder_styles() {
 	// WooCommerce.
 	if ( class_exists( 'woocommerce' ) ) {
 		wp_register_style(
-			'wonder-woocommerce',
+			'yith-wonder-woocommerce',
 			get_theme_file_uri( 'assets/css/woocommerce' . $suffix . '.css' ),
 			array(),
 			WONDER_VERSION
 		);
-		wp_enqueue_style( 'wonder-woocommerce' );
+		wp_enqueue_style( 'yith-wonder-woocommerce' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'wonder_styles' );
+add_action( 'wp_enqueue_scripts', 'yith_wonder_styles' );
 
 
-if ( ! function_exists( 'wonder_theme_setup' ) ) {
+if ( ! function_exists( 'yith_wonder_theme_setup' ) ) {
 	/**
 	 * Theme support declarations
 	 */
-	function wonder_theme_setup() {
+	function yith_wonder_theme_setup() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		add_theme_support( 'wp-block-styles' );
 		add_editor_style( './assets/css/general-block-style' . $suffix . '.css' );
@@ -78,7 +78,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 
 		foreach ( $styled_blocks as $block_name ) {
 			$args = array(
-				'handle' => 'wonder-' . $block_name,
+				'handle' => 'yith-wonder-' . $block_name,
 				'src'    => get_theme_file_uri( './assets/css/blocks/' . $block_name . $suffix . '.css' ),
 				'path'   => get_theme_file_path( './assets/css/blocks/' . $block_name . $suffix . '.css' ),
 				'ver'    => WONDER_VERSION,
@@ -87,7 +87,7 @@ if ( ! function_exists( 'wonder_theme_setup' ) ) {
 		}
 
 	}
-	add_action( 'after_setup_theme', 'wonder_theme_setup' );
+	add_action( 'after_setup_theme', 'yith_wonder_theme_setup' );
 }
 
 // Enable customizer (mainly for Additional CSS feature).

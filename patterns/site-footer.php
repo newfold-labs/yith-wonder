@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Site footer
- * Slug: wonder/site-footer
- * Categories: wonder-site-footer
+ * Slug: yith-wonder/site-footer
+ * Categories: yith-wonder-site-footer
  * Block Types: core/columns, core/navigation
  * Keywords: site footer
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

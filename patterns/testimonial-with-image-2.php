@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Testimonial with image #2
- * Slug: wonder/testimonial-with-image-2
- * Categories: wonder-testimonials
+ * Slug: yith-wonder/testimonial-with-image-2
+ * Categories: yith-wonder-testimonials
  * Keywords: testimonials
  * Block Types: core/columns, core/group, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

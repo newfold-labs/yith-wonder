@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Products Archive page
- * Slug: wonder/products-archive-page
- * Categories: wonder-pages
+ * Slug: yith-wonder/products-archive-page
+ * Categories: yith-wonder-pages
  * Block Types: core/post-content
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

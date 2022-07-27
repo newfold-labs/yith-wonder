@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: 3 columns with icons
- * Slug: wonder/3-columns-with-icons
- * Categories: wonder-page-sections
+ * Slug: yith-wonder/3-columns-with-icons
+ * Categories: yith-wonder-page-sections
  * Keywords: columns
  * Block Types: core/group, core/columns, core/image, core/cover
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 

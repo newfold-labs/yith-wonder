@@ -1,6 +1,6 @@
 {
-  "name": "wonder",
-  "version": "0.0.8",
+  "name": "yith-wonder",
+  "version": "0.0.13",
   "description": "A new block and full site editing theme by YITH",
   "main": "index.js",
   "repository": {

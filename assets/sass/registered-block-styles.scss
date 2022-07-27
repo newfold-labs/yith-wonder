@@ -1,8 +1,8 @@
 /* Button styles */
-.is-style-wonder-button-style-1 .wp-block-button__link,
-.is-style-wonder-button-style-1 .wp-block-button__link:hover,
-.is-style-wonder-button-style-1 .wp-block-button__link:focus,
-.is-style-wonder-button-style-1 .wp-block-button__link:visited {
+.is-style-yith-wonder-button-style-1 .wp-block-button__link,
+.is-style-yith-wonder-button-style-1 .wp-block-button__link:hover,
+.is-style-yith-wonder-button-style-1 .wp-block-button__link:focus,
+.is-style-yith-wonder-button-style-1 .wp-block-button__link:visited {
     background: var(--wp--preset--gradient--v-tertiary-primary);
 }
 .is-style-outline .wp-block-button__link,
@@ -16,7 +16,7 @@
 }
 
 /* Image creative style */
-figure[class*="is-style-wonder-image-creative"] {
+figure[class*="is-style-yith-wonder-image-creative"] {
     position: relative;
 
     img {
@@ -38,14 +38,14 @@ figure[class*="is-style-wonder-image-creative"] {
         box-shadow: none;
     }
 }
-figure.is-style-wonder-image-creative-alt:before,
-figure.is-style-wonder-image-creative-2:before{
+figure.is-style-yith-wonder-image-creative-alt:before,
+figure.is-style-yith-wonder-image-creative-2:before{
     right: auto;
     left: -20px;
 }
 
-/* Quote wonder-quote-with-icon */
-blockquote.is-style-wonder-quote-with-icon {
+/* Quote yith-wonder-quote-with-icon */
+blockquote.is-style-yith-wonder-quote-with-icon {
     border: none;
     padding: 0;
 

@@ -3,7 +3,7 @@
  * WooCommerce setup.
  *
  * @since 1.0.0
- * @package wonder
+ * @package yith-wonder
  */
 
 /**
@@ -14,7 +14,7 @@
  *
  * @return void
  */
-function wonder_woocommerce_setup() {
+function yith_wonder_woocommerce_setup() {
 	add_theme_support(
 		'woocommerce',
 		array(
@@ -34,7 +34,7 @@ function wonder_woocommerce_setup() {
 	add_theme_support( 'wc-product-gallery-slider' );
 }
 
-add_action( 'after_setup_theme', 'wonder_woocommerce_setup' );
+add_action( 'after_setup_theme', 'yith_wonder_woocommerce_setup' );
 
 /**
  * Add 'woocommerce-active' class to the body tag.
@@ -43,13 +43,13 @@ add_action( 'after_setup_theme', 'wonder_woocommerce_setup' );
  *
  * @return array $classes modified to include 'woocommerce-active' class.
  */
-function wonder_woocommerce_active_body_class( $classes ) {
+function yith_wonder_woocommerce_active_body_class( $classes ) {
 	$classes[] = 'woocommerce-active';
 
 	return $classes;
 }
 
-add_filter( 'body_class', 'wonder_woocommerce_active_body_class' );
+add_filter( 'body_class', 'yith_wonder_woocommerce_active_body_class' );
 
 /**
  * Remove the breadcrumbs from the shop page.

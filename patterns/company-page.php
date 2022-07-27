@@ -1,11 +1,11 @@
 <?php
 /**
  * Title: Company page
- * Slug: wonder/company-page
- * Categories: wonder-pages
+ * Slug: yith-wonder/company-page
+ * Categories: yith-wonder-pages
  * Block Types: core/post-content
  *
- * @package wonder
+ * @package yith-wonder
  * @since 1.0.0
  */
 
