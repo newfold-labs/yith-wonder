@@ -56,9 +56,9 @@
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:contact-form-7/contact-form-selector -->
-<div class="wp-block-contact-form-7-contact-form-selector">[contact-form-7 id="848" title="Contact form 1"]</div>
-<!-- /wp:contact-form-7/contact-form-selector --></div>
+<!-- wp:wpforms/form-selector {"formId":"1020"} /-->
+
+</div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
