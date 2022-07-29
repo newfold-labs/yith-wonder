@@ -104,3 +104,22 @@ Licence: Open Font License. https://scripts.sil.org/cms/scripts/page.php?site_id
 Source Sans Pro by Paul D. Hunt
 Copyright: Adobe in the United States and/or other countries
 Licence: Open Font License. https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Images:
+https://www.rawpixel.com/image/5950344/free-public-domain-cc0-photo - Free public domain CC0 photo.
+https://www.rawpixel.com/image/5942666/free-public-domain-cc0-photo - Free public domain CC0 photo.
+https://www.rawpixel.com/image/5963733/free-public-domain-cc0-photo - Free public domain CC0 photo.
+https://www.rawpixel.com/image/5919783/photo-image-phone-public-domain-table - Free accessories flat lay photo, public domain table CC0 image.
+https://www.rawpixel.com/image/5920916/photo-image-background-design-public-domain - Free bohemian silver necklace image, public domain CC0 photo.
+https://www.rawpixel.com/image/5926432/photo-image-background-public-domain-free - Free accessories camera, watch, handbag image, public domain traveling CC0 photo.
+https://www.rawpixel.com/image/3284475/free-photo-image-fashion-shop-clothes - Racks with men's apparel on the walls of a clothes store. Original public domain image from Wikimedia Commons
+https://www.rawpixel.com/image/3284712/free-photo-image-mannequin-shop-fashion - Blouses, jackets and sweater on hangers in a store window. Original public domain image from Wikimedia Commons
+https://www.rawpixel.com/image/5928106/photo-image-public-domain-person-free - Free young couple walking away on a bridge arm in arm image, public domain CC0 photo.
+https://www.rawpixel.com/image/3284939/free-photo-image-popcorn-scandinavian-interior-jeans - A person in ripped jeans eating popcorn alongside a succulent plant and typographic sample. Original public domain image from Wikimedia Commons
+https://www.rawpixel.com/image/5916952/image-heart-public-domain-free - Jeans Pocket with heart hairband, free public domain CC0 image.
+https://stocksnap.io/photo/blue-denim-QBSVGRFT2Y - Blue Denim Free Stock Image
+https://pxhere.com/it/photo/750013
+https://pxhere.com/it/photo/485571
+https://pxhere.com/it/photo/28088
+https://pxhere.com/it/photo/609796
+https://pxhere.com/it/photo/61097
