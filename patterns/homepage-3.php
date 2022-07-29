@@ -56,7 +56,7 @@
 <div class="wp-block-group"><!-- wp:columns {"style":{"color":{"background":"#e9e9e9"},"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
 <div class="wp-block-columns has-background" style="background-color:#e9e9e9;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column {"layout":{"inherit":true}} -->
 <div class="wp-block-column"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner4.jpg" alt="" /></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner4.png" alt="" /></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -127,14 +127,15 @@
 <!-- /wp:spacer -->
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg","dimRatio":90,"customOverlayColor":"#e3efed","isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"50px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<div class="wp-block-cover alignfull is-light" style="padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim" style="background-color:#e3efed"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
+<div class="wp-block-cover alignfull is-light" style="padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim" style="background-color:#e3efed"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+<!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:column {"verticalAlignment":"center","width":"45%","style":{"spacing":{"padding":{"top":"0px","right":"40px","bottom":"0px","left":"20px"}}},"className":"animated fadeIn","layout":{"inherit":false}} -->
-<div class="wp-block-column is-vertically-aligned-center animated fadeIn" style="padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:20px;flex-basis:45%"><!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/yellow-woman.jpg" alt=""/></figure>
+<div class="wp-block-column is-vertically-aligned-center animated fadeIn" style="padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:20px;flex-basis:45%"><!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none","className":"is-style-yith-wonder-image-creative"} -->
+<figure class="wp-block-image aligncenter size-large is-style-yith-wonder-image-creative"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/yellow-woman.jpg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:html -->
-<div style="background-color: #ABDBD3;height: 500px;width: 200px;margin-top: -470px;margin-left: auto;margin-right: 0px;"></div>
 <div style="margin-bottom: -200px"></div>
 <!-- /wp:html --></div>
 <!-- /wp:column -->
@@ -202,7 +203,8 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group --></div></div>
 <!-- /wp:cover -->
 
 <!-- wp:spacer {"height":"200px"} -->

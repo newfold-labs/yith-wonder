@@ -11,10 +11,10 @@
  */
 
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.png","dimRatio":80,"overlayColor":"secondary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg","dimRatio":80,"overlayColor":"secondary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
 <div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px">
 	<span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-80 has-background-dim"></span>
-	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.png" data-object-fit="cover"/>
+	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"layout":{"inherit":true}} -->
 		<div class="wp-block-group">

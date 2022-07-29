@@ -16,9 +16,9 @@
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"verticalAlignment":null} -->
-<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"huge"} -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":"100px"}}} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"huge"} -->
 <h2 class="has-primary-color has-text-color has-huge-font-size" style="font-style:normal;font-weight:600">New Spring Casuals</h2>
 <!-- /wp:heading -->
 
@@ -37,9 +37,9 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"bottom","width":"66.66%"} -->
-<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:66.66%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
-<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/banner-image.jpg" alt=""/></figure>
+<!-- wp:column {"verticalAlignment":"bottom","width":"60%"} -->
+<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:60%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-style-default"} -->
+<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/banner-image.png" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -194,10 +194,10 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.png","dimRatio":80,"overlayColor":"secondary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
-<div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.png" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":true}} -->
-<div class="wp-block-group"><!-- wp:media-text {"mediaPosition":"right","mediaType":"image"} -->
-<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/martharamos.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"huge"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg","dimRatio":80,"overlayColor":"secondary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
+<div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":true}} -->
+<div class="wp-block-group"><!-- wp:media-text {"align":"","mediaPosition":"right","mediaType":"image"} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/martharamos.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"huge"} -->
 <p class="has-huge-font-size" style="font-style:normal;font-weight:700">“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “</p>
 <!-- /wp:paragraph -->
 

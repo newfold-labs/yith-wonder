@@ -24,8 +24,8 @@
 	<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:image {"align":"right","width":264,"height":305,"sizeSlug":"full","linkDestination":"none","className":"is-style-yith-wonder-image-creative-2"} -->
-	<figure class="wp-block-image alignright size-full is-resized is-style-yith-wonder-image-creative-2"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/testimonials/testimonials-image-4.png" alt="" width="264" height="305"/></figure>
+	<!-- wp:image {"align":"right","sizeSlug":"full","linkDestination":"none","className":"is-style-yith-wonder-image-creative-2"} -->
+	<figure class="wp-block-image alignright size-full is-resized is-style-yith-wonder-image-creative-2"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/testimonials/testimonials-image-4.jpg" alt=""/></figure>
 	<!-- /wp:image -->
 
 	<!-- wp:spacer {"height":"30px"} -->
