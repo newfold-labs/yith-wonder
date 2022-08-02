@@ -1,0 +1,66 @@
+/*
+* Product count and Order select list
+*/
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-ordering,
+.woocommerce .woocommerce-result-count,
+.woocommerce-page .woocommerce-result-count {
+	float: initial;
+}
+
+.woocommerce .woocommerce-ordering {
+	margin-bottom: calc(2 * var(--wp--custom--vertical-spacing));
+}
+
+
+/* Product search restults and archive pages */
+.woocommerce ul.products {
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.woocommerce-page ul.products li.product {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+	font-size: var(--wp--preset--font-size--small);
+    font-weight: 600;
+	padding: 0;
+}
+
+.woocommerce-page ul.products li.product .button {
+	margin: auto auto 0 auto;
+}
+
+
+/* Product search pagination */
+.woocommerce nav.woocommerce-pagination ul {
+	border: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul li {
+	border-right: none;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	color: var(--wp--preset--color--foreground);
+}
+
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	font-weight: 700;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current:hover {
+	color: var(--wp--preset--color--foreground);
+	background: var(--wp--preset--color--secondary);
+	filter: brightness(94%) !important;
+}

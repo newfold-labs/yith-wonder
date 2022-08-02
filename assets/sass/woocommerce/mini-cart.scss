@@ -1,0 +1,22 @@
+/**
+ * WooCommerce: Mini Cart.
+ */
+.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button,
+.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:hover,
+.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:focus,
+.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:active {
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: initial;
+    margin-bottom: initial;
+    background: none;
+    border: none;
+}
+
+.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined {
+    background: transparent;
+    color: var(--wp--preset--color--foreground);
+    border: 2px solid var(--wp--preset--color--foreground);
+    padding: var(--wp--custom--button-padding);
+    border-radius: var(--wp--custom--button-border-radius);
+}

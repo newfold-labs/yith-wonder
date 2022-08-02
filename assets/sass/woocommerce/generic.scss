@@ -3,31 +3,10 @@
 	max-width: none;
 }
 
-/*
-* Product count and Order select list
-*/
-.woocommerce .woocommerce-ordering,
-.woocommerce-page .woocommerce-ordering,
-.woocommerce .woocommerce-result-count,
-.woocommerce-page .woocommerce-result-count {
-	float: initial;
-}
-
-.woocommerce .woocommerce-ordering {
-	margin-bottom: calc(2 * var(--wp--custom--vertical-spacing));
-}
-
 /* Range slide color */
 .wc-block-components-price-slider__range-input-progress,
 .rtl .wc-block-components-price-slider__range-input-progress {
 	--range-color: var(--wp--preset--color--foreground);
-}
-
-/*
- * Product page categories and tags.
- */
-.product_meta > * {
-	display: block;
 }
 
 .woocommerce .quantity .qty {
@@ -151,56 +130,6 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	padding: var(--wp--custom--button-padding);
 }
 
-/* Product search restults and archive pages */
-.woocommerce ul.products {
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.woocommerce-page ul.products li.product {
-	display: flex;
-	flex-direction: column;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.woocommerce ul.products li.product .woocommerce-loop-product__title {
-	font-size: var(--wp--preset--font-size--small);
-    font-weight: 600;
-	padding: 0;
-}
-
-.woocommerce-page ul.products li.product .button {
-	margin: auto auto 0 auto;
-}
-
-/* Product search pagination */
-.woocommerce nav.woocommerce-pagination ul {
-	border: none;
-}
-
-.woocommerce nav.woocommerce-pagination ul li {
-	border-right: none;
-}
-
-.woocommerce nav.woocommerce-pagination ul li a,
-.woocommerce nav.woocommerce-pagination ul li span,
-.woocommerce nav.woocommerce-pagination ul li span.current {
-	color: var(--wp--preset--color--foreground);
-}
-
-.woocommerce nav.woocommerce-pagination ul li span.current {
-	font-weight: 700;
-}
-
-.woocommerce nav.woocommerce-pagination ul li a:hover,
-.woocommerce nav.woocommerce-pagination ul li span:hover,
-.woocommerce nav.woocommerce-pagination ul li span.current:hover {
-	color: var(--wp--preset--color--foreground);
-	background: var(--wp--preset--color--secondary);
-	filter: brightness(94%) !important;
-}
 
 /* Fix inaccessible colors on the checkout and cart pages */
 .wc-block-components-checkout-return-to-cart-button {
@@ -211,44 +140,11 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	color: #000;
 }
 
-/**
- * WooCommerce: Mini Cart.
- */
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:hover,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:focus,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:active {
-	box-shadow: none;
-	border-radius: 0;
-	margin-top: initial;
-	margin-bottom: initial;
-	background: none;
-	border: none;
-}
-
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined {
-	background: transparent;
-	color: var(--wp--preset--color--foreground);
-	border: 2px solid var(--wp--preset--color--foreground);
-	padding: var(--wp--custom--button-padding);
-	border-radius: var(--wp--custom--button-border-radius);
-}
-
 /* Product image */
 .wc-block-components-product-image img,
 .woocommerce div.product div.images img,
 .woocommerce ul.products li.product a img {
 	border-radius: var(--wp--custom--button-border-radius);
-}
-
-/* Tabs */
-
-.woocommerce div.product .woocommerce-tabs {
-	margin-bottom: 100px;
-
-	ul.tabs li.active a {
-		color: #515151;
-	}
 }
 
 /* Fix a bug with the left alignment not working on the front. */

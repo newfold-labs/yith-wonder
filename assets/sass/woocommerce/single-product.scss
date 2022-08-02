@@ -1,0 +1,15 @@
+/*
+ * Product page categories and tags.
+ */
+ .product_meta > * {
+	display: block;
+}
+
+/* Tabs */
+.woocommerce div.product .woocommerce-tabs {
+	margin-bottom: 100px;
+
+	ul.tabs li.active a {
+		color: #515151;
+	}
+}

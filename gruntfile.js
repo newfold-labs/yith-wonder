@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 				files: [{
                     expand: true,
                     cwd: 'assets/sass',
-                    src: ['*.scss', 'blocks/*.scss'],
+                    src: ['*.scss', 'blocks/*.scss', 'woocommerce/woocommerce.scss'],
                     dest: 'assets/css',
                     ext: '.css'
                 }],
@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 				files: [{
                     expand: true,
                     cwd: 'assets/sass',
-                    src: ['*.scss', 'blocks/*.scss'],
+                    src: ['*.scss', 'blocks/*.scss', 'woocommerce/woocommerce.scss'],
                     dest: 'assets/css',
                     ext: '.css'
                 }],
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: 'assets/css',
-                    src: ['*.css', '!*.min.css', 'blocks/*.css', 'blocks/!*.min.css'],
+                    src: ['*.css', '!*.min.css', 'blocks/*.css', 'blocks/!*.min.css', 'woocommerce/*.css', 'woocommerce/!*.min.css'],
                     dest: 'assets/css',
                     ext: '.min.css'
                 }],
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         },
         watch: {
 			css: {
-				files: ['assets/sass/*.scss', 'assets/sass/blocks/*.scss'],
+				files: ['assets/sass/*.scss', 'assets/sass/blocks/*.scss', 'assets/sass/woocommerce/*.scss'],
 				tasks: ['sass:dev'],
 			},
 		},
