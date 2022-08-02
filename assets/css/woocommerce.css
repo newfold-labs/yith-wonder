@@ -242,6 +242,9 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 }
 
 /* Tabs */
+.woocommerce div.product .woocommerce-tabs {
+  margin-bottom: 100px;
+}
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
   color: #515151;
 }

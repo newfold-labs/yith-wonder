@@ -64,3 +64,14 @@ add_filter(
 		}
 	}
 );
+
+/**
+ * Remove Product description tab title
+ */
+add_filter( 'woocommerce_product_description_heading', '__return_null' );
+
+
+/**
+ * Remove Additional information tab title
+ */
+add_filter( 'woocommerce_product_additional_information_heading', '__return_null' );

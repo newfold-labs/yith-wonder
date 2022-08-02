@@ -242,8 +242,13 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 }
 
 /* Tabs */
-.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {
-	color: #515151;
+
+.woocommerce div.product .woocommerce-tabs {
+	margin-bottom: 100px;
+
+	ul.tabs li.active a {
+		color: #515151;
+	}
 }
 
 /* Fix a bug with the left alignment not working on the front. */
