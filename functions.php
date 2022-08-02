@@ -48,7 +48,7 @@ function yith_wonder_styles() {
 	if ( class_exists( 'woocommerce' ) ) {
 		wp_register_style(
 			'yith-wonder-woocommerce',
-			get_theme_file_uri( 'assets/css/woocommerce' . $suffix . '.css' ),
+			get_theme_file_uri( 'assets/css/woocommerce/woocommerce' . $suffix . '.css' ),
 			array(),
 			YITH_WONDER_VERSION
 		);
