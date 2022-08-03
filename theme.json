@@ -692,7 +692,7 @@
 		"custom": {
 			"input-border-color": "rgba(0, 0, 0, 0.2)",
 			"input-border-width": "2px",
-			"input-min-height": "2.5rem",
+			"input-min-height": "2em",
 			"button-padding": "0.5rem 1rem;",
 			"button-border-radius": "4px",
 			"colum-negative-horizontal-margin": "-100px",

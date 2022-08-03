@@ -116,6 +116,10 @@ input[type="url"] {
 	width: 100%;
 }
 
+button:not(disabled) {
+	cursor: pointer;
+}
+
 .wp-block-image figcaption,
 .wp-block-video figcaption,
 .wp-block-audio figcaption,

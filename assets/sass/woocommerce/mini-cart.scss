@@ -1,22 +1,65 @@
 /**
- * WooCommerce: Mini Cart.
+ * Mini-Cart block.
  */
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:hover,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:focus,
-.wp-block-woocommerce-mini-cart button.wc-block-mini-cart__button:active {
-    box-shadow: none;
-    border-radius: 0;
-    margin-top: initial;
-    margin-bottom: initial;
-    background: none;
-    border: none;
+.wp-block-woocommerce-mini-cart {
+	button.wc-block-mini-cart__button,
+	button.wc-block-mini-cart__button:hover,
+	button.wc-block-mini-cart__button:focus,
+	button.wc-block-mini-cart__button:active {
+		box-shadow: none;
+		border-radius: 0;
+		margin-top: initial;
+		margin-bottom: initial;
+		background: none;
+		border: none;
+	}
 }
 
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined {
-    background: transparent;
-    color: var(--wp--preset--color--foreground);
-    border: 2px solid var(--wp--preset--color--foreground);
-    padding: var(--wp--custom--button-padding);
-    border-radius: var(--wp--custom--button-border-radius);
+.wc-block-mini-cart__drawer {
+
+	.wp-block-woocommerce-mini-cart-contents {
+		background-color: var(--wp--preset--color--background);
+	}
+
+	h2.wc-block-mini-cart__title {
+		font-size: 1.5em;
+		color: var(--wp--preset--color--foreground);
+	}
+
+	table.wc-block-mini-cart-items {
+		a.wc-block-components-product-name {
+			text-decoration: none;
+			font-weight: bold;
+			color: var(--wp--preset--color--foreground);
+
+			&:hover {
+				color: var(--wp--preset--color--primary);
+			}
+		}
+
+		.wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.wc-block-mini-cart__footer-actions {
+		.wc-block-components-button:not(.is-link).outlined {
+			background: transparent;
+			color: var(--wp--preset--color--primary);
+			border: 2px solid var(--wp--preset--color--primary);
+			padding: var(--wp--custom--button-padding);
+			border-radius: var(--wp--custom--button-border-radius);
+		}
+		.wc-block-components-button:not(.is-link).contained {
+			background: var(--wp--preset--color--primary);
+			color: var(--wp--preset--color--background);
+			border: 2px solid var(--wp--preset--color--primary);
+			padding: var(--wp--custom--button-padding);
+			border-radius: var(--wp--custom--button-border-radius);
+		}
+	}
 }
