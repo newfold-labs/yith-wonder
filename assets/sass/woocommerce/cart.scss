@@ -1,0 +1,131 @@
+/**
+ * Cart page
+ */
+
+body.woocommerce-cart {
+	.site-content {
+		overflow-x: hidden;
+	}
+
+    form.woocommerce-cart-form {
+        margin-bottom: 35px;
+    }
+	.cart-collaterals {
+        margin-bottom: 35px;
+
+		.cart_totals {
+			background: var(--wp--preset--color--secondary-background);
+			position: relative;
+            padding: 30px;
+            width: calc(100% - 60px);
+
+			h2 {
+				display: none;
+			}
+
+			table {
+				margin-bottom: 50px;
+                border: none;
+
+				td,
+				th {
+					border: none;
+				}
+
+				th {
+					text-align: right;
+				}
+
+				td {
+					text-align: right;
+					font-weight: normal;
+				}
+
+				tr.order-total {
+					color: var(--wp--preset--color--primary);
+					font-size: 1.125rem;
+
+					td,
+					th,
+					* {
+						font-weight: bold;
+						font-size: inherit;
+					}
+				}
+
+				#shipping_method,
+				.woocommerce-shipping-destination {
+					font-size: 0.875rem;
+					line-height: normal;
+					padding-left: 50px;
+
+					.amount {
+						font-weight: normal;
+					}
+					li {
+						text-align: right;
+					}
+				}
+
+				.woocommerce-shipping-destination {
+					margin: 5px 0;
+				}
+
+				form.woocommerce-shipping-calculator {
+					font-size: 0.875em;
+				}
+
+				.shipping-calculator-form {
+					padding-left: 10%;
+					p {
+						padding-right: 0;
+						line-height: normal;
+						text-align: initial;
+					}
+
+					button[type="submit"] {
+						float: right;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.variation dt {
+		font-weight: 700;
+		font-size: .875em;
+	}
+	.variation dd {
+		font-size: 0.875em;
+		margin: 0 0 1em;
+	}
+}
+
+@media (min-width: 992px) {
+    body.woocommerce-cart {
+        form.woocommerce-cart-form {
+            padding-right: 30px;
+            width: 60%;
+            display: inline-block;
+            box-sizing: border-box;
+            float: left;
+            padding-right: 30px;
+            margin-bottom: 35px;
+        }
+    
+        .cart-collaterals {
+            width: 40%;
+            display: inline-block;
+            box-sizing: border-box;
+            float: left;
+            margin-bottom: 35px;
+    
+            .cart_totals {
+                width: calc(100% - 60px);
+                float: none;
+            }
+        }
+    }
+    
+}
