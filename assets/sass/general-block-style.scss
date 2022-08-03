@@ -67,7 +67,8 @@ input[type="tel"],
 input[type="text"],
 input[type="time"],
 input[type="url"],
-input[type="week"] {
+input[type="week"],
+.select2-container .select2-selection--single {
 	padding: 0.3rem 1rem;
 	font-size: var(--wp--preset--font-size--small);
 	font-family: var(--wp--preset--font-family--system);
@@ -76,6 +77,11 @@ input[type="week"] {
 	border: var(--wp--custom--input-border-width) solid;
 	border-color: var(--wp--custom--input-border-color);
 	background-color: var(--wp--preset--color--background);
+	min-width: 80px;
+}
+
+.select2-container .select2-selection--single .select2-selection__arrow {
+	height: var(--wp--custom--input-min-height);
 }
 
 textarea {

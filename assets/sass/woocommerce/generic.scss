@@ -10,7 +10,7 @@
 }
 
 .woocommerce .quantity .qty {
-	min-height: 30px;
+	min-height: 45px;
 }
 
 /*
@@ -114,6 +114,12 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	background: var(--wp--preset--color--primary);
 	color: var(--wp--preset--color--background);
 	margin-top: auto;
+
+	&:hover {
+		background: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--background);
+		filter: brightness(94%) !important;
+	}
 }
 
 .wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button:hover,
@@ -129,7 +135,6 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .woocommerce button.button.disabled {
 	padding: var(--wp--custom--button-padding);
 }
-
 
 /* Fix inaccessible colors on the checkout and cart pages */
 .wc-block-components-checkout-return-to-cart-button {
@@ -232,6 +237,32 @@ Tables
 		td.actions .coupon .input-text {
 			min-width: 180px;
 		}
+	}
+}
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+	border-style: solid;
+	border-width: 0 0 0 3px;
+}
+
+.woocommerce-message {
+	border-color: var(--wp--preset--color--primary);
+	&:before {
+		color: var(--wp--preset--color--primary);
+	}
+}
+
+.woocommerce-error {
+	border-color: #dc3232;
+}
+
+.woocommerce-info {
+	border-color: var(--wp--preset--color--primary);
+
+	&:before {
+		color: var(--wp--preset--color--primary);
 	}
 }
 
