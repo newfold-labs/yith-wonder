@@ -22,11 +22,11 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary-foreground","fontSize":"normal"} -->
-<p class="has-text-align-center has-secondary-foreground-color has-text-color has-normal-font-size" style="font-style:normal;font-weight:500">JUST LANDED</p>
+<p class="has-text-align-center has-secondary-foreground-color has-text-color has-normal-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'JUST LANDED', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","textColor":"primary","fontSize":"x-large"} -->
-<h2 class="has-text-align-center has-primary-color has-text-color has-x-large-font-size">New Collections</h2>
+<h2 class="has-text-align-center has-primary-color has-text-color has-x-large-font-size"><?php echo esc_html_x( 'New Collections', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -35,15 +35,15 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Shop Man</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Man', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Shop Woman</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Woman', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Accessories</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Accessories', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

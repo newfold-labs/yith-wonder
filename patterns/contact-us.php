@@ -18,7 +18,7 @@
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33%","className":"negative-right-margin"} -->
 <div class="wp-block-column is-vertically-aligned-center negative-right-margin" style="flex-basis:33%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","right":"80px","bottom":"180px","left":"80px"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true}} -->
 <div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-right:80px;padding-bottom:180px;padding-left:80px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Call our Customer Care</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Call our Customer Care', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
@@ -30,7 +30,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Connect with us</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Connect with us', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconColor":"background","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-normal-icon-size","className":"is-style-logos-only"} -->
@@ -49,7 +49,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"100px","right":"15%","bottom":"100px","left":"15%"}}},"backgroundColor":"secondary-background","textColor":"foreground"} -->
 <div class="wp-block-column is-vertically-aligned-center has-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:100px;padding-right:15%;padding-bottom:100px;padding-left:15%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="font-style:normal;font-weight:600">Send us a message</p>
+<p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Send us a message', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -77,7 +77,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Buy safe: our 30 days money back guarantee</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Buy safe: our 30 days money back guarantee', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -85,7 +85,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -99,7 +99,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Free delivery<br>for orders over 100$</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo wp_kses_post( _x( 'Free delivery<br>for orders over 100$', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -107,7 +107,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -121,7 +121,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Contact our Customer Care for any question or doubt</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Contact our Customer Care for any question or doubt', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -129,7 +129,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

@@ -24,7 +24,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Buy safe: our 30 days money back guarantee</p>
+		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Buy safe: our 30 days money back guarantee', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -32,7 +32,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+		<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -48,7 +48,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Free delivery<br>for orders over 100$</p>
+		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo wp_kses_post( _x( 'Free delivery<br>for orders over 100$', 'demo-contents', 'yith-wonder' ) ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -56,7 +56,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+		<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->
@@ -72,7 +72,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Contact our Customer Care for any question or doubt</p>
+		<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Contact our Customer Care for any question or doubt', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -80,7 +80,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+		<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:column -->

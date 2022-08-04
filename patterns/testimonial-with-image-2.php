@@ -23,7 +23,7 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"70px","bottom":"0px","left":"70px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"backgroundColor":"background","textColor":"foreground","layout":{"inherit":false}} -->
 				<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:50px;padding-right:70px;padding-bottom:0px;padding-left:70px;font-style:normal;font-weight:500">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
-					<p class="has-medium-font-size"><strong>Martha Ramos<br></strong>Customer from 2007</p>
+					<p class="has-medium-font-size"><?php echo wp_kses_post( _x( '<strong>Martha Ramos<br></strong>Customer from 2007', 'demo-contents', 'yith-wonder' ) ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 			<!-- /wp:group -->
@@ -38,7 +38,7 @@
 		<!-- wp:group {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"backgroundColor":"secondary-background","textColor":"secondary-foreground","fontSize":"x-large"} -->
 		<div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background has-x-large-font-size" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px;font-style:normal;font-weight:700">
 			<!-- wp:paragraph -->
-			<p>“Here I can find original items, low prices without to lose quality or sustainability. Love it!“</p>
+			<p><?php echo esc_html_x( '“Here I can find original items, low prices without to lose quality or sustainability. Love it!“', 'demo-contents', 'yith-wonder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

@@ -36,11 +36,11 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-		<h2 class="has-primary-color has-text-color">Confident shopping</h2>
+		<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( 'Confident shopping', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+		<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
@@ -58,11 +58,11 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-		<h2 class="has-primary-color has-text-color">100.000+ customers trust us</h2>
+		<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( '100.000+ customers trust us', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+		<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns -->
@@ -80,11 +80,11 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-		<h2 class="has-primary-color has-text-color">Our customer care</h2>
+		<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( 'Our customer care', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+		<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:column --></div>
 		<!-- /wp:columns --></div>

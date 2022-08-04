@@ -28,15 +28,15 @@
 		<!-- wp:column -->
 		<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"tertiary","textColor":"background"} -->
 		<div class="wp-block-group has-background-color has-tertiary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
-		<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500">BUILD YOUR CAPSULE WARDROBE</h2>
+		<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'BUILD YOUR CAPSULE WARDROBE', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph -->
-		<p>Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. </p>
+		<p><?php echo esc_html_x( 'Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. ', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:paragraph -->
-		<p>Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat.</p>
+		<p><?php echo esc_html_x( 'Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -45,7 +45,7 @@
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"tertiary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
-		<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-tertiary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong>START TO SHOP</strong></a></div>
+		<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-tertiary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong><?php echo esc_html_x( 'START TO SHOP', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 		<!-- /wp:button --></div>
 		<!-- /wp:buttons --></div>
 		<!-- /wp:group --></div>

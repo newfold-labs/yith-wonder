@@ -19,11 +19,11 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":"100px"}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"huge"} -->
-<h2 class="has-primary-color has-text-color has-huge-font-size" style="font-style:normal;font-weight:600">New Spring Casuals</h2>
+<h2 class="has-primary-color has-text-color has-huge-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'New Spring Casuals', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-<p style="font-style:normal;font-weight:500">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -32,7 +32,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"15px","right":"50px","bottom":"15px","left":"50px"}}},"fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link" style="padding-top:15px;padding-right:50px;padding-bottom:15px;padding-left:50px"><strong>Shop now</strong></a></div>
+<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link" style="padding-top:15px;padding-right:50px;padding-bottom:15px;padding-left:50px"><strong><?php echo esc_html_x( 'Shop now', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->
@@ -60,19 +60,19 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3,"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-primary-color has-text-color has-large-font-size">Black is the new black.</h3>
+<h3 class="has-primary-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Black is the new black.', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Gumbo beet greens corn soko endive gumbo gourd. </p>
+<p style="line-height:2"><?php echo esc_html_x( 'Gumbo beet greens corn soko endive gumbo gourd. ', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. </p>
+<p style="line-height:2"><?php echo esc_html_x( 'Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. ', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+<p style="line-height:2"><?php echo esc_html_x( 'Dandelion cucumber earthnut pea peanut soko zucchini.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -81,7 +81,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"16px","right":"30px","bottom":"16px","left":"30px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong>VIEW OUR ACCESSORIES</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong><?php echo esc_html_x( 'VIEW OUR ACCESSORIES', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -98,19 +98,19 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3,"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-primary-color has-text-color has-large-font-size">Jeans &amp; Denim collection</h3>
+<h3 class="has-primary-color has-text-color has-large-font-size"><?php echo esc_html_x( 'Jeans &amp; Denim collection', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Gumbo beet greens corn soko endive gumbo gourd. </p>
+<p style="line-height:2"><?php echo esc_html_x( 'Gumbo beet greens corn soko endive gumbo gourd. ', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. </p>
+<p style="line-height:2"><?php echo esc_html_x( 'Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. ', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"lineHeight":"2"}}} -->
-<p style="line-height:2">Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+<p style="line-height:2"><?php echo esc_html_x( 'Dandelion cucumber earthnut pea peanut soko zucchini.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -119,7 +119,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"16px","right":"30px","bottom":"16px","left":"30px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong>SHOP NOW</strong></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong><?php echo esc_html_x( 'SHOP NOW', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -143,7 +143,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600">This week’s deals</h3>
+<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'This week’s deals', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -165,11 +165,11 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","textColor":"very-dark-gray"} -->
-<p class="has-text-align-center has-very-dark-gray-color has-text-color">DISCOVERY THE TREND OF</p>
+<p class="has-text-align-center has-very-dark-gray-color has-text-color"><?php echo esc_html_x( 'DISCOVERY THE TREND OF', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":50,"fontStyle":"normal","fontWeight":"800"}},"textColor":"very-dark-gray"} -->
-<p class="has-text-align-center has-very-dark-gray-color has-text-color" style="font-size:50px;font-style:normal;font-weight:800">GLASSES</p>
+<p class="has-text-align-center has-very-dark-gray-color has-text-color" style="font-size:50px;font-style:normal;font-weight:800"><?php echo esc_html_x( 'GLASSES', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
@@ -179,11 +179,11 @@
 <div class="wp-block-column animate-fade-left" style="flex-basis:66%"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":80,"overlayColor":"primary","minHeight":100,"minHeightUnit":"%"} -->
 <div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":50,"fontStyle":"normal","fontWeight":"700","lineHeight":1.2}},"textColor":"background"} -->
-<p class="has-text-align-center has-background-color has-text-color" style="font-size:50px;font-style:normal;font-weight:700;line-height:1.2">SAVE 20% IN<br>MAN CLOTHING</p>
+<p class="has-text-align-center has-background-color has-text-color" style="font-size:50px;font-style:normal;font-weight:700;line-height:1.2"><?php echo wp_kses_post( _x( 'SAVE 20% IN<br>MAN CLOTHING', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":18}},"textColor":"background"} -->
-<p class="has-text-align-center has-background-color has-text-color" style="font-size:18px">Enjoy a special -20% discount on man category</p>
+<p class="has-text-align-center has-background-color has-text-color" style="font-size:18px"><?php echo esc_html_x( 'Enjoy a special -20% discount on man category', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div></div>
 <!-- /wp:cover --></div>
@@ -198,7 +198,7 @@
 <div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group"><!-- wp:media-text {"align":"","mediaPosition":"right","mediaType":"image"} -->
 <div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/martharamos.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"huge"} -->
-<p class="has-huge-font-size" style="font-style:normal;font-weight:700">“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “</p>
+<p class="has-huge-font-size" style="font-style:normal;font-weight:700"><?php echo esc_html_x( '“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -206,7 +206,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph -->
-<p>Martha Ramos <br>Customer from 2007</p>
+<p><?php echo wp_kses_post( _x( 'Martha Ramos <br>Customer from 2007', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:media-text -->
 

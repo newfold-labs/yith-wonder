@@ -19,7 +19,7 @@
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner1.jpg","dimRatio":0,"minHeight":700,"contentPosition":"bottom left","isDark":false,"align":"center","style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"50px","left":"50px"}}}} -->
 <div class="wp-block-cover aligncenter is-light has-custom-content-position is-position-bottom-left" style="padding-top:50px;padding-right:50px;padding-bottom:50px;padding-left:50px;min-height:700px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"tertiary","textColor":"background","style":{"border":{"radius":"15px"},"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}}},"className":"is-style-fill","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-background-color has-tertiary-background-color has-text-color has-background" href="#" style="border-radius:15px;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><strong>The Newborn Winter<br>Collection ⟶</strong></a></div>
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-background-color has-tertiary-background-color has-text-color has-background" href="#" style="border-radius:15px;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><?php echo wp_kses_post( _x( '<strong>The Newborn Winter<br>Collection ⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover --></div>
@@ -31,7 +31,7 @@
 <div class="wp-block-column animated fadeInLeft" style="flex-basis:33.33%"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner-2.jpg","dimRatio":0,"contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"50px","left":"50px"}}}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="padding-top:50px;padding-right:50px;padding-bottom:50px;padding-left:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner-2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"background","style":{"border":{"radius":"15px"},"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"color":{"background":"#303f67"}},"fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-background-color has-text-color has-background" href="#" style="border-radius:15px;background-color:#303f67;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><strong>Maternity and pregnancy </strong><br><strong>clothing ⟶</strong></a></div>
+<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-background-color has-text-color has-background" href="#" style="border-radius:15px;background-color:#303f67;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><?php echo wp_kses_post( _x( '<strong>Maternity and pregnancy </strong><br><strong>clothing ⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover --></div>
@@ -41,7 +41,7 @@
 <div class="wp-block-column animated fadeInRight" style="flex-basis:66.66%"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner3.jpg","dimRatio":0,"contentPosition":"bottom left","isDark":false,"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"50px","left":"50px"}}}} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="padding-top:50px;padding-right:50px;padding-bottom:50px;padding-left:50px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-3/banner3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"background","style":{"border":{"radius":"15px"},"spacing":{"padding":{"top":"20px","right":"30px","bottom":"20px","left":"30px"}},"color":{"background":"#d8953c"}},"fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-background-color has-text-color has-background" href="#" style="border-radius:15px;background-color:#d8953c;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><strong>Sailor &amp; sea inspired for<br>Winter Collection ⟶</strong></a></div>
+<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-background-color has-text-color has-background" href="#" style="border-radius:15px;background-color:#d8953c;padding-top:20px;padding-right:30px;padding-bottom:20px;padding-left:30px"><?php echo wp_kses_post( _x( '<strong>Sailor &amp; sea inspired for<br>Winter Collection ⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover --></div>
@@ -63,11 +63,11 @@
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"secondary-foreground","fontSize":"normal"} -->
-<p class="has-text-align-center has-secondary-foreground-color has-text-color has-normal-font-size" style="font-style:normal;font-weight:500">JUST LANDED</p>
+<p class="has-text-align-center has-secondary-foreground-color has-text-color has-normal-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'JUST LANDED', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","textColor":"primary","fontSize":"x-large"} -->
-<h2 class="has-text-align-center has-primary-color has-text-color has-x-large-font-size">New Collections</h2>
+<h2 class="has-text-align-center has-primary-color has-text-color has-x-large-font-size"><?php echo esc_html_x( 'New Collections', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -76,15 +76,15 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Shop Man</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Man', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Shop Woman</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Woman', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px">Accessories</a></div>
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Accessories', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -105,7 +105,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"33.34%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.34%"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600">Best seller of this month</h3>
+<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Best seller of this month', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -150,11 +150,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-<h2 class="has-primary-color has-text-color">Confident shopping</h2>
+<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( 'Confident shopping', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -172,11 +172,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-<h2 class="has-primary-color has-text-color">100.000+ customers trust us</h2>
+<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( '100.000+ customers trust us', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -194,11 +194,11 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textColor":"primary"} -->
-<h2 class="has-primary-color has-text-color">Our customer care</h2>
+<h2 class="has-primary-color has-text-color"><?php echo esc_html_x( 'Our customer care', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.</p>
+<p><?php echo esc_html_x( 'Fast delivery, simply returns, quick response &amp; safe and secure shopping: discover our 30 days money back guarantee and start today to shop with trust.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -220,7 +220,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"33.34%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.34%"><!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600">Most popular of this month</h3>
+<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Most popular of this month', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 

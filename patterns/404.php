@@ -34,7 +34,7 @@
 	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:search {"label":"Search","showLabel":false,"width":75,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'yith-wonder' ); ?>","buttonUseIcon":true,"align":"center"} /-->
+	<!-- wp:search {"label":"<?php esc_attr_e( 'Search', 'yith-wonder' ); ?>","showLabel":false,"width":75,"widthUnit":"%","buttonText":"<?php esc_attr_e( 'Search', 'yith-wonder' ); ?>","buttonUseIcon":true,"align":"center"} /-->
 
 	<!-- wp:spacer -->
 	<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>

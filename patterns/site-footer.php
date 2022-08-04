@@ -66,7 +66,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor.</p>
+			<p class="has-small-font-size"><?php echo esc_html_x( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor.', 'demo-contents', 'yith-wonder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

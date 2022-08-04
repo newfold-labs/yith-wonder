@@ -23,7 +23,7 @@
 				<figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/martharamos.jpg" alt=""/></figure>
 				<div class="wp-block-media-text__content">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"huge"} -->
-					<p class="has-huge-font-size" style="font-style:normal;font-weight:700">“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “</p>
+					<p class="has-huge-font-size" style="font-style:normal;font-weight:700"><?php echo wp_kses_post( _x( '“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “', 'demo-contents', 'yith-wonder' ) ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":"50px"} -->
@@ -31,7 +31,7 @@
 					<!-- /wp:spacer -->
 
 					<!-- wp:paragraph -->
-					<p>Martha Ramos <br>Customer from 2007</p>
+					<p><?php echo wp_kses_post( _x( 'Martha Ramos <br>Customer from 2007', 'demo-contents', 'yith-wonder' ) ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 			</div>

@@ -18,7 +18,7 @@
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner1.jpg","dimRatio":0,"minHeight":680,"isDark":false,"className":"has-custom-content-position is-position-bottom-left"} -->
 <div class="wp-block-cover is-light has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"primary","textColor":"background"} -->
-<p class="has-background-color has-primary-background-color has-text-color has-background"><strong>A romantic touch of black<br></strong>Start to shop <strong>⟶</strong></p>
+<p class="has-background-color has-primary-background-color has-text-color has-background"><?php echo wp_kses_post( _x( '<strong>A romantic touch of black<br></strong>Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
@@ -26,11 +26,11 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg","dimRatio":60,"minHeight":680,"style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"100px","left":"100px"}}}} -->
 <div class="wp-block-cover" style="padding-top:100px;padding-right:100px;padding-bottom:100px;padding-left:100px;min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"typography":{"fontStyle":"normal","fontWeight":"800","lineHeight":"1.2"}},"fontSize":"huge"} -->
-<p class="has-text-align-left has-huge-font-size" style="font-style:normal;font-weight:800;line-height:1.2">JEANS &amp;<br>DENIM</p>
+<p class="has-text-align-left has-huge-font-size" style="font-style:normal;font-weight:800;line-height:1.2"><?php echo wp_kses_post( _x( 'JEANS &amp;<br>DENIM', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Start to shop <strong>⟶</strong></p>
+<p><?php echo wp_kses_post( _x( 'Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column -->
@@ -38,7 +38,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg","dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left"} -->
 <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"black","textColor":"background"} -->
-<p class="has-background-color has-black-background-color has-text-color has-background"><strong>Accessories</strong><br>Start to shop <strong>⟶</strong></p>
+<p class="has-background-color has-black-background-color has-text-color has-background"><?php echo wp_kses_post( _x( '<strong>Accessories</strong><br>Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
 <!-- /wp:column --></div>
@@ -49,7 +49,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600">Best seller of this month</h3>
+<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Best seller of this month', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -75,7 +75,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Buy safe: our 30 days money back guarantee</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Buy safe: our 30 days money back guarantee', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -83,7 +83,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -97,7 +97,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Free delivery<br>for orders over 100$</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo wp_kses_post( _x( 'Free delivery<br>for orders over 100$', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -105,7 +105,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -119,7 +119,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary"} -->
-<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600">Contact our Customer Care for any question or doubt</p>
+<p class="has-text-align-center has-primary-color has-text-color" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Contact our Customer Care for any question or doubt', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -127,7 +127,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -137,7 +137,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"large"} -->
-<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600">This week’s deals</h3>
+<h3 class="has-text-align-center has-primary-color has-text-color has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'This week’s deals', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -163,15 +163,15 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"primary","textColor":"background"} -->
 <div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
-<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500">BUILD YOUR CAPSULE WARDROBE</h2>
+<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'BUILD YOUR CAPSULE WARDROBE', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. </p>
+<p><?php echo esc_html_x( 'Cras dolor mi, mattis nec placerat at, dapibus auctor mauris. Integer vel velit semper, aliquam dui vitae, ultrices odio. Vivamus in nunc sed arcu congue tincidunt ut eu est. ', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat.</p>
+<p><?php echo esc_html_x( 'Aliquam id nibh pulvinar, accumsan metus nec, tempus leo. Vestibulum feugiat velit lacus, in dictum dolor ultricies at. Integer vitae vehicula erat.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -180,7 +180,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong>START TO SHOP</strong></a></div>
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong><?php echo esc_html_x( 'START TO SHOP', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

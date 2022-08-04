@@ -12,7 +12,7 @@
 ?>
 <!-- wp:group {"layout":{"contentSize":"900px"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-<p class="has-text-align-center has-medium-font-size">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -23,11 +23,11 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":"80px"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
-<h2 class="has-large-font-size" style="font-style:normal;font-weight:600">Bringing value between different brands</h2>
+<h2 class="has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Bringing value between different brands', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"40px"} -->
@@ -36,7 +36,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><p>Here I can find original items, low prices without to lose quality or sustainability. Love it!</p><cite>MARTHA RAMOS</cite></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>Here I can find original items, low prices without to lose quality or sustainability. Love it!</p><cite>MARTHA RAMOS</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -60,7 +60,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><p>I don't usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I've never had a problem returning and parcels always arrive well within time stated.</p><cite>JOCELYN HENDRIKSON</cite></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I don\'t usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I\'ve never had a problem returning and parcels always arrive well within time stated.</p><cite>JOCELYN HENDRIKSON</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -86,7 +86,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><p>First order and will be back! Ordered 4 items and couldn't be happier with choices. Amazing value, will definitely be ordering more.</p><cite>PAULA DRUM</cite></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>First order and will be back! Ordered 4 items and couldn\'t be happier with choices. Amazing value, will definitely be ordering more.</p><cite>PAULA DRUM</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -114,7 +114,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><p>I'm super happy with the quality and sizing of my items. Such good value for money! So stylish too. I will definitely be purchasing again!</p><cite>MIKE HANSEN</cite></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I\'m super happy with the quality and sizing of my items. Such good value for money! So stylish too. I will definitely be purchasing again!</p><cite>MIKE HANSEN</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
