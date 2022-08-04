@@ -17,8 +17,8 @@
 	<div class="wp-block-column animate-fade-right" style="flex-basis:34%">
 		<!-- wp:cover {"customOverlayColor":"#f0f0f0","isDark":false} -->
 		<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f0f0f0"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->
-		<div class="wp-block-group"><!-- wp:image {"width":472,"height":182,"sizeSlug":"large"} -->
-		<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/glass@2x.jpg" alt="" width="472" height="182"/></figure>
+		<div class="wp-block-group"><!-- wp:image {"sizeSlug":"large"} -->
+		<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/glasses.jpg" alt=""/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:paragraph {"align":"center","textColor":"very-dark-gray"} -->

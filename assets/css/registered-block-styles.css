@@ -28,7 +28,7 @@ figure[class*=is-style-yith-wonder-image-creative] img {
 figure[class*=is-style-yith-wonder-image-creative]:before {
   content: "";
   display: block;
-  background: var(--wp--preset--color--primary);
+  background: var(--wp--preset--color--secondary);
   position: absolute;
   height: 60%;
   width: 20%;
@@ -55,7 +55,7 @@ blockquote.is-style-yith-wonder-quote-with-icon p:first-child::before {
   content: "“";
   font-size: 3em;
   line-height: 1em;
-  color: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--secondary);
   font-family: Georgia, serif;
   font-weight: bold;
   display: block;

@@ -25,8 +25,8 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg","dimRatio":60,"minHeight":680,"style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"100px","left":"100px"}}}} -->
-<div class="wp-block-cover" style="padding-top:100px;padding-right:100px;padding-bottom:100px;padding-left:100px;min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","fontSize":"large"} -->
-<p class="has-text-align-left has-large-font-size">JEANS &amp;<br>DENIM</p>
+<div class="wp-block-cover" style="padding-top:100px;padding-right:100px;padding-bottom:100px;padding-left:100px;min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner2.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"align":"left","placeholder":"Write title…","style":{"typography":{"fontStyle":"normal","fontWeight":"800","lineHeight":"1.2"}},"fontSize":"huge"} -->
+<p class="has-text-align-left has-huge-font-size" style="font-style:normal;font-weight:800;line-height:1.2">JEANS &amp;<br>DENIM</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -36,8 +36,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner3.jpg","dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left"} -->
-<div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner3.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"black","textColor":"background"} -->
+<div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg","dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left"} -->
+<div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:paragraph {"backgroundColor":"black","textColor":"background"} -->
 <p class="has-background-color has-black-background-color has-text-color has-background"><strong>Accessories</strong><br>Start to shop <strong>⟶</strong></p>
 <!-- /wp:paragraph --></div></div>
 <!-- /wp:cover --></div>
@@ -161,8 +161,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"tertiary","textColor":"background"} -->
-<div class="wp-block-group has-background-color has-tertiary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"primary","textColor":"background"} -->
+<div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
 <h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500">BUILD YOUR CAPSULE WARDROBE</h2>
 <!-- /wp:heading -->
 
@@ -179,8 +179,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"tertiary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-tertiary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong>START TO SHOP</strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong>START TO SHOP</strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

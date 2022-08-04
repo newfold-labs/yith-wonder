@@ -160,8 +160,8 @@
 <div class="wp-block-columns has-2-columns"><!-- wp:column {"width":"34%","className":"animate-fade-right","layout":{"inherit":true}} -->
 <div class="wp-block-column animate-fade-right" style="flex-basis:34%"><!-- wp:cover {"customOverlayColor":"#f0f0f0","isDark":false} -->
 <div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f0f0f0"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->
-<div class="wp-block-group"><!-- wp:image {"width":472,"height":182,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/glass@2x.png" alt="" width="472" height="182"/></figure>
+<div class="wp-block-group"><!-- wp:image {"sizeSlug":"large"} -->
+<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/glasses.jpg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","textColor":"very-dark-gray"} -->
@@ -176,8 +176,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"66%","className":"animate-fade-left","layout":{"inherit":true}} -->
-<div class="wp-block-column animate-fade-left" style="flex-basis:66%"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":70,"overlayColor":"secondary","minHeight":100,"minHeightUnit":"%"} -->
-<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
+<div class="wp-block-column animate-fade-left" style="flex-basis:66%"><!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":80,"overlayColor":"primary","minHeight":100,"minHeightUnit":"%"} -->
+<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":50,"fontStyle":"normal","fontWeight":"700","lineHeight":1.2}},"textColor":"background"} -->
 <p class="has-text-align-center has-background-color has-text-color" style="font-size:50px;font-style:normal;font-weight:700;line-height:1.2">SAVE 20% IN<br>MAN CLOTHING</p>
 <!-- /wp:paragraph -->
@@ -194,8 +194,8 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg","dimRatio":80,"overlayColor":"secondary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
-<div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":true}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg","dimRatio":80,"overlayColor":"primary","align":"full","style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"}}}} -->
+<div class="wp-block-cover alignfull" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/testimonials-bg.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group"><!-- wp:media-text {"align":"","mediaPosition":"right","mediaType":"image"} -->
 <div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile"><figure class="wp-block-media-text__media"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/martharamos.jpg" alt=""/></figure><div class="wp-block-media-text__content"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"huge"} -->
 <p class="has-huge-font-size" style="font-style:normal;font-weight:700">“ Here I can find original items, low prices without to lose quality or sustainability.<br>Love it! “</p>
