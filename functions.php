@@ -74,6 +74,7 @@ if ( ! function_exists( 'yith_wonder_theme_setup' ) ) {
 		$styled_blocks = array(
 			'button',
 			'navigation',
+			'paragraph',
 		);
 
 		foreach ( $styled_blocks as $block_name ) {
