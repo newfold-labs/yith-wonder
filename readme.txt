@@ -4,7 +4,7 @@ Tags: blog, custom-background, custom-colors, custom-logo, custom-menu, editor-s
 Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 1.0.0
+Stable tag: 0.1.1
 Wonder, Copyright 2022 YITH
 Wonder is distributed under the terms of the GNU GPL
 License: GPLv2 or later
@@ -14,7 +14,7 @@ A new block and full site editing theme by YITH.
 
 == Description ==
 
-A new block and full site editing theme by YITH.
+Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose your pages to fit any design you like with the power of Full Site Editing (FSE) and the included wide range of Block Patterns. The pre-built pages will help you populate and transform your website into a wonderful website. Customize colors and font pairings to create your own unique look and feel. Check out the demo site at https://wonder.yithemes.com/
 
 == Installation ==
 
@@ -26,7 +26,7 @@ A new block and full site editing theme by YITH.
 
 == Changelog ==
 
-= 1.0.0 - July xx 2022 =
+= 0.1.1 - August 05 2022 =
 - First release
 
 == License ==
@@ -106,6 +106,7 @@ Copyright: Adobe in the United States and/or other countries
 Licence: Open Font License. https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 Images:
+Theme screenshot.jpg image is self created and released under CC0 free public domain.
 https://www.rawpixel.com/image/5950344/free-public-domain-cc0-photo - Free public domain CC0 photo.
 https://www.rawpixel.com/image/5942666/free-public-domain-cc0-photo - Free public domain CC0 photo.
 https://www.rawpixel.com/image/5963733/free-public-domain-cc0-photo - Free public domain CC0 photo.
