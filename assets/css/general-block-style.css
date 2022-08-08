@@ -94,7 +94,8 @@ input[type=submit],
 button,
 button[type=submit],
 .button,
-.btn {
+.btn,
+.add_to_cart_button {
   font-size: var(--wp--preset--font-size--small);
   font-family: inherit;
   font-weight: 500;
@@ -105,6 +106,8 @@ button[type=submit],
   border-radius: var(--wp--custom--button-border-radius);
   border-width: 0;
   cursor: pointer;
+  text-decoration: none;
+  margin: 0 1em 1em 0;
 }
 input[type=submit]:focus, input[type=submit]:hover,
 button:focus,
@@ -114,7 +117,9 @@ button[type=submit]:hover,
 .button:focus,
 .button:hover,
 .btn:focus,
-.btn:hover {
+.btn:hover,
+.add_to_cart_button:focus,
+.add_to_cart_button:hover {
   filter: brightness(94%) !important;
 }
 
