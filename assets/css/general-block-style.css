@@ -107,7 +107,6 @@ button[type=submit],
   border-width: 0;
   cursor: pointer;
   text-decoration: none;
-  margin: 0 1em 1em 0;
 }
 input[type=submit]:focus, input[type=submit]:hover,
 button:focus,
