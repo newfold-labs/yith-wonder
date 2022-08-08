@@ -324,15 +324,16 @@ Responsive
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
-.woocommerce ul.products li.product .woocommerce-loop-product__title {
+.woocommerce-page ul.products li.product .woocommerce-loop-product__title {
   font-size: var(--wp--preset--font-size--small);
   font-weight: 600;
   padding: 0;
 }
-
 .woocommerce-page ul.products li.product .button {
   margin: auto auto 0 auto;
+}
+.woocommerce-page ul.products li.product .star-rating {
+  margin: calc(0.5 * var(--wp--custom--vertical-spacing)) auto;
 }
 
 /* Product search pagination */
