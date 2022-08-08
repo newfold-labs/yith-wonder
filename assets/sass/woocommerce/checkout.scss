@@ -125,6 +125,10 @@ body.woocommerce-checkout {
 				margin-bottom: 15px;
 				position: relative;
 
+				&.woocommerce-notice {
+					padding: 1em 2em 1em 3.5em !important;
+				}
+
 				.radiobutton {
 					position: absolute;
 					pointer-events: none;
