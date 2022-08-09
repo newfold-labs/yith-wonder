@@ -107,7 +107,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":"140px"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/high-quality.png" alt=""/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/high-quality.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"medium"} -->
@@ -121,7 +121,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/happycustomers.png" alt=""/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/happycustomers.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"medium"} -->
@@ -135,7 +135,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/refund-policy.png" alt=""/></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/company/refund-policy.svg" alt=""/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"medium"} -->

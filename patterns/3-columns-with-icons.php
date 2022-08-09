@@ -16,7 +16,7 @@
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:image {"align":"center","width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/buysafe.png" alt="" width="61" height="61"/></figure>
+		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/buysafe.svg" alt="" width="61" height="61"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -40,7 +40,7 @@
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:image {"align":"center","width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.png" alt="" width="70" height="52"/></figure>
+		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.svg" alt="" width="70" height="52"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:spacer {"height":"20px"} -->
@@ -64,7 +64,7 @@
 	<!-- wp:column -->
 	<div class="wp-block-column">
 		<!-- wp:image {"align":"center","width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/customercare.png" alt="" width="62" height="56"/></figure>
+		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/customercare.svg" alt="" width="62" height="56"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:spacer {"height":"20px"} -->
