@@ -127,6 +127,40 @@ input[type="url"] {
 	width: 100%;
 }
 
+input[type="checkbox"] {
+	appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: currentColor;
+    width: 1em;
+    height: 1em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    position: relative;
+	cursor: pointer;
+	vertical-align: text-bottom;
+}
+
+input[type="checkbox"]::before {
+	content: "";
+    width: 0.7em;
+    height: 0.7em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--wp--preset--color--foreground);
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+input[type="checkbox"]:checked::before {
+	transform: scale(1);
+}
+
 button:not(disabled) {
 	cursor: pointer;
 }
