@@ -94,7 +94,7 @@ select {
 }
 
 input[type="submit"],
-button,
+button:not(.wc-block-mini-cart__button ),
 button[type="submit"],
 .button,
 .btn,
@@ -139,22 +139,23 @@ input[type="checkbox"] {
     position: relative;
 	cursor: pointer;
 	vertical-align: text-bottom;
+	margin: 3px 10px 3px 0;
 }
 
 input[type="checkbox"]::before {
 	content: "";
-    width: 0.7em;
-    height: 0.7em;
+    width: auto;
+    height: auto;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--wp--preset--color--foreground);
     display: block;
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: 0;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 2px;
+    margin: auto;
+    background: var(--wp--preset--color--foreground);
 }
 
 input[type="checkbox"]:checked::before {
