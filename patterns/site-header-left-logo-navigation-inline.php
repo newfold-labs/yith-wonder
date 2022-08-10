@@ -18,13 +18,9 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":150} /-->
-			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
-				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
-				<div class="wp-block-group">
-					<!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-foreground"}}}}} /-->
-				</div>
-				<!-- /wp:group -->
+				<!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|secondary-foreground"}}}}} /-->
 				<!-- wp:site-tagline /-->
 			</div>
 			<!-- /wp:group -->
@@ -36,6 +32,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 		<div class="wp-block-group">
 			<?php if ( class_exists( 'woocommerce' ) ) : ?>
+			<<!-- wp:pattern {"slug":"yith-wonder/my-account-icon"} /-->
 			<!-- wp:woocommerce/mini-cart {"addToCartBehaviour":"open_drawer","fontSize":"x-small"} /-->
 			<?php endif; ?>
 		</div>

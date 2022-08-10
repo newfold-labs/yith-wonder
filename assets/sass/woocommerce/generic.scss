@@ -122,6 +122,25 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	}
 }
 
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+
+	&.disabled,
+	&.disabled:hover,
+	&:disabled,
+	&:disabled:hover,
+	&:disabled[disabled],
+	&:disabled[disabled]:hover {
+		background: var(--wp--preset--color--primary);
+		color: var(--wp--preset--color--background);
+		opacity: 0.5;
+	}
+}
+
+
 .wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button:hover,
 .woocommerce .product button.single_add_to_cart_button:hover,
 .woocommerce ul.products li.product .button.product_type_grouped:hover,
@@ -130,10 +149,6 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	background: var(--wp--preset--color--primary);
 	color: var(--wp--preset--color--background);
 	filter: brightness(94%) !important;
-}
-
-.woocommerce button.button.disabled {
-	padding: var(--wp--custom--button-padding);
 }
 
 /* Fix inaccessible colors on the checkout and cart pages */

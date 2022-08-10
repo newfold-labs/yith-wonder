@@ -91,7 +91,7 @@ select {
 }
 
 input[type=submit],
-button:not(.wc-block-mini-cart__button),
+button:not(.wc-block-mini-cart__button):not(.components-button):not([class*=toggle]),
 button[type=submit],
 .button,
 .btn,
@@ -109,8 +109,8 @@ button[type=submit],
   text-decoration: none;
 }
 input[type=submit]:focus, input[type=submit]:hover,
-button:not(.wc-block-mini-cart__button):focus,
-button:not(.wc-block-mini-cart__button):hover,
+button:not(.wc-block-mini-cart__button):not(.components-button):not([class*=toggle]):focus,
+button:not(.wc-block-mini-cart__button):not(.components-button):not([class*=toggle]):hover,
 button[type=submit]:focus,
 button[type=submit]:hover,
 .button:focus,
@@ -198,4 +198,12 @@ input.wpcf7-not-valid {
     margin-left: var(--wp--custom--colum-negative-horizontal-margin) !important;
     z-index: 1;
   }
+}
+.yith-wonder-my-account-login-icon img {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+}
+.yith-wonder-my-account-login-icon img:hover {
+  opacity: 0.6;
 }

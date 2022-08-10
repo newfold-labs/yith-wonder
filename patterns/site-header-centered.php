@@ -16,6 +16,7 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 	<div class="wp-block-group">
 		<?php if ( class_exists( 'woocommerce' ) ) : ?>
+		<!-- wp:pattern {"slug":" yith-wonder/my-account-icon"} /-->
 		<!-- wp:woocommerce/mini-cart {"addToCartBehaviour":"open_drawer","fontSize":"x-small"} /-->
 		<?php endif; ?>
 	</div>

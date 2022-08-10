@@ -94,7 +94,7 @@ select {
 }
 
 input[type="submit"],
-button:not(.wc-block-mini-cart__button ),
+button:not(.wc-block-mini-cart__button):not(.components-button):not([class*='toggle']),
 button[type="submit"],
 .button,
 .btn,
@@ -190,5 +190,15 @@ input.wpcf7-not-valid {
 	.negative-left-margin {
 		margin-left: var(--wp--custom--colum-negative-horizontal-margin) !important;
 		z-index: 1;
+	}
+}
+
+.yith-wonder-my-account-login-icon img{
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: middle;
+
+	&:hover {
+		opacity: .6;
 	}
 }

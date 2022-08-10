@@ -45,5 +45,10 @@ function yith_wonder_register_block_pattern_category() {
 		array( 'label' => esc_html__( 'Wonder - Page sections', 'yith-wonder' ) )
 	);
 
+	register_block_pattern_category( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category
+		'yith-wonder-utilities',
+		array( 'label' => esc_html__( 'Wonder - Utilities', 'yith-wonder' ) )
+	);
+
 }
 add_action( 'init', 'yith_wonder_register_block_pattern_category', 5 );
