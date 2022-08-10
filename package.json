@@ -1,6 +1,6 @@
 {
   "name": "yith-wonder",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "description": "A new block and full site editing theme by YITH",
   "main": "index.js",
   "repository": {
@@ -14,11 +14,12 @@
   },
   "homepage": "https://bitbucket.org/yithemes/yith-wonder#readme",
   "devDependencies": {
+    "dir-archiver": "^1.1.1",
     "grunt": "^1.5.3",
+    "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-cssmin": "^4.0.0",
     "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "dir-archiver": "^1.1.1"
+    "grunt-contrib-watch": "^1.1.0"
   },
   "scripts": {
     "bundle": "dir-archiver --src . --dest ../yith-wonder.zip --exclude .DS_Store .stylelintrc.json .eslintrc .git .gitattributes .github .gitignore readme.md composer.json composer.lock node_modules vendor package-lock.json package.json .travis.yml phpcs.xml.dist sass yarn.lock .sass-cache gruntfile.js"

@@ -40,14 +40,16 @@ module.exports = function(grunt) {
 				tasks: ['sass:dev'],
 			},
 		},
+        clean: ['assets/css/**/*.min.css']
 	});
 	
 	
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 	
 	grunt.registerTask('default', ['sass:dev']);
-	grunt.registerTask('css', ['sass:dist', 'cssmin']);
+	grunt.registerTask('css', ['sass:dist', 'clean', 'cssmin']);
 	grunt.registerTask('dist', ['css']);
 };

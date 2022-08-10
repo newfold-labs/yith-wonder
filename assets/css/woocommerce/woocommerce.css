@@ -454,6 +454,10 @@ Responsive
   vertical-align: top;
 }
 
+.related.products {
+  clear: both;
+  margin-top: calc(2 * var(--wp--custom--vertical-spacing));
+}
 .related.products h2 {
   color: var(--wp--preset--color-foreground);
 }
