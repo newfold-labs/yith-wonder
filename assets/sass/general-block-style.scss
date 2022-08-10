@@ -94,7 +94,7 @@ select {
 }
 
 input[type="submit"],
-button:not(.wc-block-mini-cart__button):not(.components-button):not([class*='toggle']),
+button:not(.wc-block-mini-cart__button):not(.components-button):not([class*='toggle']):not(.wc-block-components-quantity-selector__button):not([class*='-link']),
 button[type="submit"],
 .button,
 .btn,
@@ -130,16 +130,17 @@ input[type="url"] {
 input[type="checkbox"] {
 	appearance: none;
     background-color: #fff;
-    font: inherit;
     color: currentColor;
     width: 1em;
     height: 1em;
-    border: 0.15em solid currentColor;
-    border-radius: 0.15em;
+    border: 2px solid currentColor;
+    border-radius: .15em;
     position: relative;
-	cursor: pointer;
-	vertical-align: text-bottom;
-	margin: 3px 10px 3px 0;
+    cursor: pointer;
+    vertical-align: text-bottom;
+    margin: 3px 10px 3px 0;
+    font-size: inherit;
+    line-height: 1;
 }
 
 input[type="checkbox"]::before {
@@ -150,10 +151,10 @@ input[type="checkbox"]::before {
     transition: 120ms transform ease-in-out;
     display: block;
     position: absolute;
-    left: 1px;
-    right: 1px;
-    top: 1px;
-    bottom: 2px;
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
     margin: auto;
     background: var(--wp--preset--color--foreground);
 }

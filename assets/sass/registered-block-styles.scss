@@ -63,3 +63,8 @@ blockquote.is-style-yith-wonder-quote-with-icon {
         margin-top: 0;
     }
 }
+
+/* WooCommerce Mini Cart without cart totale prior the icon */
+.wc-block-mini-cart.is-style-yith-wonder-mini-cart-hidden-total .wc-block-mini-cart__amount {
+    display: none;
+}

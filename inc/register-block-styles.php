@@ -42,6 +42,13 @@ function yith_wonder_register_block_styles() {
 			'label' => esc_html__( 'With Icon', 'yith-wonder' ),
 		)
 	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'woocommerce/mini-cart',
+		array(
+			'name'  => 'yith-wonder-mini-cart-hidden-total',
+			'label' => esc_html__( 'Hidden total', 'yith-wonder' ),
+		)
+	);
 }
 
 add_action( 'init', 'yith_wonder_register_block_styles' );
