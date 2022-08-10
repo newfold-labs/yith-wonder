@@ -26,7 +26,7 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 
 == Changelog ==
 
-= 0.1.1 - August 05 2022 =
+= 0.1.8 - August 10 2022 =
 - First release
 
 == License ==
