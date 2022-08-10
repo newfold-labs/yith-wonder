@@ -4,10 +4,10 @@ Tags: blog, custom-background, custom-colors, custom-logo, custom-menu, editor-s
 Requires at least: 5.9
 Tested up to: 6.1
 Requires PHP: 7.0
-Stable tag: 0.1.1
+Stable tag: 0.1.9
 Wonder, Copyright 2022 YITH
 Wonder is distributed under the terms of the GNU GPL
-License: GPLv2 or later
+License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A new block and full site editing theme by YITH.
