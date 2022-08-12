@@ -80,6 +80,11 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
     text-transform: uppercase;
 }
 
+.woocommerce.single-product .product span.onsale {
+	right: auto;
+	left: 10px;
+}
+
 /* Price */
 .wc-block-components-product-price {
 	font-size: var(--wp--preset--font-size--extra-small);
