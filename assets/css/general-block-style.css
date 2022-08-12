@@ -95,7 +95,11 @@ button:not(.wc-block-mini-cart__button):not(.components-button):not([class*=togg
 button[type=submit],
 .button,
 .btn,
-.add_to_cart_button {
+.add_to_cart_button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
   font-size: var(--wp--preset--font-size--small);
   font-family: inherit;
   font-weight: 500;
@@ -118,7 +122,15 @@ button[type=submit]:hover,
 .btn:focus,
 .btn:hover,
 .add_to_cart_button:focus,
-.add_to_cart_button:hover {
+.add_to_cart_button:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:focus,
+.woocommerce a.button:hover,
+.woocommerce button.button:focus,
+.woocommerce button.button:hover,
+.woocommerce input.button:focus,
+.woocommerce input.button:hover {
   filter: brightness(94%) !important;
 }
 

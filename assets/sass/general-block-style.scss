@@ -98,7 +98,11 @@ button:not(.wc-block-mini-cart__button):not(.components-button):not([class*='tog
 button[type="submit"],
 .button,
 .btn,
-.add_to_cart_button {
+.add_to_cart_button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
     font-size: var(--wp--preset--font-size--small);
     font-family: inherit;
 	font-weight: 500;
