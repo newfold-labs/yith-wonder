@@ -122,7 +122,6 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	}
 }
 
-
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
 .woocommerce button.button.alt,
@@ -210,6 +209,9 @@ Tables
 .woocommerce table.shop_table {
 	border: none;
 
+	th {
+		padding: 30px 15px;
+	}
 	tbody {
 		td {
 			padding: 30px 15px;
@@ -249,12 +251,26 @@ Tables
 			}
 		}
 
+		td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions {
+			gap: 15px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
 		td.actions .coupon .input-text {
 			min-width: 180px;
 		}
 	}
 }
 
+.woocommerce form .form-row .input-checkbox {
+    display: inline-block;
+}
+
+/**
+Messages
+*/
 .woocommerce-message,
 .woocommerce-error,
 .woocommerce-info {

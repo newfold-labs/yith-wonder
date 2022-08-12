@@ -50,6 +50,7 @@ body.woocommerce-checkout {
 		#shipping_method li {
 			font-size: 1rem;
 			line-height: normal;
+			text-align: initial;
 
 			label {
 				font-weight: normal;
@@ -100,7 +101,6 @@ body.woocommerce-checkout {
 		}
 
 		tfoot th {
-			text-align: right;
 			background: none;
 			border: none;
 			padding-right: 15px;

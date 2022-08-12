@@ -17,7 +17,7 @@ body.woocommerce-cart {
 			background: #f7f7f7;
 			position: relative;
             padding: 30px;
-            width: calc(100% - 60px);
+            width: 100%;
 
 			h2 {
 				display: none;
@@ -30,10 +30,6 @@ body.woocommerce-cart {
 				td,
 				th {
 					border: none;
-				}
-
-				th {
-					text-align: right;
 				}
 
 				td {
@@ -53,17 +49,29 @@ body.woocommerce-cart {
 					}
 				}
 
+				tr.shipping {
+					th {
+						padding-right: 0;
+						text-align: initial;
+					}
+					td {
+						padding-left: 0;
+						text-align: initial;
+					}
+				}
+
 				#shipping_method,
 				.woocommerce-shipping-destination {
+					margin-bottom: 50px;
 					font-size: 0.875rem;
 					line-height: normal;
-					padding-left: 50px;
+					clear: both;
 
 					.amount {
 						font-weight: normal;
 					}
 					li {
-						text-align: right;
+						text-align: initial;
 					}
 				}
 
@@ -122,7 +130,7 @@ body.woocommerce-cart {
             margin-bottom: 35px;
     
             .cart_totals {
-                width: calc(100% - 60px);
+                width: 100%;
                 float: none;
             }
         }
