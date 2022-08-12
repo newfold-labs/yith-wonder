@@ -34,6 +34,15 @@
 	margin-bottom: 2em;
 }
 
+.variations_form {
+	.variations {
+		th,td {
+			text-align: initial;
+			padding: 0 0 var(--wp--custom--vertical-spacing);
+		}
+	}
+}
+
 /* Tabs */
 .woocommerce div.product .woocommerce-tabs {
 	display: block;

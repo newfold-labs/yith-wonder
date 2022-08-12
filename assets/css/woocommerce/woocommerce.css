@@ -438,6 +438,11 @@ Responsive
   margin-bottom: 2em;
 }
 
+.variations_form .variations th, .variations_form .variations td {
+  text-align: initial;
+  padding: 0 0 var(--wp--custom--vertical-spacing);
+}
+
 /* Tabs */
 .woocommerce div.product .woocommerce-tabs {
   display: block;
