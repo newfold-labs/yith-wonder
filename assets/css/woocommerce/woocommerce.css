@@ -810,6 +810,7 @@ body.woocommerce-checkout #payment #place_order {
   font-weight: bold;
   padding: 22px 35px 21px;
   outline: none;
+  margin-bottom: var(--wp--custom--vertical-spacing);
 }
 body.woocommerce-checkout #payment > ul.wc_payment_methods > li:first-child:last-child > label {
   padding-left: 0;
