@@ -60,7 +60,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I don\'t usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I\'ve never had a problem returning and parcels always arrive well within time stated.</p><cite>JOCELYN HENDRIKSON</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I don\'t usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I\'ve never had a problem returning and parcels always arrive well within time stated.</p><cite>JOCELYN ERICSSON</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -86,7 +86,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>First order and will be back! Ordered 4 items and couldn\'t be happier with choices. Amazing value, will definitely be ordering more.</p><cite>PAULA DRUM</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>First order and will be back! Ordered 4 items and couldn\'t be happier with choices. Amazing value, will definitely be ordering more.</p><cite>PAULA PERCUSSION</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
@@ -114,7 +114,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"35px","right":"35px","bottom":"35px","left":"35px"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
 <div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:35px;padding-right:35px;padding-bottom:35px;padding-left:35px"><!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
-<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I\'m super happy with the quality and sizing of my items. Such good value for money! So stylish too. I will definitely be purchasing again!</p><cite>MIKE HANSEN</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
+<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size"><?php echo wp_kses_post( _x( '<p>I\'m super happy with the quality and sizing of my items. Such good value for money! So stylish too. I will definitely be purchasing again!</p><cite>MIKE DANCIN</cite>', 'demo-contents', 'yith-wonder' ) ); ?></blockquote>
 <!-- /wp:quote -->
 
 <!-- wp:spacer {"height":"30px"} -->
