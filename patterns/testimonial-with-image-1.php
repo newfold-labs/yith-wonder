@@ -16,7 +16,7 @@
 	<!-- wp:quote {"className":"is-style-yith-wonder-quote-with-icon","fontSize":"medium"} -->
 	<blockquote class="wp-block-quote is-style-yith-wonder-quote-with-icon has-medium-font-size">
 		<p><?php echo esc_html_x( 'I don\'t usually leave reviews but I have decided to for Wonder. I love there clothing and accessories I\'ve never had a problem returning and parcels always arrive well within time stated.', 'demo-contents', 'yith-wonder' ); ?></p>
-		<cite><?php echo esc_html_x( 'JOCELYN HENDRIKSON', 'demo-contents', 'yith-wonder' ); ?></cite>
+		<cite><?php echo esc_html_x( 'JOCELYN ERICSSON', 'demo-contents', 'yith-wonder' ); ?></cite>
 	</blockquote>
 	<!-- /wp:quote -->
 
