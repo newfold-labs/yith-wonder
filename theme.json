@@ -60,6 +60,7 @@
 		},
 		"typography": {
 			"dropCap": true,
+			"fluid": true,
 			"fontFamilies": [
 				{
 					"name": "System",
@@ -647,36 +648,64 @@
 			],
 			"fontSizes":[
 				{
+					"fluid": {
+						"min": "0.875rem",
+						"max": "0.875rem"
+					},
 					"name": "Extra Small",
 					"size": "0.875rem",
 					"slug": "x-small"
 				},
 				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.08rem"
+					},
 					"name": "Small",
 					"size": "1rem",
 					"slug": "small"
 				},
 				{
+					"fluid": {
+						"min": "1rem",
+						"max": "1.125rem"
+					},
 					"name": "Normal",
 					"size": "1.125rem",
 					"slug": "normal"
 				},
 				{
+					"fluid": {
+						"min": "1.33rem",
+						"max": "1.5rem"
+					},
 					"name": "Medium",
 					"size": "1.5rem",
 					"slug": "medium"
 				},
 				{
+					"fluid": {
+						"min": "1.50rem",
+						"max": "1.75rem"
+					},
 					"name": "Large",
 					"size": "1.75rem",
 					"slug": "large"
 				},
 				{
+					"fluid": {
+						"min": "1.66rem",
+						"max": "2rem"
+					},
 					"name": "Extra Large",
 					"size": "2rem",
 					"slug": "x-large"
 				},
 				{
+					"fluid": {
+						"min": "2.33rem",
+						"max": "3rem"
+					},
 					"name": "Huge",
 					"size": "3rem",
 					"slug": "huge"
