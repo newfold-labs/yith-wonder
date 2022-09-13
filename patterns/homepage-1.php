@@ -150,7 +150,9 @@
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
+<?php if ( class_exists( 'woocommerce' ) ) : ?>
 <!-- wp:woocommerce/product-new {"columns":5,"rows":1,"alignButtons":true,"contentVisibility":{"image":true,"title":true,"price":true,"rating":false,"button":false}} /-->
+<?php endif; ?>
 
 <!-- wp:spacer {"height":"60px"} -->
 <div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
