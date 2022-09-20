@@ -817,6 +817,11 @@
 			"area": "footer"
 		},
 		{
+			"name": "footer-3-columns-centered",
+			"title": "Footer 3 columns centered",
+			"area": "footer"
+		},
+		{
 			"name": "vertical-sidebar",
 			"title": "Vertical Sidebar 1",
 			"area": "uncategorized"
