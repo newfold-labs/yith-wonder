@@ -25,6 +25,12 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 1.1.0 - September 21 2022 =
+- New: footer template 3 columns
+- New: footer template 3 columns centered
+- New: additional color palette entries
+- Tweak: improve homepage #1 color scheme
+- Tweak: improve headers color scheme
 
 = 1.0.1 - September 09 2022 =
 - Fix single post layout on mobile devices

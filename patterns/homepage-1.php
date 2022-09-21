@@ -11,15 +11,16 @@
 
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"color":{"background":"#e8e8e8"},"spacing":{"blockGap":"0px","padding":{"top":"0px","bottom":"0px"}}},"layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-background" style="background-color:#e8e8e8;padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
+<div class="wp-block-group alignfull"><!-- wp:group {"align":"full","style":{"backgroundColor":"header-background","textColor":"header-foreground","spacing":{"blockGap":"0px","padding":{"top":"0px","bottom":"0px"}}},"layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-header-foreground-color has-header-background-background-color has-text-color has-background" style="
+padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:columns {"style":{"spacing":{"blockGap":"100px"}}} -->
 <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"primary","fontSize":"huge"} -->
-<h2 class="has-primary-color has-text-color has-huge-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'New Spring Casuals', 'demo-contents', 'yith-wonder' ); ?></h2>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"textColor":"header-titles","fontSize":"huge"} -->
+<h2 class="has-header-titles-color has-text-color has-huge-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'New Spring Casuals', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
@@ -31,8 +32,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"15px","right":"50px","bottom":"15px","left":"50px"}}},"fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link" style="padding-top:15px;padding-right:50px;padding-bottom:15px;padding-left:50px"><strong><?php echo esc_html_x( 'Shop now', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"header-titles","textColor":"header-background","style":{"spacing":{"padding":{"top":"15px","right":"50px","bottom":"15px","left":"50px"}}},"fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-header-background-color has-header-titles-background-color has-text-color has-background" style="padding-top:15px;padding-right:50px;padding-bottom:15px;padding-left:50px"><strong><?php echo esc_html_x( 'Shop now', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

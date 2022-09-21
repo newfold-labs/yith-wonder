@@ -30,6 +30,21 @@
 					"name": "Tertiary"
 				},
 				{
+					"slug": "header-background",
+					"color": "#C14B36",
+					"name": "Header background"
+				},
+				{
+					"slug": "header-foreground",
+					"color": "#ffffff",
+					"name": "Header foreground"
+				},
+				{
+					"slug": "header-titles",
+					"color": "#ffffff",
+					"name": "Header titles"
+				},
+				{
 					"slug": "secondary-background",
 					"color": "#C14B36",
 					"name": "Secondary background"

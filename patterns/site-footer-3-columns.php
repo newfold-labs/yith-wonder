@@ -7,7 +7,7 @@
  * Keywords: site footer
  *
  * @package yith-wonder
- * @since 1.0.2
+ * @since 1.1.0
  */
 
 ?>
