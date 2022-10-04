@@ -696,7 +696,7 @@
 				},
 				{
 					"fluid": {
-						"min": "1.33rem",
+						"min": "1.3rem",
 						"max": "1.5rem"
 					},
 					"name": "Medium",
@@ -705,7 +705,7 @@
 				},
 				{
 					"fluid": {
-						"min": "1.50rem",
+						"min": "1.3125rem",
 						"max": "1.75rem"
 					},
 					"name": "Large",
@@ -714,7 +714,7 @@
 				},
 				{
 					"fluid": {
-						"min": "1.66rem",
+						"min": "1.5rem",
 						"max": "2rem"
 					},
 					"name": "Extra Large",
@@ -723,7 +723,7 @@
 				},
 				{
 					"fluid": {
-						"min": "2.33rem",
+						"min": "2.1875rem",
 						"max": "3rem"
 					},
 					"name": "Huge",
@@ -760,7 +760,7 @@
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
 			"fontFamily": "var(--wp--preset--font-family--mulish)",
-			"lineHeight": "1.75"
+			"lineHeight": "1.5"
 		},
 		"elements": {
 			"link": {
@@ -787,6 +787,11 @@
 							"textDecoration": "none"
 						}
 					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"lineHeight": "1.75"
 				}
 			},
 			"core/site-title": {

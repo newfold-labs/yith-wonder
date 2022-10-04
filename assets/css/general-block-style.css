@@ -71,6 +71,7 @@ header.wp-block-template-part + main {
     width: calc(50% - 120px + 60px);
   }
 }
+/* INPUTS */
 textarea,
 select,
 input[type=color],
