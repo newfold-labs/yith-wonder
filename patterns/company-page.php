@@ -10,9 +10,19 @@
  */
 
 ?>
-<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-<p class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
-<!-- /wp:paragraph -->
+<!-- wp:group {"layout":{"contentSize":"900px"}} -->
+    <!-- wp:spacer {"height":"40px"} -->
+        <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    <div class="wp-block-group">
+        <!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"4rem"}},"textColor":"primary"} -->
+            <h1 class="has-text-align-center has-primary-color has-text-color" style="font-size:4rem"><?php esc_html_e( 'About Our Company', 'yith-wonder' ); ?></h1>
+        <!-- /wp:heading -->
+        <!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
+            <p class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
+        <!-- /wp:paragraph -->
+    </div>
+<!-- /wp:group -->
 
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>

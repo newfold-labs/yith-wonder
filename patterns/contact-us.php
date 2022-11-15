@@ -10,9 +10,19 @@
  */
 
 ?>
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
+<!-- wp:group {"layout":{"contentSize":"900px"}} -->
+    <!-- wp:spacer {"height":"40px"} -->
+        <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+    <div class="wp-block-group">
+        <!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"4rem"}},"textColor":"primary"} -->
+            <h1 class="has-text-align-center has-primary-color has-text-color" style="font-size:4rem"><?php esc_html_e( 'Get In Touch With Us', 'yith-wonder' ); ?></h1>
+        <!-- /wp:heading -->
+    </div>
+    <!-- wp:spacer {"height":"40px"} -->
+        <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+    <!-- /wp:spacer -->
+<!-- /wp:group -->
 
 <!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33%","className":"negative-right-margin"} -->

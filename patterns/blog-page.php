@@ -24,7 +24,7 @@
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-		<p class="has-text-align-center has-medium-font-size"></p>
+		<p class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'Fusce gravida ut nisi et facilisis. Nullam ut mi fermentum, posuere dolor id, ultricies ipsum. Duis urna ipsum, tincidunt ut lorem.', 'demo-contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
