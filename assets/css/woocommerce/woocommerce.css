@@ -314,11 +314,9 @@ Responsive
   .wc-block-product-search .wc-block-product-search__fields {
     display: block;
   }
-
   .wc-block-product-search .wc-block-product-search__field {
     max-width: 165px;
   }
-
   .wc-block-product-search .wc-block-product-search__button {
     margin-top: 1rem;
     margin-left: 0;
@@ -329,7 +327,6 @@ Responsive
     background: inherit;
     padding: 0;
   }
-
   .wc-block-cart .wc-block-cart__submit-container--sticky:before {
     box-shadow: none;
     color: inherit;
@@ -853,7 +850,6 @@ body.woocommerce-order-received .woocommerce-thankyou-order-received {
     width: 50%;
     float: left;
   }
-
   #order_review {
     float: right;
     width: 50%;
