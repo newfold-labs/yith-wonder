@@ -68,7 +68,11 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/triangle.png","dimRatio":0,"focalPoint":{"x":"0.00","y":"0.50"},"isDark":false,"align":"full"} -->
 <div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/triangle.png" style="object-position:0% 50%" data-object-fit="cover" data-object-position="0% 50%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full","style":{"color":{}},"layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull"><!-- wp:woocommerce/product-new {"columns":5,"rows":1,"alignButtons":true,"contentVisibility":{"image":true,"title":true,"price":true,"rating":false,"button":false}} /-->
+<div class="wp-block-group alignfull">
+
+<?php if ( class_exists( 'woocommerce' ) ) : ?>
+<!-- wp:woocommerce/product-new {"columns":5,"rows":1,"alignButtons":true,"contentVisibility":{"image":true,"title":true,"price":true,"rating":false,"button":false}} /-->
+<?php endif; ?>
 
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
@@ -154,7 +158,9 @@
 <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
+<?php if ( class_exists( 'woocommerce' ) ) : ?>
 <!-- wp:woocommerce/product-new {"columns":5,"rows":1,"alignButtons":true,"contentVisibility":{"image":true,"title":true,"price":true,"rating":false,"button":false}} /-->
+<?php endif; ?>
 
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
