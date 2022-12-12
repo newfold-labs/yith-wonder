@@ -47,8 +47,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"100px","right":"15%","bottom":"100px","left":"15%"}}},"backgroundColor":"secondary-background","textColor":"foreground"} -->
-<div class="wp-block-column is-vertically-aligned-center has-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:100px;padding-right:15%;padding-bottom:100px;padding-left:15%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"100px","right":"15%","bottom":"100px","left":"15%"}}},"backgroundColor":"secondary-background","textColor":"secondary-foreground"} -->
+<div class="wp-block-column is-vertically-aligned-center has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background" style="padding-top:100px;padding-right:15%;padding-bottom:100px;padding-left:15%"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
 <p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Send us a message', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
