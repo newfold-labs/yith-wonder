@@ -241,12 +241,7 @@ input.wpcf7-not-valid {
   opacity: 0.6;
 }
 
-/**
-Images alignments
-*/
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
+/* ALIGNMENTS */
 img.alignleft {
   display: inline;
   float: left;
