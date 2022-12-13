@@ -22,7 +22,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><img class="wp-image-844" style="width: 30px;" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/phone-handset.png" alt=""> 800 - 647 - 927</p>
+<p class="has-medium-font-size"><img class="wp-image-844" style="width: 30px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/phone-handset.png" alt=""> 800 - 647 - 927</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"50px"} -->
@@ -69,7 +69,7 @@
 <!-- wp:columns {"style":{"spacing":{"blockGap":"140px"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","width":61,"height":61,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/buysafe.svg" alt="" width="61" height="61"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-2/buysafe.svg" alt="" width="61" height="61"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -91,7 +91,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","width":70,"height":52,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.svg" alt="" width="70" height="52"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-2/freedelivery.svg" alt="" width="70" height="52"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->
@@ -113,7 +113,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","width":62,"height":56,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-2/customercare.svg" alt="" width="62" height="56"/></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-2/customercare.svg" alt="" width="62" height="56"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:spacer {"height":"20px"} -->

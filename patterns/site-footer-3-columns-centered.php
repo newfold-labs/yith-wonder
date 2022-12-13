@@ -21,7 +21,7 @@
 	<div class="wp-block-columns are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","layout":{"inherit":true}} -->
 		<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
-		<p class="has-text-align-center has-medium-font-size" style="font-style:normal;font-weight:600"><img style="width: 30px;" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/phone-handset-black.svg" alt="">   <?php echo esc_attr_x( 'Call 800 - 647 - 927', 'demo contents', 'yith-wonder' ); ?></p>
+		<p class="has-text-align-center has-medium-font-size" style="font-style:normal;font-weight:600"><img style="width: 30px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/phone-handset-black.svg" alt="">   <?php echo esc_attr_x( 'Call 800 - 647 - 927', 'demo contents', 'yith-wonder' ); ?></p>
 		<!-- /wp:paragraph --></div>
 		<!-- /wp:column -->
 

@@ -18,7 +18,7 @@
 		<!-- wp:cover {"customOverlayColor":"#f0f0f0","isDark":false} -->
 		<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim" style="background-color:#f0f0f0"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}}} -->
 		<div class="wp-block-group"><!-- wp:image {"sizeSlug":"large"} -->
-		<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/glasses.jpg" alt=""/></figure>
+		<figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/glasses.jpg" alt=""/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:paragraph {"align":"center","textColor":"very-dark-gray"} -->
@@ -35,8 +35,8 @@
 
 	<!-- wp:column {"width":"66%","className":"animate-fade-left","layout":{"inherit":true}} -->
 	<div class="wp-block-column animate-fade-left" style="flex-basis:66%">
-		<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":70,"overlayColor":"secondary","minHeight":100,"minHeightUnit":"%"} -->
-		<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_theme_file_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
+		<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":70,"overlayColor":"secondary","minHeight":100,"minHeightUnit":"%"} -->
+		<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-secondary-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
 		<div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":50,"fontStyle":"normal","fontWeight":"700","lineHeight":1.2}},"textColor":"background"} -->
 		<p class="has-text-align-center has-background-color has-text-color" style="font-size:50px;font-style:normal;font-weight:700;line-height:1.2"><?php echo wp_kses_post( _x( 'SAVE 20% IN<br>MAN CLOTHING', 'demo-contents', 'yith-wonder' ) ); ?></p>
 		<!-- /wp:paragraph -->
