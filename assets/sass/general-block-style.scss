@@ -61,7 +61,8 @@
 
 /* REMOVE MAIN UPPER BLOCK SPACING */
 header.wp-block-template-part + main {
-	margin-block-start: 0;
+	-webkit-margin-before: 0;
+	        margin-block-start: 0;
 }
 
 /* POST QUERY LOOP */
@@ -144,7 +145,8 @@ button[type="submit"],
 
 	&:focus,
 	&:hover {
-		filter: brightness(94%) !important;
+		-webkit-filter: brightness(94%) !important;
+		        filter: brightness(94%) !important;
 	}
 }
 
@@ -159,7 +161,9 @@ input[type="url"] {
 }
 
 input[type="checkbox"] {
-	appearance: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
     background-color: #fff;
     border: 2px solid currentColor;
     border-radius: .15em;
@@ -185,13 +189,21 @@ input[type="checkbox"]::before {
     position: absolute;
     right: 3px;
     top: 3px;
-    transform: scale(0);
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition: 120ms -webkit-transform ease-in-out;
+    transition: 120ms -webkit-transform ease-in-out;
+    -o-transition: 120ms transform ease-in-out;
     transition: 120ms transform ease-in-out;
+    transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
     width: auto;
 }
 
 input[type="checkbox"]:checked::before {
-	transform: scale(1);
+	-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	        transform: scale(1);
 }
 
 button:not(disabled) {

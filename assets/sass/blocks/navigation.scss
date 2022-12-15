@@ -4,7 +4,8 @@
 html:not(.has-modal-open) {
     .wp-block-navigation__container ul.wp-block-navigation__submenu-container {
         background: var(--wp--preset--color--secondary-background);
-        box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
+        -webkit-box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
+                box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
         padding: 20px;
     }
     .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
@@ -37,7 +38,9 @@ html:not(.has-modal-open) {
 }
 
 nav.wp-block-navigation {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
 }
 
 .wp-block-navigation.items-justified-right {

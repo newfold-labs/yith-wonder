@@ -34,7 +34,8 @@ body {
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
 }
 
 /* Add horizontal padding to elements */

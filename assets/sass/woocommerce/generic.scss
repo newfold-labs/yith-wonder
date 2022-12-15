@@ -62,7 +62,8 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
     background: var(--wp--preset--color--primary);
     border: none;
     border-radius: 4px;
-    box-sizing: initial;
+    -webkit-box-sizing: initial;
+            box-sizing: initial;
     color: #ffffff;
     font-size: 0.8rem;
     font-weight: 500;
@@ -123,7 +124,8 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	&:hover {
 		background: var(--wp--preset--color--primary);
 		color: var(--wp--preset--color--background);
-		filter: brightness(94%) !important;
+		-webkit-filter: brightness(94%) !important;
+		        filter: brightness(94%) !important;
 	}
 }
 
@@ -152,7 +154,8 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .woocommerce button.button.alt.disabled:hover {
 	background: var(--wp--preset--color--primary);
 	color: var(--wp--preset--color--background);
-	filter: brightness(94%) !important;
+	-webkit-filter: brightness(94%) !important;
+	        filter: brightness(94%) !important;
 }
 
 /* Fix inaccessible colors on the checkout and cart pages */
@@ -257,9 +260,15 @@ Tables
 		}
 
 		td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions {
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			    -ms-flex-direction: row;
+			        flex-direction: row;
+			-ms-flex-wrap: wrap;
+			    flex-wrap: wrap;
 			gap: 15px;
 		}
 
@@ -328,7 +337,8 @@ Responsive
 		padding: 0;
 	}
 	.wc-block-cart .wc-block-cart__submit-container--sticky:before {
-		box-shadow: none;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
 		color: inherit;
 	}
 }
