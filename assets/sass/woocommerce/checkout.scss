@@ -19,14 +19,14 @@ body.woocommerce-checkout {
 	.col-1,
 	.col-2 {
 		max-width: initial;
-		width: 100%;
 		padding: 0;
+		width: 100%;
 	}
 
 	form.woocommerce-checkout:after {
+		clear: both;
 		content: "";
 		display: block;
-		clear: both;
 	}
 
 	#customer_details {
@@ -72,9 +72,9 @@ body.woocommerce-checkout {
 
 	table.woocommerce-checkout-review-order-table {
 		th {
-			text-align: left;
 			border: none;
 			padding: 15px 0;
+			text-align: left;
 		}
 
 		tr:first-child td {
@@ -121,8 +121,8 @@ body.woocommerce-checkout {
 			border: none;
 
 			li {
-				padding: 10px 0;
 				margin-bottom: 15px;
+				padding: 10px 0;
 				position: relative;
 
 				&.woocommerce-notice {
@@ -130,13 +130,13 @@ body.woocommerce-checkout {
 				}
 
 				.radiobutton {
-					position: absolute;
 					pointer-events: none;
+					position: absolute;
 				}
 
 				label {
-					font-weight: bold;
 					cursor: pointer;
+					font-weight: bold;
 				}
 
 				&.payment_method_paypal {
@@ -148,8 +148,8 @@ body.woocommerce-checkout {
 
 						a {
 							font-size: 80%;
-							margin-left: 15px;
 							font-weight: lighter;
+							margin-left: 15px;
 						}
 					}
 				}
@@ -164,13 +164,13 @@ body.woocommerce-checkout {
 
 		#place_order {
 			display: block;
-			width: 100%;
-			text-transform: uppercase;
 			font-size: 20px;
 			font-weight: bold;
-			padding: 22px 35px 21px;
-			outline: none;
 			margin-bottom: var(--wp--custom--vertical-spacing);
+			outline: none;
+			padding: 22px 35px 21px;
+			text-transform: uppercase;
+			width: 100%;
 		}
 	}
 
@@ -180,47 +180,47 @@ body.woocommerce-checkout {
 
 	.woocommerce-terms-and-conditions-wrapper {
 		p {
-			padding: 0;
 			margin-bottom: 30px;
+			padding: 0;
 		}
 	}
 
 	.checkout_coupon {
+		background-color: #ffffff;
 		border-radius: 0;
 		border-width: 0;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
 		font-size: 1rem;
 		font-weight: 500;
-		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
-		background-color: #ffffff;
 	}
 }
 
 body.woocommerce-order-received {
 	.woocommerce-thankyou-order-received {
-		padding: 1em 2em 1em 3.5em;
-		margin: 0 0 2em;
-		position: relative;
 		background-color: #f7f6f7;
-		color: #515151;
-		list-style: none outside;
-		width: auto;
-		word-wrap: break-word;
+		border-color: var(--wp--preset--color--primary);
 		border-style: solid;
 		border-width: 0 0 0 3px;
-		border-color: var(--wp--preset--color--primary);
+		color: #515151;
+		list-style: none outside;
+		margin: 0 0 2em;
+		padding: 1em 2em 1em 3.5em;
+		position: relative;
+		width: auto;
+		word-wrap: break-word;
 	}
 }
 
 @media (min-width: 992px) {
 	#customer_details {
 		display: inline-block;
-		width: 50%;
 		float: left;
+		width: 50%;
 	}
 
 	#order_review {
+		clear: right;
 		float: right;
 		width: 50%;
-		clear: right;
 	}
 }

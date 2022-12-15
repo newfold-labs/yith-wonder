@@ -26,24 +26,24 @@ figure[class*=is-style-yith-wonder-image-creative] img {
   position: relative;
 }
 figure[class*=is-style-yith-wonder-image-creative]:before {
+  background: var(--wp--preset--color--secondary);
+  border-radius: 0;
+  bottom: -20px;
+  box-shadow: none;
   content: "";
   display: block;
-  background: var(--wp--preset--color--secondary);
-  position: absolute;
   height: 60%;
-  width: 20%;
-  top: auto;
   left: auto;
-  bottom: -20px;
+  position: absolute;
   right: -20px;
-  border-radius: 0;
-  box-shadow: none;
+  top: auto;
+  width: 20%;
 }
 
 figure.is-style-yith-wonder-image-creative-alt:before,
 figure.is-style-yith-wonder-image-creative-2:before {
-  right: auto;
   left: -20px;
+  right: auto;
 }
 
 /* Quote yith-wonder-quote-with-icon */
@@ -52,13 +52,13 @@ blockquote.is-style-yith-wonder-quote-with-icon {
   padding: 0;
 }
 blockquote.is-style-yith-wonder-quote-with-icon p:first-child::before {
-  content: "“";
-  font-size: 3em;
-  line-height: 1em;
   color: var(--wp--preset--color--secondary);
-  font-family: Georgia, serif;
-  font-weight: bold;
+  content: "“";
   display: block;
+  font-family: Georgia, serif;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1em;
 }
 blockquote.is-style-yith-wonder-quote-with-icon p:first-child {
   margin-top: 0;
@@ -68,3 +68,5 @@ blockquote.is-style-yith-wonder-quote-with-icon p:first-child {
 .wc-block-mini-cart.is-style-yith-wonder-mini-cart-hidden-total .wc-block-mini-cart__amount {
   display: none;
 }
+
+/*# sourceMappingURL=registered-block-styles.css.map */

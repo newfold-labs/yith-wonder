@@ -15,16 +15,16 @@
 
 /* Product search restults and archive pages */
 .woocommerce ul.products {
-	text-align: center;
 	display: flex;
 	flex-wrap: wrap;
+	text-align: center;
 }
 
 .woocommerce-page ul.products li.product {
 	display: flex;
 	flex-direction: column;
-	margin-top: 2rem;
 	margin-bottom: 2rem;
+	margin-top: 2rem;
 
 	.woocommerce-loop-product__title {
 		font-size: var(--wp--preset--font-size--small);
@@ -63,7 +63,7 @@
 .woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current:hover {
-	color: var(--wp--preset--color--foreground);
 	background: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--foreground);
 	filter: brightness(94%) !important;
 }

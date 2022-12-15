@@ -3,9 +3,9 @@
 */
 html:not(.has-modal-open) {
     .wp-block-navigation__container ul.wp-block-navigation__submenu-container {
+        background: var(--wp--preset--color--secondary-background);
         box-shadow: 3px 0 15px rgb(0 0 0 / 15%);
         padding: 20px;
-        background: var(--wp--preset--color--secondary-background);
     }
     .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
         border: none;
@@ -16,22 +16,22 @@ html:not(.has-modal-open) {
 
         &:before {
             content: "";
-            left: 0;
-            right: 0;
             height: 20px;
+            left: 0;
             position: absolute;
+            right: 0;
             top: -20px;
         }
 
         &:after {
-            content: "";
-            width: 0;
-            height: 0;
+            border-color: transparent transparent var(--wp--preset--color--secondary-background) transparent;
             border-style: solid;
             border-width: 0 10px 10px 10px;
-            border-color: transparent transparent var(--wp--preset--color--secondary-background) transparent;
+            content: "";
+            height: 0;
             position: absolute;
             top: -10px;
+            width: 0;
         }
     }
 }

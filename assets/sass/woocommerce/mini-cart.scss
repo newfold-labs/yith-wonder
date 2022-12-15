@@ -6,12 +6,12 @@
 	button.wc-block-mini-cart__button:hover,
 	button.wc-block-mini-cart__button:focus,
 	button.wc-block-mini-cart__button:active {
-		box-shadow: none;
-		border-radius: 0;
-		margin-top: initial;
-		margin-bottom: initial;
 		background: none;
 		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		margin-bottom: initial;
+		margin-top: initial;
 	}
 }
 
@@ -22,15 +22,15 @@
 	}
 
 	h2.wc-block-mini-cart__title {
-		font-size: 1.5em;
 		color: var(--wp--preset--color--foreground);
+		font-size: 1.5em;
 	}
 
 	table.wc-block-mini-cart-items {
 		a.wc-block-components-product-name {
-			text-decoration: none;
-			font-weight: bold;
 			color: var(--wp--preset--color--foreground);
+			font-weight: bold;
+			text-decoration: none;
 
 			&:hover {
 				color: var(--wp--preset--color--primary);
@@ -49,17 +49,17 @@
 	.wc-block-mini-cart__footer-actions {
 		.wc-block-components-button:not(.is-link).outlined {
 			background: transparent;
-			color: var(--wp--preset--color--primary);
 			border: 2px solid var(--wp--preset--color--primary);
-			padding: var(--wp--custom--button-padding);
 			border-radius: var(--wp--custom--button-border-radius);
+			color: var(--wp--preset--color--primary);
+			padding: var(--wp--custom--button-padding);
 		}
 		.wc-block-components-button:not(.is-link).contained {
 			background: var(--wp--preset--color--primary);
-			color: var(--wp--preset--color--background);
 			border: 2px solid var(--wp--preset--color--primary);
-			padding: var(--wp--custom--button-padding);
 			border-radius: var(--wp--custom--button-border-radius);
+			color: var(--wp--preset--color--background);
+			padding: var(--wp--custom--button-padding);
 		}
 	}
 }

@@ -15,8 +15,8 @@ body.woocommerce-cart {
 
 		.cart_totals {
 			background: #f7f7f7;
-			position: relative;
             padding: 30px;
+			position: relative;
             width: 100%;
 
 			h2 {
@@ -24,8 +24,8 @@ body.woocommerce-cart {
 			}
 
 			table {
-				margin-bottom: 50px;
                 border: none;
+				margin-bottom: 50px;
 
 				td,
 				th {
@@ -33,8 +33,8 @@ body.woocommerce-cart {
 				}
 
 				td {
-					text-align: right;
 					font-weight: normal;
+					text-align: right;
 				}
 
 				tr.order-total {
@@ -44,8 +44,8 @@ body.woocommerce-cart {
 					td,
 					th,
 					* {
-						font-weight: bold;
 						font-size: inherit;
+						font-weight: bold;
 					}
 				}
 
@@ -62,10 +62,10 @@ body.woocommerce-cart {
 
 				#shipping_method,
 				.woocommerce-shipping-destination {
-					margin-bottom: 50px;
+					clear: both;
 					font-size: 0.875rem;
 					line-height: normal;
-					clear: both;
+					margin-bottom: 50px;
 
 					.amount {
 						font-weight: normal;
@@ -86,8 +86,8 @@ body.woocommerce-cart {
 				.shipping-calculator-form {
 					padding-left: 10%;
 					p {
-						padding-right: 0;
 						line-height: normal;
+						padding-right: 0;
 						text-align: initial;
 					}
 
@@ -101,8 +101,8 @@ body.woocommerce-cart {
 	}
 
 	.variation dt {
-		font-weight: 700;
 		font-size: .875em;
+		font-weight: 700;
 	}
 	.variation dd {
 		font-size: 0.875em;
@@ -113,25 +113,25 @@ body.woocommerce-cart {
 @media (min-width: 992px) {
     body.woocommerce-cart {
         form.woocommerce-cart-form {
+            box-sizing: border-box;
+            display: inline-block;
+            float: left;
+            margin-bottom: 35px;
+            padding-right: 30px;
             padding-right: 30px;
             width: 60%;
-            display: inline-block;
-            box-sizing: border-box;
-            float: left;
-            padding-right: 30px;
-            margin-bottom: 35px;
         }
     
         .cart-collaterals {
-            width: 40%;
-            display: inline-block;
             box-sizing: border-box;
+            display: inline-block;
             float: left;
             margin-bottom: 35px;
+            width: 40%;
     
             .cart_totals {
-                width: 100%;
                 float: none;
+                width: 100%;
             }
         }
     }

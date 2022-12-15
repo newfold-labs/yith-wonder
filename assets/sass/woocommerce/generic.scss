@@ -30,9 +30,9 @@
 
 table.wc-block-cart-items .wc-block-cart-items__header th,
 .is-large.wc-block-cart .wc-block-cart__totals-title {
-	text-transform: initial;
 	font-size: var(--wp--preset--font-size--medium);
 	font-weight: 600;
+	text-transform: initial;
 }
 
 .wc-block-grid.has-3-columns:not(.alignwide):not(.alignfull) {
@@ -60,29 +60,29 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .wc-block-grid__product-onsale,
 .woocommerce ul.products li.product .onsale {
     background: var(--wp--preset--color--primary);
-    color: #ffffff;
-    box-sizing: initial;
-    font-weight: 500;
-    z-index: 9;
-    position: absolute;
-    text-align: center;
-    line-height: 1.4;
-    top: 10px;
-    margin: 0;
-    border-radius: 4px;
     border: none;
-    right: 10px;
-    left: auto;
-    min-width: initial;
-    min-height: initial;
-    padding: 5px 8px;
+    border-radius: 4px;
+    box-sizing: initial;
+    color: #ffffff;
     font-size: 0.8rem;
+    font-weight: 500;
+    left: auto;
+    line-height: 1.4;
+    margin: 0;
+    min-height: initial;
+    min-width: initial;
+    padding: 5px 8px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
     text-transform: uppercase;
+    top: 10px;
+    z-index: 9;
 }
 
 .woocommerce.single-product .product span.onsale {
-	right: auto;
 	left: 10px;
+	right: auto;
 }
 
 /* Price */
@@ -194,8 +194,8 @@ body .wc-block-grid.has-3-columns:not(.alignwide):not(.alignfull) {
 }
 
 .woocommerce div.product form.cart .button {
-    font-size: 1.24rem;
     font-family: inherit;
+    font-size: 1.24rem;
 }
 
 ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-0 {
@@ -223,8 +223,8 @@ Tables
 		}
 		.product-name {
 			a {
-				text-decoration: none;
 				color: var(--wp--preset--color--foreground);
+				text-decoration: none;
 				text-decoration: none;
 
 				&:hover {
@@ -234,21 +234,21 @@ Tables
 			}
 		}
 		.product-remove {
-			text-align: left;
-			width: 30px;
 			padding-left: 0;
 			padding-right: 0;
+			text-align: left;
+			width: 30px;
 			
 			a.remove {
-				text-decoration: none;
+				background: none;
 				color: #c7c7c7 !important;
 				display: inline-block;
-				vertical-align: middle;
 				font-size: 30px;
-				opacity: 1;
-				background: none;
 				font-size: 1.3em;
 				font-weight: 500;
+				opacity: 1;
+				text-decoration: none;
+				vertical-align: middle;
 
 				&:hover {
 					color: #32373c !important;
@@ -257,10 +257,10 @@ Tables
 		}
 
 		td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions {
-			gap: 15px;
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
+			gap: 15px;
 		}
 
 		td.actions .coupon .input-text {
@@ -317,8 +317,8 @@ Responsive
 	}
 
 	.wc-block-product-search .wc-block-product-search__button {
-		margin-top: 1rem;
 		margin-left: 0;
+		margin-top: 1rem;
 	}
 }
 

@@ -6,8 +6,8 @@
 /* SINGLE POST OVERLAP LAYOUT */
 .wp-block-post-featured-image + .wp-block-group .vertical-overlap {
     margin-top: var(--wp--custom--single-post-feature-image-orverlap-vertical-margin);
-    z-index: 10;
     position: relative;
+    z-index: 10;
 }
 
 /* STICKY POSTS FIX */
@@ -38,16 +38,16 @@
 	.wp-block-query-loop.is-flex-container {
 		li.wp-block-post:not(.has-post-thumbnail) {
 			.wp-block-cover {
-				padding-top: 0 !important;
 				padding-left: 0 !important;
 				padding-right: 0 !important;
+				padding-top: 0 !important;
 			}
 		}
 	}
 	body.single-post main > .wp-block-group,
 	body.single-post main > .wp-block-group .vertical-overlap {
-		padding-right: 1rem !important;
 		padding-left: 1rem !important;
+		padding-right: 1rem !important;
 		
 	}
 	.wp-block-post-featured-image + .wp-block-group {
@@ -96,15 +96,15 @@ input[type="time"],
 input[type="url"],
 input[type="week"],
 .select2-container .select2-selection--single {
-	padding: 0.3rem 1rem;
-	font-size: var(--wp--preset--font-size--small);
-	font-family: var(--wp--preset--font-family--system);
-	line-height: 1.7;
-	min-height: var(--wp--custom--input-min-height);
+	background-color: var(--wp--preset--color--background);
 	border: var(--wp--custom--input-border-width) solid;
 	border-color: var(--wp--custom--input-border-color);
-	background-color: var(--wp--preset--color--background);
+	font-family: var(--wp--preset--font-family--system);
+	font-size: var(--wp--preset--font-size--small);
+	line-height: 1.7;
+	min-height: var(--wp--custom--input-min-height);
 	min-width: 80px;
+	padding: 0.3rem 1rem;
 }
 
 .select2-container .select2-selection--single .select2-selection__arrow {
@@ -130,16 +130,16 @@ button[type="submit"],
 .woocommerce a.button,
 .woocommerce button.button,
 .woocommerce input.button {
-    font-size: var(--wp--preset--font-size--small);
-    font-family: inherit;
-	font-weight: 500;
-	padding: 0.5rem 1rem;
-	line-height: inherit;
 	background-color: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--background);
 	border-radius: var(--wp--custom--button-border-radius);
 	border-width: 0;
+	color: var(--wp--preset--color--background);
 	cursor: pointer;
+    font-family: inherit;
+    font-size: var(--wp--preset--font-size--small);
+	font-weight: 500;
+	line-height: inherit;
+	padding: 0.5rem 1rem;
 	text-decoration: none;
 
 	&:focus,
@@ -161,33 +161,33 @@ input[type="url"] {
 input[type="checkbox"] {
 	appearance: none;
     background-color: #fff;
-    color: currentColor;
-    width: 1em;
-    height: 1em;
     border: 2px solid currentColor;
     border-radius: .15em;
-    position: relative;
+    color: currentColor;
     cursor: pointer;
-    vertical-align: text-bottom;
-    margin: 3px 10px 3px 0;
     font-size: inherit;
+    height: 1em;
     line-height: 1;
+    margin: 3px 10px 3px 0;
+    position: relative;
+    vertical-align: text-bottom;
+    width: 1em;
 }
 
 input[type="checkbox"]::before {
+    background: var(--wp--preset--color--foreground);
+    bottom: 3px;
 	content: "";
-    width: auto;
-    height: auto;
-    transform: scale(0);
-    transition: 120ms transform ease-in-out;
     display: block;
-    position: absolute;
+    height: auto;
     left: 3px;
+    margin: auto;
+    position: absolute;
     right: 3px;
     top: 3px;
-    bottom: 3px;
-    margin: auto;
-    background: var(--wp--preset--color--foreground);
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    width: auto;
 }
 
 input[type="checkbox"]:checked::before {
@@ -226,9 +226,9 @@ input.wpcf7-not-valid {
 }
 
 .yith-wonder-my-account-login-icon img{
-	width: 1.5em;
 	height: 1.5em;
 	vertical-align: middle;
+	width: 1.5em;
 
 	&:hover {
 		opacity: .6;

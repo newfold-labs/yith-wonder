@@ -2,9 +2,9 @@
 * Navigation block
 */
 html:not(.has-modal-open) .wp-block-navigation__container ul.wp-block-navigation__submenu-container {
+  background: var(--wp--preset--color--secondary-background);
   box-shadow: 3px 0 15px rgba(0, 0, 0, 0.15);
   padding: 20px;
-  background: var(--wp--preset--color--secondary-background);
 }
 html:not(.has-modal-open) .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
   border: none;
@@ -14,21 +14,21 @@ html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-nav
 }
 html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-navigation__submenu-container:before {
   content: "";
-  left: 0;
-  right: 0;
   height: 20px;
+  left: 0;
   position: absolute;
+  right: 0;
   top: -20px;
 }
 html:not(.has-modal-open) .wp-block-navigation__container > li > ul.wp-block-navigation__submenu-container:after {
-  content: "";
-  width: 0;
-  height: 0;
+  border-color: transparent transparent var(--wp--preset--color--secondary-background) transparent;
   border-style: solid;
   border-width: 0 10px 10px 10px;
-  border-color: transparent transparent var(--wp--preset--color--secondary-background) transparent;
+  content: "";
+  height: 0;
   position: absolute;
   top: -10px;
+  width: 0;
 }
 
 nav.wp-block-navigation {
@@ -38,3 +38,5 @@ nav.wp-block-navigation {
 .wp-block-navigation.items-justified-right ul.wp-block-navigation__submenu-container:after {
   right: 20px;
 }
+
+/*# sourceMappingURL=navigation.css.map */

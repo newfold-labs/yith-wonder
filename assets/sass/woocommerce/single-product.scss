@@ -2,20 +2,20 @@
  * Product page categories and tags.
  */
 .product_meta {
+    font-size: small;
 	position: relative;
     text-transform: uppercase;
-    font-size: small;
 
 	&:before {
+		background: var(--wp--preset--color--foreground);
 		content: "";
 		display: block;
-		width: 100px;
 		height: 1px;
-		top: 0;
-		background: var(--wp--preset--color--foreground);
 		left: 0;
 		margin: 1.5em 0;
 		opacity: 0.2;
+		top: 0;
+		width: 100px;
 	}
 
 	& > * {
@@ -37,8 +37,8 @@
 .variations_form {
 	.variations {
 		th,td {
-			text-align: initial;
 			padding: 0 0 var(--wp--custom--vertical-spacing);
+			text-align: initial;
 		}
 	}
 }
@@ -57,10 +57,10 @@
 		}
 
 		li {
-			position: relative;
-			white-space: nowrap;
 			background: none;
 			border-width: 0 0 2px 0;
+			position: relative;
+			white-space: nowrap;
 
 			&:before, 
 			&:after {
@@ -75,17 +75,17 @@
 			&.active {
 				border-color: var(--wp--preset--color-foreground);
 				a {
+					border-bottom: 4px solid var(--wp--preset--color-foreground);
 					color: inherit;
 					opacity: 1;
-					border-bottom: 4px solid var(--wp--preset--color-foreground);
 				}
 			}
 		}
 	}
 
 	.panel {
-		padding: 35px 0 50px;
 		border-bottom: 4px solid #f2f2f2;
+		padding: 35px 0 50px;
 
 		h2:first-of-type {
 			margin-bottom: 1em;
@@ -99,11 +99,11 @@
 		table.shop_attributes {
 			border-collapse: collapse;
 			th {
-				text-align: left;
-				width: 1px;
-				vertical-align: top;
 				padding-right: 35px;
+				text-align: left;
+				vertical-align: top;
 				white-space: nowrap;
+				width: 1px;
 			}
 
 			td {
