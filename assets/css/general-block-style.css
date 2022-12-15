@@ -53,6 +53,7 @@
 }
 /* REMOVE MAIN UPPER BLOCK SPACING */
 header.wp-block-template-part + main {
+  -webkit-margin-before: 0;
   margin-block-start: 0;
 }
 
@@ -152,6 +153,7 @@ button[type=submit]:hover,
 .woocommerce button.button:hover,
 .woocommerce input.button:focus,
 .woocommerce input.button:hover {
+  -webkit-filter: brightness(94%) !important;
   filter: brightness(94%) !important;
 }
 
@@ -166,6 +168,8 @@ input[type=url] {
 }
 
 input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
   background-color: #fff;
   border: 2px solid currentColor;
@@ -192,12 +196,20 @@ input[type=checkbox]::before {
   position: absolute;
   right: 3px;
   top: 3px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
   transform: scale(0);
+  -webkit-transition: 120ms -webkit-transform ease-in-out;
+  transition: 120ms -webkit-transform ease-in-out;
+  -o-transition: 120ms transform ease-in-out;
   transition: 120ms transform ease-in-out;
+  transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
   width: auto;
 }
 
 input[type=checkbox]:checked::before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
   transform: scale(1);
 }
 
@@ -258,5 +270,3 @@ img.aligncenter {
   margin-left: auto;
   margin-right: auto;
 }
-
-/*# sourceMappingURL=general-block-style.css.map */

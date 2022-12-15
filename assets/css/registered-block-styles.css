@@ -29,6 +29,7 @@ figure[class*=is-style-yith-wonder-image-creative]:before {
   background: var(--wp--preset--color--secondary);
   border-radius: 0;
   bottom: -20px;
+  -webkit-box-shadow: none;
   box-shadow: none;
   content: "";
   display: block;
@@ -68,5 +69,3 @@ blockquote.is-style-yith-wonder-quote-with-icon p:first-child {
 .wc-block-mini-cart.is-style-yith-wonder-mini-cart-hidden-total .wc-block-mini-cart__amount {
   display: none;
 }
-
-/*# sourceMappingURL=registered-block-styles.css.map */
