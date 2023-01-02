@@ -325,7 +325,7 @@ Fix WooCommerce layout max-width introduced in version 7.2
 .woocommerce-cart main .woocommerce,
 .woocommerce-checkout .wp-block-post-title,
 .woocommerce-checkout main .woocommerce {
-  max-width: none;
+  max-width: var(--wp--style--global--content-size);
 }
 
 /**
