@@ -312,6 +312,18 @@ Messages
 }
 
 /**
+Fix WooCommerce layout max-width introduced in version 7.2
+*/
+.woocommerce-account .wp-block-post-title,
+.woocommerce-account main .woocommerce,
+.woocommerce-cart .wp-block-post-title,
+.woocommerce-cart main .woocommerce,
+.woocommerce-checkout .wp-block-post-title,
+.woocommerce-checkout main .woocommerce {
+    max-width: none;
+}
+
+/**
 Responsive
 */
 
