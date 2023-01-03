@@ -221,8 +221,11 @@ button:not(disabled) {
 .wp-block-video figcaption,
 .wp-block-audio figcaption,
 .wp-block-gallery figcaption,
-.wp-block-table figcaption {
+.wp-block-table figcaption,
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  background: none;
   color: var(--wp--preset--color--foreground);
+  font-weight: 600;
 }
 
 input.wpcf7-not-valid {
