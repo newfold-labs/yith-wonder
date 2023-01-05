@@ -785,6 +785,28 @@
 				}
 			},
 			"core/navigation": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline dashed"
+							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
 				"typography": {
 					"lineHeight": "1.75"
 				}
@@ -829,6 +851,18 @@
 						"right": "1rem",
 						"bottom": "0.5rem",
 						"left": "1rem"
+					}
+				}
+			},
+			"core/latest-posts": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary)"
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
 					}
 				}
 			}
