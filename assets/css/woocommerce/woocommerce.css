@@ -103,15 +103,11 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 }
 
 /* Override button styles.*/
-.wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button,
-.product button.single_add_to_cart_button,
-.woocommerce ul.products li.product .button.add_to_cart_button,
-.woocommerce ul.products li.product .button.product_type_grouped,
-.woocommerce ul.products li.product .button.product_type_external {
-  font-weight: 500;
-}
-
-.wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button,
+.add_to_cart_button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button .wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button,
 .woocommerce ul.products li.product .button.add_to_cart_button,
 .woocommerce ul.products li.product .button.product_type_grouped,
 .woocommerce ul.products li.product .button.product_type_external,
@@ -121,10 +117,23 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .woocommerce button.button.alt,
 .woocommerce input.button.alt {
   background: var(--wp--preset--color--primary);
+  border-radius: var(--wp--custom--button-border-radius);
+  border-width: 0;
   color: var(--wp--preset--color--background);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: var(--wp--preset--font-size--small);
+  font-weight: 500;
+  line-height: inherit;
   margin-top: auto;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
-.wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button:hover,
+.add_to_cart_button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button .wc-block-grid__product-add-to-cart .wp-block-button__link.add_to_cart_button:hover,
 .woocommerce ul.products li.product .button.add_to_cart_button:hover,
 .woocommerce ul.products li.product .button.product_type_grouped:hover,
 .woocommerce ul.products li.product .button.product_type_external:hover,
@@ -269,11 +278,11 @@ Tables
   color: #32373c !important;
 }
 .woocommerce table.shop_table tbody td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-wrap: wrap;

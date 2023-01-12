@@ -122,27 +122,9 @@ select {
 }
 
 input[type="submit"],
-button:not(.wc-block-mini-cart__button):not(.components-button):not([class*='toggle']):not(.wc-block-components-quantity-selector__button):not([class*='-link']),
 button[type="submit"],
 .button,
-.btn,
-.add_to_cart_button,
-.woocommerce #respond input#submit,
-.woocommerce a.button,
-.woocommerce button.button,
-.woocommerce input.button {
-	background-color: var(--wp--preset--color--primary);
-	border-radius: var(--wp--custom--button-border-radius);
-	border-width: 0;
-	color: var(--wp--preset--color--background);
-	cursor: pointer;
-    font-family: inherit;
-    font-size: var(--wp--preset--font-size--small);
-	font-weight: 500;
-	line-height: inherit;
-	padding: 0.5rem 1rem;
-	text-decoration: none;
-
+.btn {
 	&:focus,
 	&:hover {
 		-webkit-filter: brightness(94%) !important;
