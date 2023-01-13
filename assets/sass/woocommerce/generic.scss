@@ -6,7 +6,7 @@
 /* Range slide color */
 .wc-block-components-price-slider__range-input-progress,
 .rtl .wc-block-components-price-slider__range-input-progress {
-	--range-color: var(--wp--preset--color--foreground);
+	--range-color: var(--wp--preset--color--contrast);
 }
 
 .woocommerce .quantity .qty {
@@ -95,7 +95,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .woocommerce div.product p.price,
 .woocommerce div.product span.price,
 .woocommerce ul.products li.product .price {
-	color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--contrast);
 	font-weight: 600;
 }
 
@@ -117,7 +117,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	background: var(--wp--preset--color--primary);
 	border-radius: var(--wp--custom--button-border-radius);
 	border-width: 0;
-	color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--base);
 	cursor: pointer;
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--small);
@@ -130,7 +130,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 
 	&:hover {
 		background: var(--wp--preset--color--primary);
-		color: var(--wp--preset--color--background);
+		color: var(--wp--preset--color--base);
 		-webkit-filter: brightness(94%) !important;
 		        filter: brightness(94%) !important;
 	}
@@ -148,7 +148,7 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 	&:disabled[disabled],
 	&:disabled[disabled]:hover {
 		background: var(--wp--preset--color--primary);
-		color: var(--wp--preset--color--background);
+		color: var(--wp--preset--color--base);
 		opacity: 0.5;
 	}
 }
@@ -160,14 +160,14 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 .woocommerce ul.products li.product .button.product_type_external:hover,
 .woocommerce button.button.alt.disabled:hover {
 	background: var(--wp--preset--color--primary);
-	color: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--base);
 	-webkit-filter: brightness(94%) !important;
 	        filter: brightness(94%) !important;
 }
 
 /* Fix inaccessible colors on the checkout and cart pages */
 .wc-block-components-checkout-return-to-cart-button {
-	fill: var(--wp--preset--color--foreground);
+	fill: var(--wp--preset--color--contrast);
 }
 
 /* Product image */
@@ -233,7 +233,7 @@ Tables
 		}
 		.product-name {
 			a {
-				color: var(--wp--preset--color--foreground);
+				color: var(--wp--preset--color--contrast);
 				text-decoration: none;
 				text-decoration: none;
 

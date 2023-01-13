@@ -61,7 +61,7 @@
 .woocommerce nav.woocommerce-pagination ul li a,
 .woocommerce nav.woocommerce-pagination ul li span,
 .woocommerce nav.woocommerce-pagination ul li span.current {
-	color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--contrast);
 }
 
 .woocommerce nav.woocommerce-pagination ul li span.current {
@@ -72,7 +72,7 @@
 .woocommerce nav.woocommerce-pagination ul li span:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current:hover {
 	background: var(--wp--preset--color--secondary);
-	color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--contrast);
 	-webkit-filter: brightness(94%) !important;
 	        filter: brightness(94%) !important;
 }

@@ -104,3 +104,22 @@ require_once get_theme_file_path( 'inc/register-block-styles.php' );
 if ( class_exists( 'woocommerce' ) ) {
 	require_once get_theme_file_path( 'inc/woocommerce.php' );
 }
+
+add_action( 'wp_head', 'yith_wonder_add_backwards_color_palette_declaration', 10 );
+
+/**
+ * Add backwards compatibility for old naming color palette variables
+ *
+ * @return void
+ */
+function yith_wonder_add_backwards_color_palette_declaration() {
+	?>
+	<style id='yith-wonder-backwards-compatibility-css'>
+		:root {
+			--wp--preset--color--background: #fff;
+			--wp--preset--color--foreground: #404040;
+
+		}
+	</style>
+	<?php
+}

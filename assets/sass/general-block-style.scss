@@ -97,7 +97,7 @@ input[type="time"],
 input[type="url"],
 input[type="week"],
 .select2-container .select2-selection--single {
-	background-color: var(--wp--preset--color--background);
+	background-color: var(--wp--preset--color--base);
 	border: var(--wp--custom--input-border-width) solid;
 	border-color: var(--wp--custom--input-border-color);
 	font-family: var(--wp--preset--font-family--system);
@@ -161,7 +161,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]::before {
-    background: var(--wp--preset--color--background);
+    background: var(--wp--preset--color--base);
     bottom: 3px;
 	content: "";
     display: block;
@@ -200,7 +200,7 @@ button:not(disabled) {
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption
 {
 	background: none;
-	color: var(--wp--preset--color--foreground);
+	color: var(--wp--preset--color--contrast);
 	font-weight: 600;
 }
 

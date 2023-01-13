@@ -19,17 +19,17 @@
 .wc-block-mini-cart__drawer {
 
 	.wp-block-woocommerce-mini-cart-contents {
-		background-color: var(--wp--preset--color--background);
+		background-color: var(--wp--preset--color--base);
 	}
 
 	h2.wc-block-mini-cart__title {
-		color: var(--wp--preset--color--foreground);
+		color: var(--wp--preset--color--contrast);
 		font-size: 1.5em;
 	}
 
 	table.wc-block-mini-cart-items {
 		a.wc-block-components-product-name {
-			color: var(--wp--preset--color--foreground);
+			color: var(--wp--preset--color--contrast);
 			font-weight: bold;
 			text-decoration: none;
 
@@ -59,7 +59,7 @@
 			background: var(--wp--preset--color--primary);
 			border: 2px solid var(--wp--preset--color--primary);
 			border-radius: var(--wp--custom--button-border-radius);
-			color: var(--wp--preset--color--background);
+			color: var(--wp--preset--color--base);
 			padding: var(--wp--custom--button-padding);
 		}
 	}

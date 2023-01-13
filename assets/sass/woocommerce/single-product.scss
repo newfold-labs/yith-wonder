@@ -7,7 +7,7 @@
     text-transform: uppercase;
 
 	&:before {
-		background: var(--wp--preset--color--foreground);
+		background: var(--wp--preset--color--contrast);
 		content: "";
 		display: block;
 		height: 1px;
