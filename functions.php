@@ -105,21 +105,23 @@ if ( class_exists( 'woocommerce' ) ) {
 	require_once get_theme_file_path( 'inc/woocommerce.php' );
 }
 
-add_action( 'wp_head', 'yith_wonder_add_backwards_color_palette_declaration', 10 );
-
 /**
- * Add backwards compatibility for old naming color palette variables
+ * Add backwards compatibility resources
+ *
+ * @since 1.2.0
  *
  * @return void
  */
-function yith_wonder_add_backwards_color_palette_declaration() {
-	?>
-	<style id='yith-wonder-backwards-compatibility-css'>
-		:root {
-			--wp--preset--color--background: #fff;
-			--wp--preset--color--foreground: #404040;
+function yith_wonder_add_backwards_compatibility_resources() {
+	$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-		}
-	</style>
-	<?php
+	wp_register_style(
+		'yith-wonder-backwards-compatibility',
+		get_theme_file_uri( 'assets/css/backwards-compatibility' . $suffix . '.css' ),
+		array(),
+		YITH_WONDER_VERSION
+	);
+	wp_enqueue_style( 'yith-wonder-backwards-compatibility' );
 }
+
+add_action( 'wp_enqueue_scripts', 'yith_wonder_add_backwards_compatibility_resources', 0 );
