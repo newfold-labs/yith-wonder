@@ -65,19 +65,19 @@
 			"core/heading": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--playfair)",
-					"fontWeight": "light"
+					"fontWeight": "400"
 				}
 			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--playfair)",
-					"fontWeight": "light"
+					"fontWeight": "400"
 				}
 			},
 			"core/site-tagline": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--playfair)",
-					"fontWeight": "light"
+					"fontWeight": "400"
 				}
 			}
 		}
