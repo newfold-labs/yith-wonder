@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Red Shades",
+	"title": "Gold Shades",
 	"settings": {
 		"color": {
 			"palette": [
@@ -11,17 +11,17 @@
 				},
 				{
 					"slug": "contrast",
-					"color": "#000000",
+					"color": "#404040",
 					"name": "Contrast"
 				},
 				{
 					"slug": "primary",
-					"color": "#C14B36",
+					"color": "#968152",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#a15142",
+					"color": "#d4c492",
 					"name": "Secondary"
 				},
 				{
@@ -31,47 +31,53 @@
 				},
 				{
 					"slug": "header-background",
-					"color": "#C14B36",
+					"color": "#e8e8e8",
 					"name": "Header background"
 				},
 				{
 					"slug": "header-foreground",
-					"color": "#ffffff",
+					"color": "#404040",
 					"name": "Header foreground"
 				},
 				{
 					"slug": "header-titles",
-					"color": "#ffffff",
+					"color": "#968152",
 					"name": "Header titles"
 				},
 				{
 					"slug": "secondary-background",
-					"color": "#C14B36",
+					"color": "#e8e8e8",
 					"name": "Secondary background"
 				},
 				{
 					"slug": "secondary-foreground",
-					"color": "#ffffff",
+					"color": "#404040",
 					"name": "Secondary foreground"
-				}
-			],
-			"gradients": [
-				{
-					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #C14B36 0%,#d48620 100%)",
-					"name": "Vertical primary to secondary"
 				}
 			]
 		}
 	},
 	"styles": {
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--roboto-slab)"
+			"fontFamily": "var(--wp--preset--font-family--jost)"
 		},
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--changa-one)"
+					"fontFamily": "var(--wp--preset--font-family--playfair)",
+					"fontWeight": "light"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair)",
+					"fontWeight": "light"
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair)",
+					"fontWeight": "light"
 				}
 			}
 		}

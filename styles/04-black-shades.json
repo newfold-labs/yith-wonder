@@ -5,14 +5,14 @@
 		"color": {
 			"palette": [
 				{
-					"slug": "background",
+					"slug": "base",
 					"color": "#ffffff",
-					"name": "Background"
+					"name": "Base"
 				},
 				{
-					"slug": "foreground",
+					"slug": "contrast",
 					"color": "#000000",
-					"name": "Foreground"
+					"name": "Contrast"
 				},
 				{
 					"slug": "primary",
