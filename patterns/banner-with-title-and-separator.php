@@ -7,7 +7,7 @@
  * Block Types: core/group, core/columns, core/image, core/cover
  *
  * @package yith-wonder
- * @since 1.0.0
+ * @since 1.3.0
  */
 
 ?>
