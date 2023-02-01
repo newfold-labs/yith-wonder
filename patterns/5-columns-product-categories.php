@@ -2,7 +2,7 @@
 /**
  * Title: 5 Columns product categories banner
  * Slug: yith-wonder/5-columns-product-categoriers-banner
- * Categories: yith-wonder-banners
+ * Categories: yith-wonder-page-sections
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
  *
