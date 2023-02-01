@@ -22,7 +22,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size"><img class="wp-image-844" style="width: 30px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/phone-handset.png" alt=""> 800 - 647 - 927</p>
+<p class="has-medium-font-size"><img style="width: 30px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/phone-handset.png" alt=""> 800 - 647 - 927</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"50px"} -->
