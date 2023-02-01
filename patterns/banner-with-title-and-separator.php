@@ -12,8 +12,8 @@
 
 ?>
 
-<!-- wp:cover {"url":"http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/slide-01.jpg","id":1482,"dimRatio":0,"isDark":false,"align":"full"} -->
-<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1482" alt="" src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/slide-01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"150px"} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/jewelry/slide-01.jpg","dimRatio":0,"isDark":false,"align":"full"} -->
+<div class="wp-block-cover alignfull is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/jewelry/slide-01.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"150px"} -->
 <div style="height:150px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
