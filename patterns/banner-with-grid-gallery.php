@@ -24,8 +24,8 @@
 <p class="has-x-small-font-size"><?php echo esc_html_x( 'Lorem ipsum dolor sit amet', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-<h2 style="font-style:normal;font-weight:300"><?php echo esc_html_x( 'Discover our new jewels', 'demo-contents', 'yith-wonder' ); ?></h2>
+<!-- wp:heading -->
+<h2><?php echo esc_html_x( 'Discover our new jewels', 'demo-contents', 'yith-wonder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:buttons -->
@@ -43,29 +43,28 @@
 <!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:gallery {"linkTo":"none"} -->
 <figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":1496,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-01-1024x1024.jpg" alt="" class="wp-image-1496"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'GOLDEN RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-01-1024x1024.jpg" alt="" class="wp-image-1496"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'GOLDEN RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image -->
 
-	<!-- wp:image {"id":1497,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-03-1024x1024.jpg" alt="" class="wp-image-1497"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'ENGAGMENTS RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
+<!-- wp:image {"id":1497,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-03-1024x1024.jpg" alt="" class="wp-image-1497"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'ENGAGMENTS RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image -->
 
-	<!-- wp:image {"id":1499,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-04-1024x1024.jpg" alt="" class="wp-image-1499"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'EARRINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
+<!-- wp:image {"id":1499,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-04-1024x1024.jpg" alt="" class="wp-image-1499"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'EARRINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image -->
 
-	<!-- wp:image {"id":1500,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-05-1024x1024.jpg" alt="" class="wp-image-1500"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'PLATINUM RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
+<!-- wp:image {"id":1500,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-05-1024x1024.jpg" alt="" class="wp-image-1500"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'PLATINUM RINGS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image -->
 
-	<!-- wp:image {"id":1498,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-06-1024x1024.jpg" alt="" class="wp-image-1498"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'BRACELETS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
+<!-- wp:image {"id":1498,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-06-1024x1024.jpg" alt="" class="wp-image-1498"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'BRACELETS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image -->
 
-	<!-- wp:image {"id":1501,"sizeSlug":"large","linkDestination":"custom"} -->
-	<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-09-1024x1024.jpg" alt="" class="wp-image-1501"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'CHARMS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
-	<!-- /wp:image -->
-</figure>
+<!-- wp:image {"id":1501,"sizeSlug":"large","linkDestination":"custom"} -->
+<figure class="wp-block-image size-large"><a href="#"><img src="http://wonder.test/jewelry/wp-content/uploads/sites/3/2023/01/prodotto-09-1024x1024.jpg" alt="" class="wp-image-1501"/></a><figcaption class="wp-element-caption"><?php echo esc_html_x( 'CHARMS', 'demo-contents', 'yith-wonder' ); ?></figcaption></figure>
+<!-- /wp:image --></figure>
 <!-- /wp:gallery --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
