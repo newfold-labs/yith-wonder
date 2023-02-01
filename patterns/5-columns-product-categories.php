@@ -20,11 +20,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_attr_x( 'PLATINIUM', 'demo-contents', 'yith-wonder' ); ?></h3>
+<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'PLATINIUM', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size"><?php echo esc_attr_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -36,11 +36,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_attr_x( 'PEARL', 'demo-contents', 'yith-wonder' ); ?></h3>
+<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'PEARL', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size"><?php echo esc_attr_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -52,11 +52,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_attr_x( 'ENGAGEMENT', 'demo-contents', 'yith-wonder' ); ?></h3>
+<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'ENGAGEMENT', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size"><?php echo esc_attr_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -68,11 +68,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_attr_x( 'DIAMOND', 'demo-contents', 'yith-wonder' ); ?></h3>
+<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'DIAMOND', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size"><?php echo esc_attr_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -84,11 +84,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"medium"} -->
-<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_attr_x( 'ROSE GOLD', 'demo-contents', 'yith-wonder' ); ?></h3>
+<h3 class="has-text-align-center has-medium-font-size"><?php echo esc_html_x( 'ROSE GOLD', 'demo-contents', 'yith-wonder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size"><?php echo esc_attr_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html_x( 'RINGS', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
