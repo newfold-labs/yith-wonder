@@ -161,7 +161,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]::before {
-    background: var(--wp--preset--color--base);
+    background: var(--wp--preset--color--contrast);
     bottom: 3px;
 	content: "";
     display: block;
@@ -179,7 +179,6 @@ input[type="checkbox"]::before {
     -o-transition: 120ms transform ease-in-out;
     transition: 120ms transform ease-in-out;
     transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
-    width: fit-content;
 }
 
 input[type="checkbox"]:checked::before {
