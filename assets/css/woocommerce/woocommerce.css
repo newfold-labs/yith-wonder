@@ -734,9 +734,6 @@ body.woocommerce-checkout h2, body.woocommerce-checkout h3 {
   color: var(--wp--preset--color--contrast);
   font-weight: 600;
 }
-body.woocommerce-checkout h3#order_review_heading {
-  text-align: right;
-}
 body.woocommerce-checkout .col-1,
 body.woocommerce-checkout .col-2 {
   max-width: initial;
@@ -747,6 +744,9 @@ body.woocommerce-checkout form.woocommerce-checkout:after {
   clear: both;
   content: "";
   display: block;
+}
+body.woocommerce-checkout table.shop_table {
+  width: 100%;
 }
 body.woocommerce-checkout #customer_details {
   background: #f7f7f7;
@@ -898,5 +898,11 @@ body.woocommerce-order-received .woocommerce-thankyou-order-received {
     clear: right;
     float: right;
     width: 50%;
+  }
+  body.woocommerce-checkout #order_review,
+  body.woocommerce-checkout h3#order_review_heading {
+    margin-right: 0;
+    padding-left: 30px;
+    display: initial;
   }
 }

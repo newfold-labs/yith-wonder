@@ -12,10 +12,6 @@ body.woocommerce-checkout {
 		font-weight: 600;
 	}
 
-	h3#order_review_heading {
-		text-align: right;
-	}
-
 	.col-1,
 	.col-2 {
 		max-width: initial;
@@ -27,6 +23,10 @@ body.woocommerce-checkout {
 		clear: both;
 		content: "";
 		display: block;
+	}
+
+	table.shop_table {
+		width: 100%;
 	}
 
 	#customer_details {
@@ -223,5 +223,12 @@ body.woocommerce-order-received {
 		clear: right;
 		float: right;
 		width: 50%;
+	}
+
+	body.woocommerce-checkout #order_review,
+	body.woocommerce-checkout h3#order_review_heading {
+		margin-right: 0;
+		padding-left: 30px;
+		display: initial;
 	}
 }
