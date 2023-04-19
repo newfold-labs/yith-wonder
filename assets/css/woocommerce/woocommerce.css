@@ -695,6 +695,9 @@ body.woocommerce-cart .variation dd {
   font-size: 0.875em;
   margin: 0 0 1em;
 }
+body.woocommerce-cart .cross-sells {
+  clear: both;
+}
 
 @media (min-width: 992px) {
   body.woocommerce-cart form.woocommerce-cart-form {

@@ -75,3 +75,21 @@ add_filter( 'woocommerce_product_description_heading', '__return_null' );
  * Remove Additional information tab title
  */
 add_filter( 'woocommerce_product_additional_information_heading', '__return_null' );
+
+/**
+ * Move cross-sells at the end of cart page.
+ */
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display' );
+add_action( 'woocommerce_after_cart', 'woocommerce_cross_sell_display' );
+
+/**
+ * Organize cross-sells in 4 columns
+ *
+ * @param  int $columns Cross-sells columns.
+ * @return int
+ */
+function yith_wonder_change_cross_sells_columns( $columns ) {
+	return 4;
+}
+
+add_filter( 'woocommerce_cross_sells_columns', 'yith_wonder_change_cross_sells_columns' );
