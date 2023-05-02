@@ -2,9 +2,9 @@
 Contributors: yithemes
 Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
 Requires at least: 5.9
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 7.0
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Wonder, Copyright 2022-2023 YITH
 Wonder is distributed under the terms of the GNU GPL
 License: GNU General Public License v2 or later
@@ -25,6 +25,11 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 1.3.1 - May 2 2023 =
+- Fix: cart and checkout page tables
+- Fix: cart page cross sells
+- Fix: product loops mobile layout
+
 = 1.3.0 - March 1 2023 =
 - New: "homepage-jewels" page pattern
 - New: "banner-with-grid-gallery" pattern
