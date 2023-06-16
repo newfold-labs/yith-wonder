@@ -29,20 +29,20 @@ function yith_wonder_styles() {
 	wp_enqueue_style( 'yith-wonder-style' );
 
 	wp_register_style(
-		'general-block-style',
+		'yith-wonder-general-block-style',
 		get_theme_file_uri( 'assets/css/general-block-style' . $suffix . '.css' ),
 		array(),
 		YITH_WONDER_VERSION
 	);
-	wp_enqueue_style( 'general-block-style' );
+	wp_enqueue_style( 'yith-wonder-general-block-style' );
 
 	wp_register_style(
-		'registered-block-style',
+		'yith-wonder-registered-block-style',
 		get_theme_file_uri( 'assets/css/registered-block-styles' . $suffix . '.css' ),
 		array(),
 		YITH_WONDER_VERSION
 	);
-	wp_enqueue_style( 'registered-block-style' );
+	wp_enqueue_style( 'yith-wonder-registered-block-style' );
 
 	// WooCommerce.
 	if ( class_exists( 'woocommerce' ) ) {
