@@ -95,7 +95,7 @@ if ( ! function_exists( 'yith_wonder_theme_setup' ) ) {
 add_action( 'customize_register', '__return_true' );
 
 // Block patterns.
-require_once get_theme_file_path( 'inc/register-block-patterns.php' );
+require_once get_theme_file_path( 'inc/register-block-pattern-categories.php' );
 
 // Block styles.
 require_once get_theme_file_path( 'inc/register-block-styles.php' );
