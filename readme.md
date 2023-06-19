@@ -26,8 +26,10 @@ $ npm install
 `Wonder` comes packed with CLI commands tailored for theme development :
 
 - `grunt watch` : starts a watcher for your .scss files and compilate them to .css when saved.
-- `grunt css` : compiles .scss files into .css file and minimize them. Map files are added for the main .css files to help you debug and navigate the source .scss files.
-- `grunt dist` : compiles .scss files into .css file and minimie them. No .css sourcemap added. Use this prior to create a bundle package using the next `npm run bundle` command.
+- `grunt default` : compiles your .scss files (no minimize) into css files. Map files are added for the main .css files to help you debug and navigate the source .scss files.
+- `grunt autoprefixer` : prefix all CSS properties in .css files.
+- `grunt css` : compiles .scss files into .css file, prefix and minimize them. Map files are added for the main .css files to help you debug and navigate the source .scss files.
+- `grunt dist` : compiles .scss files into .css files, prefix and minimize them. No .css sourcemap added. Use this prior to create a bundle package using the next `npm run bundle` command.
 - `npm run bundle` : generates a .zip archive for distribution, excluding development and system files.
 
 ### Windows users note
