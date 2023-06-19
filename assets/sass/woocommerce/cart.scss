@@ -117,8 +117,7 @@ body.woocommerce-cart {
 @media (min-width: 992px) {
     body.woocommerce-cart {
         form.woocommerce-cart-form {
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
+            box-sizing: border-box;
             display: inline-block;
             float: left;
             margin-bottom: 35px;
@@ -128,8 +127,7 @@ body.woocommerce-cart {
         }
     
         .cart-collaterals {
-            -webkit-box-sizing: border-box;
-                    box-sizing: border-box;
+            box-sizing: border-box;
             display: inline-block;
             float: left;
             margin-bottom: 35px;
