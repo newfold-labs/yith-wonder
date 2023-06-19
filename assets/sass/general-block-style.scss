@@ -155,7 +155,7 @@ input[type="checkbox"] {
     height: 1em;
     line-height: 1;
     margin: 3px 10px 3px 0;
-    position: relative;
+    position: relative !important;
     vertical-align: text-bottom;
     width: 1em;
 }
