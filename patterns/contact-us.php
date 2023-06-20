@@ -16,8 +16,8 @@
 
 <!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"33%","className":"negative-right-margin"} -->
-<div class="wp-block-column is-vertically-aligned-center negative-right-margin" style="flex-basis:33%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","right":"80px","bottom":"180px","left":"80px"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true}} -->
-<div class="wp-block-group has-background-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-right:80px;padding-bottom:180px;padding-left:80px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
+<div class="wp-block-column is-vertically-aligned-center negative-right-margin" style="flex-basis:33%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"80px","right":"80px","bottom":"180px","left":"80px"}}},"backgroundColor":"primary","textColor":"base","className":"has-background-color has-base-text-color","layout":{"inherit":true}} -->
+<div class="wp-block-group has-background-color has-base-text-color has-base-color has-primary-background-color has-text-color has-background" style="padding-top:80px;padding-right:80px;padding-bottom:180px;padding-left:80px"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"medium"} -->
 <p class="has-medium-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Call our Customer Care', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph -->
 
