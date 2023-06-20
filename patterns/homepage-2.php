@@ -195,8 +195,8 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"background","textColor":"primary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-primary-color has-background-background-color has-text-color has-background" style="border-radius:0px"><strong><?php echo esc_html_x( 'START TO SHOP', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"base","textColor":"primary","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-primary-color has-base-background-color has-text-color has-background" style="border-radius:0px"><strong><?php echo esc_html_x( 'START TO SHOP', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

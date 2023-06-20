@@ -20,8 +20,8 @@
 			<span aria-hidden="true" class="wp-block-cover__background has-background-dim wp-block-cover__gradient-background has-background-gradient" style="background:linear-gradient(90deg,rgb(0,167,156) 0%,rgb(1,175,141) 21%,rgba(255,255,255,0) 21%)"></span>
 			<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/company/testimonial.jpg"" style="object-position:50% 0%" data-object-fit="cover" data-object-position="50% 0%"/>
 			<div class="wp-block-cover__inner-container">
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"70px","bottom":"0px","left":"70px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"backgroundColor":"background","textColor":"foreground","layout":{"inherit":false}} -->
-				<div class="wp-block-group has-foreground-color has-background-background-color has-text-color has-background" style="padding-top:50px;padding-right:70px;padding-bottom:0px;padding-left:70px;font-style:normal;font-weight:500">
+				<!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"70px","bottom":"0px","left":"70px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"backgroundColor":"base","textColor":"contrast","layout":{"inherit":false}} -->
+				<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background" style="padding-top:50px;padding-right:70px;padding-bottom:0px;padding-left:70px;font-style:normal;font-weight:500">
 					<!-- wp:paragraph {"fontSize":"medium"} -->
 					<p class="has-medium-font-size"><?php echo wp_kses_post( _x( '<strong>Martha Ramos<br></strong>Customer from 2007', 'demo-contents', 'yith-wonder' ) ); ?></p>
 					<!-- /wp:paragraph -->
