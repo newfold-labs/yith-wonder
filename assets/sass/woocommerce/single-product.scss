@@ -73,9 +73,9 @@
 			}
 
 			&.active {
-				border-color: var(--wp--preset--color-foreground);
+				border-color: var(--wp--preset--color-contrast);
 				a {
-					border-bottom: 4px solid var(--wp--preset--color-foreground);
+					border-bottom: 4px solid var(--wp--preset--color-contrast);
 					color: inherit;
 					opacity: 1;
 				}
@@ -118,6 +118,6 @@
 	margin-top: calc(2 * var(--wp--custom--vertical-spacing));
 
 	h2 {
-		color: var(--wp--preset--color-foreground);
+		color: var(--wp--preset--color-contrast);
 	}
 }
