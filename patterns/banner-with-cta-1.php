@@ -26,8 +26,8 @@
 		<!-- /wp:column -->
 
 		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"tertiary","textColor":"background"} -->
-		<div class="wp-block-group has-background-color has-tertiary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+		<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"50px","right":"50px","bottom":"100px","left":"50px"}}},"backgroundColor":"tertiary","textColor":"base"} -->
+		<div class="wp-block-group has-base-color has-tertiary-background-color has-text-color has-background" style="padding-top:50px;padding-right:50px;padding-bottom:100px;padding-left:50px"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
 		<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'BUILD YOUR CAPSULE WARDROBE', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 

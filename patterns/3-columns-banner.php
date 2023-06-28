@@ -31,8 +31,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-foreground","textColor":"background","style":{"border":{"radius":"0px"}},"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-background-color has-secondary-foreground-background-color has-text-color has-background" href="#" style="border-radius:0px"><?php echo wp_kses_post( _x( 'Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-foreground","textColor":"base","style":{"border":{"radius":"0px"}},"className":"is-style-fill"} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-base-color has-secondary-foreground-background-color has-text-color has-background" href="#" style="border-radius:0px"><?php echo wp_kses_post( _x( 'Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover --></div>
@@ -42,8 +42,8 @@
 <div class="wp-block-column"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg","dimRatio":0,"minHeight":680,"className":"has-custom-content-position is-position-bottom-left"} -->
 <div class="wp-block-cover has-custom-content-position is-position-bottom-left" style="min-height:680px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-2/banner4.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-foreground","textColor":"background","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-background-color has-secondary-foreground-background-color has-text-color has-background" href="#" style="border-radius:0px"><?php echo wp_kses_post( _x( '<strong>Accessories</strong><br>Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-foreground","textColor":"base","style":{"border":{"radius":"0px"}},"className":"is-style-fill","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-fill has-normal-font-size"><a class="wp-block-button__link has-base-color has-secondary-foreground-background-color has-text-color has-background" href="#" style="border-radius:0px"><?php echo wp_kses_post( _x( '<strong>Accessories</strong><br>Start to shop <strong>⟶</strong>', 'demo-contents', 'yith-wonder' ) ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div></div>
 
