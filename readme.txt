@@ -4,7 +4,7 @@ Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo
 Requires at least: 5.9
 Tested up to: 6.2
 Requires PHP: 7.0
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 Wonder, Copyright 2022-2023 YITH
 Wonder is distributed under the terms of the GNU GPL
 License: GNU General Public License v2 or later
@@ -25,6 +25,10 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 1.3.3 - July 05 2023 =
+- Fix: color naming in various patterns
+- Fix: color renaming in CSS files
+
 = 1.3.2 - June 27 2023 =
 - Dev: change register-block-pattern.php filename to register-block-pattern-categories.php
 - Dev: prefix with yith-wonder all the enqueued css and scripts
