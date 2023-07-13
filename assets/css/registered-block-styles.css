@@ -46,6 +46,10 @@ figure.is-style-yith-wonder-image-creative-2:before {
   right: auto;
 }
 
+.is-style-yith-wonder-image-with-shadow img {
+  box-shadow: 0 2px 35px rgba(0, 0, 0, 0.24);
+}
+
 /* Quote yith-wonder-quote-with-icon */
 blockquote.is-style-yith-wonder-quote-with-icon {
   border: none;

@@ -36,6 +36,13 @@ function yith_wonder_register_block_styles() {
 		)
 	);
 	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/image',
+		array(
+			'name'  => 'yith-wonder-image-with-shadow',
+			'label' => esc_html__( 'With shadow', 'yith-wonder' ),
+		)
+	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
 		'core/quote',
 		array(
 			'name'  => 'yith-wonder-quote-with-icon',

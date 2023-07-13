@@ -1,0 +1,239 @@
+{
+	"version": 2,
+	"title": "Orchid Shades",
+	"settings": {
+        "color": {
+            "palette": [
+				{
+					"slug": "base",
+					"color": "#ffffff",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#616161",
+					"name": "Contrast"
+				},
+                {
+					"slug": "primary",
+					"color": "#2e0c2e",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#a156cc",
+					"name": "Secondary"
+				},
+				{
+					"slug": "tertiary",
+					"color": "#908ccf",
+					"name": "Tertiary"
+				},
+				{
+					"slug": "header-background",
+					"color": "#a156cc",
+					"name": "Header background"
+				},
+				{
+					"slug": "header-foreground",
+					"color": "#ffffff",
+					"name": "Header foreground"
+				},
+				{
+					"slug": "header-titles",
+					"color": "#ffffff",
+					"name": "Header titles"
+				}
+            ],
+            "gradients": [
+				{
+					"slug": "orchid-1",
+					"gradient": "linear-gradient(to bottom, #a156cc 0%,#9dd6e8 100%)",
+					"name": "Orchid 1"
+				},
+                {
+					"slug": "orchid-2",
+					"gradient": "linear-gradient(to top, #a156cc 0%,#9dd6e8 100%)",
+					"name": "Orchid 2"
+				},
+                {
+					"slug": "orchid-3",
+					"gradient": "linear-gradient(-29deg, #908ccf 0%,#9dd6e8 100%)",
+					"name": "Orchid 3"
+				},
+                {
+					"slug": "orchid-4",
+					"gradient": "linear-gradient(-127deg, #908ccf 0%,#9dd6e8 100%)",
+					"name": "Orchid 4"
+				},
+                {
+					"slug": "orchid-5",
+					"gradient": "linear-gradient(to left, #a156cc 0%,#eb3963 100%)",
+					"name": "Orchid 5 (buttons)"
+				}
+			]
+        },
+        "typography": {
+            "fontSizes":[
+                {
+					"fluid": {
+						"min": "1.3125rem",
+						"max": "1.3125rem"
+					},
+					"name": "Extra Small",
+					"size": "1.3125rem",
+					"slug": "x-small"
+				},
+				{
+					"fluid": {
+						"min": "1.5rem",
+						"max": "1.62rem"
+					},
+					"name": "Small",
+					"size": "1.5rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"min": "1.5rem",
+						"max": "1.6875rem"
+					},
+					"name": "Normal",
+					"size": "1.6875rem",
+					"slug": "normal"
+				},
+				{
+					"fluid": {
+						"min": "1.95rem",
+						"max": "2.25rem"
+					},
+					"name": "Medium",
+					"size": "2.25rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"min": "1.9687rem",
+						"max": "2.625rem"
+					},
+					"name": "Large",
+					"size": "2.625rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"min": "2.25rem",
+						"max": "3rem"
+					},
+					"name": "Extra Large",
+					"size": "3rem",
+					"slug": "x-large"
+				},
+                {
+					"fluid": {
+						"min": "3.1875rem",
+						"max": "4.5rem"
+					},
+					"name": "Huge",
+					"size": "4.5rem",
+					"slug": "huge"
+				}
+            ]
+        }
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)"
+		},
+        "elements": {
+            "button": {
+                "color": {
+					"background": "var(--wp--preset--color--primary)",
+					"gradient": "var:preset|gradient|orchid-5",
+					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+                        "gradient": "var:preset|gradient|orchid-5",
+                        "text": "var(--wp--preset--color--base)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+                        "gradient": "var:preset|gradient|orchid-5",
+                        "text": "var(--wp--preset--color--base)"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+                        "gradient": "var:preset|gradient|orchid-5",
+                        "text": "var(--wp--preset--color--base)"
+					}
+				},
+				":visited": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+                        "gradient": "var:preset|gradient|orchid-5",
+                        "text": "var(--wp--preset--color--base)"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontWeight": "500",
+					"lineHeight": "inherit",
+					"textDecoration": "none",
+					"fontFamily": "inherit"
+				},
+				"border": {
+					"radius": "var(--wp--custom--button-border-radius)",
+					"width": "0",
+					"style": "solid"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.5rem",
+						"right": "1rem",
+						"bottom": "0.5rem",
+						"left": "1rem"
+					}
+				}
+            }
+        },
+        "blocks": {
+            "core/button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"gradient": "var:preset|gradient|orchid-5",
+					"text": "var(--wp--preset--color--base)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+					"fontWeight": "500"
+				},
+				"border": {
+					"radius": "var(--wp--custom--button-border-radius)",
+					"width": "0",
+					"style": "solid"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.5rem",
+						"right": "2rem",
+						"bottom": "0.5rem",
+						"left": "2rem"
+					}
+				}
+			},
+            "core/navigation": {
+				"typography": {
+					"lineHeight": "1.75",
+                    "fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			}
+        }
+	}
+    
+}
