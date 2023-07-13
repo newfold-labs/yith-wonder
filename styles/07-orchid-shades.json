@@ -70,6 +70,11 @@
 					"slug": "orchid-5",
 					"gradient": "linear-gradient(to left, #a156cc 0%,#eb3963 100%)",
 					"name": "Orchid 5 (buttons)"
+				},
+                {
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #a156cc 0%,#eb3963 100%)",
+					"name": "Vertical tertiary to primary"
 				}
 			]
         },
@@ -77,7 +82,7 @@
             "fontSizes":[
                 {
 					"fluid": {
-						"min": "1.3125rem",
+						"min": "1rem",
 						"max": "1.3125rem"
 					},
 					"name": "Extra Small",
