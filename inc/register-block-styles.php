@@ -70,6 +70,13 @@ function yith_wonder_register_block_styles() {
 			'label' => esc_html__( 'Right aligned', 'yith-wonder' ),
 		)
 	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/separator',
+		array(
+			'name'  => 'yith-wonder-dashed-wide-separator',
+			'label' => esc_html__( 'Dashed wide', 'yith-wonder' ),
+		)
+	);
 }
 
 add_action( 'init', 'yith_wonder_register_block_styles' );

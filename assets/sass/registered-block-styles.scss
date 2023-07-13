@@ -73,11 +73,18 @@ blockquote.is-style-yith-wonder-quote-with-icon {
 }
 
 /* Separator Left aligned style */
-.is-style-yith-wonder-left-aligned-separator {
+.wp-block-separator.is-style-yith-wonder-left-aligned-separator {
     margin-left: 0;
 }
 
 /* Separator Right aligned style */
-.is-style-yith-wonder-right-aligned-separator {
+.wp-block-separator.is-style-yith-wonder-right-aligned-separator {
     margin-right: 0;
+}
+
+.wp-block-separator.is-style-yith-wonder-dashed-wide-separator {
+    border-width: 0 0 2px !important;
+    border-style: dashed !important;
+    background: none !important;
+    width: 100% !important;
 }
