@@ -82,9 +82,45 @@ blockquote.is-style-yith-wonder-quote-with-icon {
     margin-right: 0;
 }
 
+/* Separato dashed wide style */
 .wp-block-separator.is-style-yith-wonder-dashed-wide-separator {
     border-width: 0 0 2px !important;
     border-style: dashed !important;
     background: none !important;
     width: 100% !important;
+}
+
+/* Latest posts boxed style */
+.wp-block-latest-posts.is-style-yith-wonder-latest-posts-boxed {
+    > li {
+        padding: 1.5rem;
+        background: var(--wp--preset--color--base);
+        box-sizing: border-box;
+        box-shadow: 0 2px 35px rgba(0,0,0,.24);
+        border-radius: 1.5rem;
+        text-align: center;
+
+        img {
+            border-radius: 0.75rem;
+        }
+
+        .wp-block-latest-posts__post-title {
+            text-align: center;
+            display: block !important;
+            clear: both;
+        }
+
+        .wp-block-latest-posts__post-author {
+            display: inline-block;
+        }
+        .wp-block-latest-posts__post-date {
+            display: inline-block;
+        }
+    }
+}
+
+/* Group with shadow */
+.is-style-yith-wonder-group-with-shadow {
+    box-sizing: border-box;
+    box-shadow: 0 2px 35px rgba(0,0,0,.24);
 }

@@ -77,6 +77,20 @@ function yith_wonder_register_block_styles() {
 			'label' => esc_html__( 'Dashed wide', 'yith-wonder' ),
 		)
 	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/latest-posts',
+		array(
+			'name'  => 'yith-wonder-latest-posts-boxed',
+			'label' => esc_html__( 'Boxed', 'yith-wonder' ),
+		)
+	);register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/group',
+		array(
+			'name'  => 'yith-wonder-group-with-shadow',
+			'label' => esc_html__( 'With shadow', 'yith-wonder' ),
+		)
+	);
+
 }
 
 add_action( 'init', 'yith_wonder_register_block_styles' );
