@@ -120,3 +120,8 @@ blockquote.is-style-yith-wonder-quote-with-icon p:first-child {
   box-sizing: border-box;
   box-shadow: 0 2px 35px rgba(0, 0, 0, 0.24);
 }
+
+.is-style-yith-wonder-cover-unscaled-background .wp-block-cover__image-background {
+  -o-object-fit: contain;
+     object-fit: contain;
+}

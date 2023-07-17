@@ -83,11 +83,19 @@ function yith_wonder_register_block_styles() {
 			'name'  => 'yith-wonder-latest-posts-boxed',
 			'label' => esc_html__( 'Boxed', 'yith-wonder' ),
 		)
-	);register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
 		'core/group',
 		array(
 			'name'  => 'yith-wonder-group-with-shadow',
 			'label' => esc_html__( 'With shadow', 'yith-wonder' ),
+		)
+	);
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/cover',
+		array(
+			'name'  => 'yith-wonder-cover-unscaled-background',
+			'label' => esc_html__( 'Unscaled background', 'yith-wonder' ),
 		)
 	);
 
