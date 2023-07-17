@@ -43,6 +43,16 @@
 					"slug": "header-titles",
 					"color": "#ffffff",
 					"name": "Header titles"
+				},
+				{
+					"slug": "secondary-background",
+					"color": "#a156cc",
+					"name": "Secondary background"
+				},
+				{
+					"slug": "secondary-foreground",
+					"color": "#ffffff",
+					"name": "Secondary foreground"
 				}
             ],
             "gradients": [
@@ -73,7 +83,7 @@
 				},
                 {
 					"slug": "v-tertiary-primary",
-					"gradient": "linear-gradient(to bottom, #a156cc 0%,#eb3963 100%)",
+					"gradient": "linear-gradient(to bottom, #a156cc 0%,#9dd6e8 100%)",
 					"name": "Vertical tertiary to primary"
 				}
 			]
