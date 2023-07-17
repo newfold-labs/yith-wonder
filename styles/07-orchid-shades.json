@@ -91,52 +91,52 @@
 				},
 				{
 					"fluid": {
-						"min": "1.5rem",
-						"max": "1.62rem"
+						"min": "1.14rem",
+						"max": "1.23rem"
 					},
 					"name": "Small",
-					"size": "1.5rem",
+					"size": "1.14rem",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "1.5rem",
-						"max": "1.6875rem"
+						"min": "1.14rem",
+						"max": "1.2825rem"
 					},
 					"name": "Normal",
-					"size": "1.6875rem",
+					"size": "1.2825rem",
 					"slug": "normal"
 				},
 				{
 					"fluid": {
-						"min": "1.95rem",
-						"max": "2.25rem"
+						"min": "1.482rem",
+						"max": "1.71rem"
 					},
 					"name": "Medium",
-					"size": "2.25rem",
+					"size": "1.71rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "1.9687rem",
-						"max": "2.625rem"
+						"min": "1.496rem",
+						"max": "1.995rem"
 					},
 					"name": "Large",
-					"size": "2.625rem",
+					"size": "1.995rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "2.25rem",
-						"max": "3rem"
+						"min": "1.71rem",
+						"max": "2.28rem"
 					},
 					"name": "Extra Large",
-					"size": "3rem",
+					"size": "2.28rem",
 					"slug": "x-large"
 				},
                 {
 					"fluid": {
-						"min": "3.1875rem",
+						"min": "2.49rem",
 						"max": "4.5rem"
 					},
 					"name": "Huge",
