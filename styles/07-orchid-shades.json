@@ -82,11 +82,11 @@
             "fontSizes":[
                 {
 					"fluid": {
-						"min": "1rem",
-						"max": "1.3125rem"
+						"min": "0.875rem",
+						"max": "1rem"
 					},
 					"name": "Extra Small",
-					"size": "1.3125rem",
+					"size": "1rem",
 					"slug": "x-small"
 				},
 				{
@@ -236,6 +236,11 @@
 				"typography": {
 					"lineHeight": "1.75",
                     "fontSize": "var(--wp--preset--font-size--normal)"
+				}
+			},
+			"core/heading": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
 				}
 			}
         }
