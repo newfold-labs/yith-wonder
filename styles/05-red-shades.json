@@ -71,7 +71,16 @@
 		"blocks": {
 			"core/heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--changa-one)"
+					"fontFamily": "var(--wp--preset--font-family--changa-one)",
+					"fontWeight": 400
+				}
+			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--changa-one)",
+					"fontWeight": 400
 				}
 			}
 		}

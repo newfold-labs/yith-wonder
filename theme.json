@@ -832,6 +832,15 @@
 						"left": "1rem"
 					}
 				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"textDecoration": "none"
+				}
 			}
 		},
 		"blocks": {

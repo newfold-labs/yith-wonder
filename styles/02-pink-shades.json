@@ -74,6 +74,13 @@
 					"fontFamily": "var(--wp--preset--font-family--playfair)"
 				}
 			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair)"
+				}
+			}
 		}
 	}
 }

@@ -54,6 +54,13 @@
 					"color": "#404040",
 					"name": "Secondary foreground"
 				}
+			],
+			"gradients": [
+				{
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to bottom, #e8e8e8 0%,#d4c492 100%)",
+					"name": "Vertical tertiary to primary"
+				}
 			]
 		}
 	},
@@ -78,6 +85,13 @@
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--playfair)",
 					"fontWeight": "400"
+				}
+			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair)"
 				}
 			}
 		}

@@ -74,6 +74,13 @@
 					"fontFamily": "var(--wp--preset--font-family--merriweather)"
 				}
 			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--merriweather)"
+				}
+			}
 		}
 	}
 }

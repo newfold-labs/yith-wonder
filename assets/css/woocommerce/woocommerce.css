@@ -647,10 +647,6 @@ body.woocommerce-checkout .entry-content p:not([class^=has]),
 body.woocommerce-checkout .entry-content li:not(.product) {
   font-size: 1rem;
 }
-body.woocommerce-checkout h2, body.woocommerce-checkout h3 {
-  color: var(--wp--preset--color--contrast);
-  font-weight: 600;
-}
 body.woocommerce-checkout .col-1,
 body.woocommerce-checkout .col-2 {
   max-width: initial;
