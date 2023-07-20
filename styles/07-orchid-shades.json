@@ -26,7 +26,7 @@
 				},
 				{
 					"slug": "tertiary",
-					"color": "#908ccf",
+					"color": "#2875e2",
 					"name": "Tertiary"
 				},
 				{
@@ -161,6 +161,16 @@
 			"fontFamily": "var(--wp--preset--font-family--poppins)"
 		},
         "elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--tertiary)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--tertiary)"
+					}
+				}
+			},
             "button": {
                 "color": {
 					"background": "var(--wp--preset--color--primary)",

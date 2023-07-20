@@ -146,8 +146,12 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
   width: 100%;
 }
 
-.wc-block-grid__product.wc-block-grid__product a {
+.wc-block-grid__product.wc-block-grid__product a:hover {
   text-decoration: none;
+}
+.wc-block-grid__product.wc-block-grid__product a .wc-block-grid__product-title {
+  text-decoration: none;
+  color: var(--wp--preset--color--primary);
 }
 
 .woocommerce div.product form.cart .button {

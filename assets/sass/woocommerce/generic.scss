@@ -138,7 +138,14 @@ table.wc-block-cart-items .wc-block-cart-items__header th,
 }
 
 .wc-block-grid__product.wc-block-grid__product a {
-    text-decoration: none;
+	
+	&:hover {
+		text-decoration: none;
+	}
+	.wc-block-grid__product-title {
+		text-decoration: none;
+		color: var(--wp--preset--color--primary);
+	}	
 }
 
 .woocommerce div.product form.cart .button {
