@@ -43,6 +43,7 @@ figure.is-style-yith-wonder-image-creative-2:before{
     right: auto;
 }
 
+/* Image with shadow style */
 .is-style-yith-wonder-image-with-shadow img {
     box-shadow: 0 2px 35px rgba(0,0,0,.24);
 }
@@ -82,7 +83,7 @@ blockquote.is-style-yith-wonder-quote-with-icon {
     margin-right: 0;
 }
 
-/* Separato dashed wide style */
+/* Separator dashed wide style */
 .wp-block-separator.is-style-yith-wonder-dashed-wide-separator {
     border-width: 0 0 2px !important;
     border-style: dashed !important;
@@ -125,6 +126,7 @@ blockquote.is-style-yith-wonder-quote-with-icon {
     box-shadow: 0 2px 35px rgba(0,0,0,.24);
 }
 
+/* Cover block with unscaled background image */
 .is-style-yith-wonder-cover-unscaled-background .wp-block-cover__image-background{
     object-fit: contain;
 }
