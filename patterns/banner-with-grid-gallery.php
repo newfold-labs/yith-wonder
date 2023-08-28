@@ -35,8 +35,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:spacer {"height":"90px"} -->
-<div style="height:90px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:spacer {"height":"100px"} -->
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
 <!-- /wp:column -->
 

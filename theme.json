@@ -67,7 +67,15 @@
 		"spacing": {
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ],
 			"padding": true,
-			"margin": true
+			"margin": true,
+			"blockGap": true,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+				}
+			]
 		},
 		"layout": {
 			"contentSize": "1510px",

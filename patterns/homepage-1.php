@@ -81,7 +81,7 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"16px","right":"30px","bottom":"16px","left":"30px"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"15px","right":"30px","bottom":"15px","left":"30px"}}}} -->
 <div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong><?php echo esc_html_x( 'VIEW OUR ACCESSORIES', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
@@ -119,7 +119,7 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"16px","right":"30px","bottom":"16px","left":"30px"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"15px","right":"30px","bottom":"15px","left":"30px"}}}} -->
 <div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:16px;padding-right:30px;padding-bottom:16px;padding-left:30px"><strong><?php echo esc_html_x( 'SHOP NOW', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
