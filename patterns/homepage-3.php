@@ -75,16 +75,16 @@
 <!-- /wp:spacer -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Man', 'demo-contents', 'yith-wonder' ); ?></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","right":"30px","bottom":"var:preset|spacing|10","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:var(--wp--preset--spacing--10);padding-right:30px;padding-bottom:var(--wp--preset--spacing--10);padding-left:30px"><?php echo esc_html_x( 'Shop Man', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Shop Woman', 'demo-contents', 'yith-wonder' ); ?></a></div>
+<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","right":"30px","bottom":"var:preset|spacing|10","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:var(--wp--preset--spacing--10);padding-right:30px;padding-bottom:var(--wp--preset--spacing--10);padding-left:30px"><?php echo esc_html_x( 'Shop Woman', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"10px","right":"30px","bottom":"10px","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:10px;padding-right:30px;padding-bottom:10px;padding-left:30px"><?php echo esc_html_x( 'Accessories', 'demo-contents', 'yith-wonder' ); ?></a></div>
+<!-- wp:button {"textColor":"primary","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","right":"30px","bottom":"var:preset|spacing|10","left":"30px"}}},"className":"is-style-outline","fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size is-style-outline has-normal-font-size"><a class="wp-block-button__link has-primary-color has-text-color" href="#" style="padding-top:var(--wp--preset--spacing--10);padding-right:30px;padding-bottom:var(--wp--preset--spacing--10);padding-left:30px"><?php echo esc_html_x( 'Accessories', 'demo-contents', 'yith-wonder' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
