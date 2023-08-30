@@ -122,7 +122,7 @@
 <!-- /wp:separator -->
 
 <!-- wp:spacer {"height":"50px","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+<div style="margin-top:0;margin-bottom:0;height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
 <!-- wp:pattern {"slug":"yith-wonder/5-columns-product-categoriers-banner"} /-->
