@@ -81,8 +81,8 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"30px","bottom":"var:preset|spacing|20","left":"30px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:var(--wp--preset--spacing--20);padding-right:30px;padding-bottom:var(--wp--preset--spacing--20);padding-left:30px"><strong><?php echo esc_html_x( 'VIEW OUR ACCESSORIES', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var(--wp--preset--spacing--40)","bottom":"var:preset|spacing|20","left":"var(--wp--preset--spacing--40)"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><strong><?php echo esc_html_x( 'VIEW OUR ACCESSORIES', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -119,8 +119,8 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"30px","bottom":"var:preset|spacing|20","left":"30px"}}}} -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:var(--wp--preset--spacing--20);padding-right:30px;padding-bottom:var(--wp--preset--spacing--20);padding-left:30px"><strong><?php echo esc_html_x( 'SHOP NOW', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var(--wp--preset--spacing--40)","bottom":"var:preset|spacing|20","left":"var(--wp--preset--spacing--40)"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link" href="#" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--40)"><strong><?php echo esc_html_x( 'SHOP NOW', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons -->
 
@@ -180,7 +180,7 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 
 <!-- wp:column {"width":"66%","className":"animate-fade-left","layout":{"inherit":true}} -->
 <div class="wp-block-column animate-fade-left" style="flex-basis:66%"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg","dimRatio":80,"overlayColor":"primary","minHeight":100,"minHeightUnit":"%"} -->
-<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"30px"}}} -->
+<div class="wp-block-cover" style="min-height:100%"><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-1/Intersection-1@2x.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"blockGap":"var(--wp--preset--spacing--40)"}}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":50,"fontStyle":"normal","fontWeight":"700","lineHeight":1.2}},"textColor":"base"} -->
 <p class="has-text-align-center has-base-color has-text-color" style="font-size:50px;font-style:normal;font-weight:700;line-height:1.2"><?php echo wp_kses_post( _x( 'SAVE 20% IN<br>MAN CLOTHING', 'demo-contents', 'yith-wonder' ) ); ?></p>
 <!-- /wp:paragraph -->

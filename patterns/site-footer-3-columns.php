@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"35px"}},"layout":{"inherit":true}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"inherit":true}} -->
 <div class="wp-block-group">
 	<!-- wp:spacer {"height":"10px"} -->
 	<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>

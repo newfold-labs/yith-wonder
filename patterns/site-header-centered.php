@@ -13,7 +13,7 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"backgroundColor":"header-background","textColor":"header-foreground","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull has-header-foreground-color has-header-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var(--wp--preset--spacing--40)"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 	<div class="wp-block-group">
 		<?php if ( class_exists( 'woocommerce' ) ) : ?>
 		<!-- wp:pattern {"slug":" yith-wonder/my-account-icon"} /-->

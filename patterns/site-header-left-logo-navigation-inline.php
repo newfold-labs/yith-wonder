@@ -11,11 +11,11 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"30px","bottom":"30px"}}},"backgroundColor":"header-background","textColor":"header-foreground","layout":{"inherit":true}} -->
-<div class="wp-block-group alignfull has-header-foreground-color has-header-background-background-color has-text-color has-background" style="padding-top:30px;padding-bottom:30px">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--preset--spacing--40)","bottom":"var(--wp--preset--spacing--40)"}}},"backgroundColor":"header-background","textColor":"header-foreground","layout":{"inherit":true}} -->
+<div class="wp-block-group alignfull has-header-foreground-color has-header-background-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"50px"}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<!-- wp:group {"style":{"spacing":{"blockGap":"var(--wp--preset--spacing--40)"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":150} /-->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
@@ -27,9 +27,9 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:navigation {"textColor":"header-foreground","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"spacing":{"blockGap":"30px"}},"fontSize":"x-small"} /-->
+		<!-- wp:navigation {"textColor":"header-foreground","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"600"},"spacing":{"blockGap":"var(--wp--preset--spacing--40)"}},"fontSize":"x-small"} /-->
 
-		<!-- wp:group {"style":{"spacing":{"blockGap":"30px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+		<!-- wp:group {"style":{"spacing":{"blockGap":"var(--wp--preset--spacing--40)"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 		<div class="wp-block-group">
 			<?php if ( class_exists( 'woocommerce' ) ) : ?>
 			<!-- wp:pattern {"slug":"yith-wonder/my-account-icon"} /-->

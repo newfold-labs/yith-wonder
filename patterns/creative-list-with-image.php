@@ -18,8 +18,8 @@
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
 		<div class="wp-block-columns are-vertically-aligned-center" style="padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px">
-		<!-- wp:column {"verticalAlignment":"center","width":"45%","style":{"spacing":{"padding":{"top":"0px","right":"40px","bottom":"0px","left":"20px"}}},"className":"animated fadeIn","layout":{"inherit":false}} -->
-		<div class="wp-block-column is-vertically-aligned-center animated fadeIn" style="padding-top:0px;padding-right:40px;padding-bottom:0px;padding-left:20px;flex-basis:45%">
+		<!-- wp:column {"verticalAlignment":"center","width":"45%","style":{"spacing":{"padding":{"top":"0px","right":"var:preset|spacing|40","bottom":"0px","left":"20px"}}},"className":"animated fadeIn","layout":{"inherit":false}} -->
+		<div class="wp-block-column is-vertically-aligned-center animated fadeIn" style="padding-top:0px;padding-right:var(--wp--preset--spacing--40);padding-bottom:0px;padding-left:20px;flex-basis:45%">
 		<!-- wp:image {"align":"center","sizeSlug":"large","linkDestination":"none","className":"is-style-yith-wonder-image-creative"} -->
 		<figure class="wp-block-image aligncenter size-large is-style-yith-wonder-image-creative"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-3/yellow-woman.jpg" alt=""/></figure>
 		<!-- /wp:image -->
