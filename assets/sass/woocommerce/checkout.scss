@@ -121,7 +121,7 @@ body.woocommerce-checkout {
 				position: relative;
 
 				&.woocommerce-notice {
-					padding: 1em 2em 1em 3.5em !important;
+					padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40) var(--wp--preset--spacing--20) var(--wp--preset--spacing--50) !important;
 				}
 
 				.radiobutton {
@@ -198,8 +198,8 @@ body.woocommerce-order-received {
 		border-width: 0 0 0 3px;
 		color: #515151;
 		list-style: none outside;
-		margin: 0 0 2em;
-		padding: 1em 2em 1em 3.5em;
+		margin: 0 0 var(--wp--preset--spacing--40);
+		padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40) var(--wp--preset--spacing--20) var(--wp--preset--spacing--50);
 		position: relative;
 		width: auto;
 		word-wrap: break-word;

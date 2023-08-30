@@ -40,8 +40,8 @@
   }
   body.single-post main > .wp-block-group,
   body.single-post main > .wp-block-group .vertical-overlap {
-    padding-left: 1rem !important;
-    padding-right: 1rem !important;
+    padding-left: var(--wp--preset--spacing--20) !important;
+    padding-right: var(--wp--preset--spacing--20) !important;
   }
   .wp-block-post-featured-image + .wp-block-group {
     padding-left: 0 !important;

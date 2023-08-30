@@ -1,1 +1,1 @@
-p.has-background{padding:.5em 1.25em}
+p.has-background{padding:var(--wp--preset--spacing--10) var(--wp--preset--spacing--30)}

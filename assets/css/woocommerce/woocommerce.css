@@ -278,7 +278,7 @@ Responsive
   }
   .wc-block-product-search .wc-block-product-search__button {
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: var(--wp--preset--spacing--20);
   }
 }
 @media (max-width: 782px) {
@@ -320,8 +320,8 @@ Responsive
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: var(--wp--preset--spacing--40);
+  margin-top: var(--wp--preset--spacing--40);
 }
 .woocommerce-page ul.products li.product .woocommerce-loop-product__title {
   font-size: var(--wp--preset--font-size--small);
@@ -393,7 +393,7 @@ Responsive
 }
 
 .woocommerce-product-details__short-description {
-  margin-bottom: 2em;
+  margin-bottom: var(--wp--preset--spacing--40);
 }
 
 .variations_form .variations th, .variations_form .variations td {
@@ -438,7 +438,7 @@ Responsive
   padding: var(--wp--preset--spacing--40) 0 var(--wp--preset--spacing--50);
 }
 .woocommerce div.product .woocommerce-tabs .panel h2:first-of-type {
-  margin-bottom: 1em;
+  margin-bottom: var(--wp--preset--spacing--20);
   margin-top: 0;
 }
 .woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews-title {
@@ -613,7 +613,7 @@ body.woocommerce-cart .variation dt {
 }
 body.woocommerce-cart .variation dd {
   font-size: 0.875em;
-  margin: 0 0 1em;
+  margin: 0 0 var(--wp--preset--spacing--10);
 }
 body.woocommerce-cart .cross-sells {
   clear: both;
@@ -742,7 +742,7 @@ body.woocommerce-checkout #payment ul li {
   position: relative;
 }
 body.woocommerce-checkout #payment ul li.woocommerce-notice {
-  padding: 1em 2em 1em 3.5em !important;
+  padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40) var(--wp--preset--spacing--20) var(--wp--preset--spacing--50) !important;
 }
 body.woocommerce-checkout #payment ul li .radiobutton {
   pointer-events: none;
@@ -797,8 +797,8 @@ body.woocommerce-order-received .woocommerce-thankyou-order-received {
   border-width: 0 0 0 3px;
   color: #515151;
   list-style: none outside;
-  margin: 0 0 2em;
-  padding: 1em 2em 1em 3.5em;
+  margin: 0 0 var(--wp--preset--spacing--40);
+  padding: var(--wp--preset--spacing--20) var(--wp--preset--spacing--40) var(--wp--preset--spacing--20) var(--wp--preset--spacing--50);
   position: relative;
   width: auto;
   word-wrap: break-word;

@@ -106,7 +106,7 @@ body.woocommerce-cart {
 	}
 	.variation dd {
 		font-size: 0.875em;
-		margin: 0 0 1em;
+		margin: 0 0 var(--wp--preset--spacing--10);
 	}
 
 	.cross-sells {

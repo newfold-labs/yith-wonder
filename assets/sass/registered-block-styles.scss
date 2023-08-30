@@ -94,7 +94,7 @@ blockquote.is-style-yith-wonder-quote-with-icon {
 /* Latest posts boxed style */
 .wp-block-latest-posts.is-style-yith-wonder-latest-posts-boxed {
     > li {
-        padding: 1.5rem;
+        padding: var(--wp--preset--spacing--30);
         background: var(--wp--preset--color--base);
         box-sizing: border-box;
         box-shadow: 0 2px 35px rgba(0,0,0,.24);

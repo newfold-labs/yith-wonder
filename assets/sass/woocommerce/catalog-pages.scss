@@ -24,8 +24,8 @@
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 2rem;
-	margin-top: 2rem;
+	margin-bottom: var(--wp--preset--spacing--40);
+	margin-top: var(--wp--preset--spacing--40);
 
 	.woocommerce-loop-product__title {
 		font-size: var(--wp--preset--font-size--small);
