@@ -35,8 +35,8 @@
 
 	<!-- wp:column {"verticalAlignment":"bottom","width":"50%","className":"negative-left-margin"} -->
 	<div class="wp-block-column is-vertically-aligned-bottom negative-left-margin" style="flex-basis:50%">
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"60px","right":"60px","bottom":"60px","left":"60px"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"backgroundColor":"secondary-background","textColor":"secondary-foreground","fontSize":"x-large"} -->
-		<div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background has-x-large-font-size" style="padding-top:60px;padding-right:60px;padding-bottom:60px;padding-left:60px;font-style:normal;font-weight:700">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"backgroundColor":"secondary-background","textColor":"secondary-foreground","fontSize":"x-large"} -->
+		<div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background has-x-large-font-size" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60);font-style:normal;font-weight:700">
 			<!-- wp:paragraph -->
 			<p><?php echo esc_html_x( '“Here I can find original items, low prices without to lose quality or sustainability. Love it!“', 'demo-contents', 'yith-wonder' ); ?></p>
 			<!-- /wp:paragraph -->
