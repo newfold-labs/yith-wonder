@@ -170,11 +170,11 @@ Tables
 	border: none;
 
 	th {
-		padding: 30px 15px;
+		padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--20);
 	}
 	tbody {
 		td {
-			padding: 30px 15px;
+			padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--20);
 		}
 		.product-name {
 			a {
@@ -215,7 +215,7 @@ Tables
 			display: flex;
 			flex-direction: row;
 			flex-wrap: wrap;
-			gap: 15px;
+			gap: var(--wp--preset--spacing--20);
 		}
 
 		td.actions .coupon .input-text {

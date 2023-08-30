@@ -51,6 +51,5 @@ main .entry-content .wp-block-columns.alignfull p,
 .sidebar .entry-content > :not(.alignfull),
 .sidebar .entry-content .wp-block-columns.alignfull p,
 footer > .wp-block-group {
-	padding-left: 2.375rem;
-	padding-right: 2.375rem;
+	padding-inline: var(--wp--preset--spacing--40);
 }

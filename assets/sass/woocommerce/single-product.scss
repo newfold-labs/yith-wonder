@@ -26,7 +26,7 @@
 
 .woocommerce div.product div.images {
 	.flex-control-thumbs li {
-		padding: 15px;
+		padding: var(--wp--preset--spacing--20);
 	}
 }
 
@@ -49,7 +49,7 @@
 
 	ul.tabs {
 		margin: 0;
-		padding: 0 30px 0 0;
+		padding: 0 var(--wp--preset--spacing--40) 0 0;
 
 		&:before, 
 		&:after {
@@ -85,7 +85,7 @@
 
 	.panel {
 		border-bottom: 4px solid #f2f2f2;
-		padding: 35px 0 50px;
+		padding: var(--wp--preset--spacing--40) 0 var(--wp--preset--spacing--50);
 
 		h2:first-of-type {
 			margin-bottom: 1em;
@@ -99,7 +99,7 @@
 		table.shop_attributes {
 			border-collapse: collapse;
 			th {
-				padding-right: 35px;
+				padding-right: var(--wp--preset--spacing--40);
 				text-align: left;
 				vertical-align: top;
 				white-space: nowrap;

@@ -26,7 +26,7 @@ body.woocommerce-checkout {
 
 	#customer_details {
 		background: #f7f7f7;
-		padding: 35px 30px;
+		padding: var(--wp--preset--spacing--40);
 
 		.col-1, .col-2 {
 			float: none;
@@ -36,7 +36,7 @@ body.woocommerce-checkout {
 
 	#order_review {
 		margin-right: 0;
-		padding-left: 30px;
+		padding-left: var(--wp--preset--spacing--40);
 
 		#payment {
 			background: transparent;
@@ -62,13 +62,13 @@ body.woocommerce-checkout {
 
 	.order_review_inner {
 		border: 1px solid #313131;
-		padding: 35px 30px 50px;
+		padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--40) var(--wp--preset--spacing--50);
 	}
 
 	table.woocommerce-checkout-review-order-table {
 		th {
 			border: none;
-			padding: 15px 0;
+			padding: var(--wp--preset--spacing--20) 0;
 			text-align: left;
 		}
 
@@ -78,7 +78,7 @@ body.woocommerce-checkout {
 
 		td {
 			border: none;
-			padding: 15px 0;
+			padding: var(--wp--preset--spacing--20) 0;
 		}
 
 		.product-total {
@@ -87,18 +87,18 @@ body.woocommerce-checkout {
 
 		tbody tr:last-child td {
 			border-bottom: 1px solid #ebebeb;
-			padding-bottom: 35px;
+			padding-bottom: var(--wp--preset--spacing--40);
 		}
 
 		tfoot tr:first-child td,
 		tfoot tr:first-child th {
-			padding-top: 35px;
+			padding-top: var(--wp--preset--spacing--40);
 		}
 
 		tfoot th {
 			background: none;
 			border: none;
-			padding-right: 15px;
+			padding-right: var(--wp--preset--spacing--20);
 		}
 
 		tfoot td {
@@ -116,8 +116,8 @@ body.woocommerce-checkout {
 			border: none;
 
 			li {
-				margin-bottom: 15px;
-				padding: 10px 0;
+				margin-bottom: var(--wp--preset--spacing--20);
+				padding: var(--wp--preset--spacing--10) 0;
 				position: relative;
 
 				&.woocommerce-notice {
@@ -144,7 +144,7 @@ body.woocommerce-checkout {
 						a {
 							font-size: 80%;
 							font-weight: lighter;
-							margin-left: 15px;
+							margin-left: var(--wp--preset--spacing--20);
 						}
 					}
 				}
@@ -163,7 +163,7 @@ body.woocommerce-checkout {
 			font-weight: bold;
 			margin-bottom: var(--wp--custom--vertical-spacing);
 			outline: none;
-			padding: 22px 35px 21px;
+			padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40) var(--wp--preset--spacing--30);
 			text-transform: uppercase;
 			width: 100%;
 		}
@@ -175,7 +175,7 @@ body.woocommerce-checkout {
 
 	.woocommerce-terms-and-conditions-wrapper {
 		p {
-			margin-bottom: 30px;
+			margin-bottom: var(--wp--preset--spacing--40);
 			padding: 0;
 		}
 	}
@@ -222,7 +222,7 @@ body.woocommerce-order-received {
 	body.woocommerce-checkout #order_review,
 	body.woocommerce-checkout h3#order_review_heading {
 		margin-right: 0;
-		padding-left: 30px;
+		padding-left: var(--wp--preset--spacing--40);
 		display: initial;
 	}
 }

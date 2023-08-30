@@ -12,7 +12,7 @@ html:not(.has-modal-open) {
     }
     
     .wp-block-navigation__container > li> ul.wp-block-navigation__submenu-container {
-        margin-top: 15px;
+        margin-top: var(--wp--preset--spacing--20);
 
         &:before {
             content: "";

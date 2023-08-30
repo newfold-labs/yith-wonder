@@ -8,14 +8,14 @@ body.woocommerce-cart {
 	}
 
     form.woocommerce-cart-form {
-        margin-bottom: 35px;
+        margin-bottom: var(--wp--preset--spacing--40);
     }
 	.cart-collaterals {
-        margin-bottom: 35px;
+        margin-bottom: var(--wp--preset--spacing--40);
 
 		.cart_totals {
 			background: #f7f7f7;
-            padding: 30px;
+            padding: var(--wp--preset--spacing--40);
 			position: relative;
             width: 100%;
 
@@ -25,7 +25,7 @@ body.woocommerce-cart {
 
 			table {
                 border: none;
-				margin-bottom: 50px;
+				margin-bottom: var(--wp--preset--spacing--50);
 
 				td,
 				th {
@@ -65,7 +65,7 @@ body.woocommerce-cart {
 					clear: both;
 					font-size: 0.875rem;
 					line-height: normal;
-					margin-bottom: 50px;
+					margin-bottom: var(--wp--preset--spacing--50);
 
 					.amount {
 						font-weight: normal;
@@ -120,9 +120,9 @@ body.woocommerce-cart {
             box-sizing: border-box;
             display: inline-block;
             float: left;
-            margin-bottom: 35px;
-            padding-right: 30px;
-            padding-right: 30px;
+            margin-bottom: var(--wp--preset--spacing--40);
+            padding-right: var(--wp--preset--spacing--40);
+            padding-right: var(--wp--preset--spacing--40);
             width: 60%;
         }
     
@@ -130,7 +130,7 @@ body.woocommerce-cart {
             box-sizing: border-box;
             display: inline-block;
             float: left;
-            margin-bottom: 35px;
+            margin-bottom: var(--wp--preset--spacing--40);
             width: 40%;
     
             .cart_totals {

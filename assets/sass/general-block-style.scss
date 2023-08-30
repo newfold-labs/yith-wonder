@@ -68,11 +68,11 @@ header.wp-block-template-part + main {
 @media (min-width: 1200px) {
 	.wp-block-post-template.is-flex-container,
 	.wp-block-query-loop.is-flex-container {
-		gap: 120px;
+		gap: var(--wp--preset--spacing--90);
 	}
 	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
 	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
-		width: calc((100% / 2) - 120px + (120px / 2));
+		width: calc((100% / 2) - var(--wp--preset--spacing--90) + (var(--wp--preset--spacing--90) / 2));
 	}
 }
 
@@ -225,12 +225,13 @@ img {
 	&.alignleft {
 		display: inline;
 		float: left;
-		margin-right: 30px; }
+		margin-right: var(--wp--preset--spacing--40);
+	}
 	
 	&.alignright {
 		display: inline;
 		float: right;
-		margin-left: 30px;
+		margin-left: var(--wp--preset--spacing--40);
 	}
 	
 	&.aligncenter {
