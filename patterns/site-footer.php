@@ -17,7 +17,7 @@
 	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:columns {"style":{"spacing":{"blockGap":"50px"}}} -->
+	<!-- wp:columns {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
 	<div class="wp-block-columns">
 		<!-- wp:column -->
 		<div class="wp-block-column">

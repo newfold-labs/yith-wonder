@@ -32,8 +32,8 @@ padding-top:0px;padding-bottom:0px"><!-- wp:spacer {"height":"50px"} -->
 <!-- /wp:spacer -->
 
 <!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"header-titles","textColor":"header-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"50px","bottom":"var:preset|spacing|20","left":"50px"}}},"fontSize":"normal"} -->
-<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-header-background-color has-header-titles-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:50px;padding-bottom:var(--wp--preset--spacing--20);padding-left:50px"><strong><?php echo esc_html_x( 'Shop now', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"header-titles","textColor":"header-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","right":"var:preset|spacing|50","bottom":"var:preset|spacing|20","left":"var:preset|spacing|50"}}},"fontSize":"normal"} -->
+<div class="wp-block-button has-custom-font-size has-normal-font-size"><a class="wp-block-button__link has-header-background-color has-header-titles-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--50)"><strong><?php echo esc_html_x( 'Shop now', 'demo-contents', 'yith-wonder' ); ?></strong></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column -->

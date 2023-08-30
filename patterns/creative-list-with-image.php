@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg","dimRatio":90,"customOverlayColor":"#e3efed","isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"50px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<div class="wp-block-cover alignfull is-light" style="padding-top:50px;padding-right:0px;padding-bottom:0px;padding-left:0px">
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg","dimRatio":90,"customOverlayColor":"#e3efed","isDark":false,"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"0px","bottom":"0px","left":"0px"}}}} -->
+<div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--50);padding-right:0px;padding-bottom:0px;padding-left:0px">
 	<span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim" style="background-color:#e3efed"></span>
 	<img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/home-3/pattern-bg.jpg" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
