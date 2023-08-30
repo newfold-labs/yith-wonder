@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:columns {"style":{"spacing":{"blockGap":"140px"}}} -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":"var:preset|spacing|90"}}} -->
 <div class="wp-block-columns">
 	<!-- wp:column -->
 	<div class="wp-block-column">
