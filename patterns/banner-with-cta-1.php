@@ -20,14 +20,14 @@
 		<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 
-		<!-- wp:columns {"style":{"spacing":{"padding":{"top":"100px","right":"100px","bottom":"0px","left":"100px"},"blockGap":"100px"}}} -->
-		<div class="wp-block-columns" style="padding-top:100px;padding-right:100px;padding-bottom:0px;padding-left:100px"><!-- wp:column -->
+		<!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"0px","left":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|80"}}} -->
+		<div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:0px;padding-left:var(--wp--preset--spacing--80)"><!-- wp:column -->
 		<div class="wp-block-column"></div>
 		<!-- /wp:column -->
 
 		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"100px","left":"var:preset|spacing|50"}}},"backgroundColor":"tertiary","textColor":"base"} -->
-		<div class="wp-block-group has-base-color has-tertiary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:100px;padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+		<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50"}}},"backgroundColor":"tertiary","textColor":"base"} -->
+		<div class="wp-block-group has-base-color has-tertiary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
 		<h2 class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'BUILD YOUR CAPSULE WARDROBE', 'demo-contents', 'yith-wonder' ); ?></h2>
 		<!-- /wp:heading -->
 

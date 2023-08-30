@@ -20,7 +20,7 @@
 <div style="height:130px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":"80px"}}} -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"large"} -->
 <h2 class="has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x( 'Bringing value between different brands', 'demo-contents', 'yith-wonder' ); ?></h2>

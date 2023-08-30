@@ -17,7 +17,7 @@
 	<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":"100px"}}} -->
+	<!-- wp:columns {"verticalAlignment":null,"style":{"spacing":{"blockGap":"var:preset|spacing|80"}}} -->
 	<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center"} -->
 	<div class="wp-block-column is-vertically-aligned-center"><!-- wp:site-logo {"width":280} /--></div>
 	<!-- /wp:column -->
