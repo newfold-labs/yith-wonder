@@ -642,7 +642,7 @@ body.woocommerce-cart .cross-sells {
   }
 }
 /*--------------------------------------------------------------
-# Cart
+# Checkout
 --------------------------------------------------------------*/
 /**
  * Checkout
@@ -821,4 +821,32 @@ body.woocommerce-order-received .woocommerce-thankyou-order-received {
     padding-left: var(--wp--preset--spacing--40);
     display: initial;
   }
+}
+/*--------------------------------------------------------------
+# Thankyou
+--------------------------------------------------------------*/
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] {
+  max-width: 960px !important;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] h1 {
+  text-align: center;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] .woocommerce-order {
+  padding: 2rem;
+  max-width: 960px;
+  margin-inline: auto;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] .woocommerce-order ul.woocommerce-order-overview {
+  list-style-type: none;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] .woocommerce-order ul.woocommerce-order-overview strong {
+  display: block;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] .woocommerce-order th {
+  text-align: initial;
+}
+div[data-template=order-confirmation][data-block-name="woocommerce/legacy-template"] .woocommerce-order address {
+  padding: 0;
 }
