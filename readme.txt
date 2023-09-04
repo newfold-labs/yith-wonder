@@ -200,3 +200,6 @@ https://production.openverse.org/image/d912bf4f-3a9c-48ad-af5f-4be88b07445c - "S
 https://production.openverse.org/image/02530128-7a1a-427f-92fc-2444935999ac - "File:Carmen Diamond engagement ring platinum by 1791 Diamond.jpg" by 1791Rings is licensed under CC BY-SA 3.0.
 https://production.openverse.org/image/54db43e4-49cb-4778-a13e-10891eea80d2 - "Jewelry ring" by Gnilenkov Aleksey is licensed under CC BY 2.0.
 https://production.openverse.org/image/5bc41861-f990-4c2a-b561-daec118dd769 - "Shapeways 3D Printed Silver Ring" by Shapeways: is licensed under CC BY-NC-ND 2.0.
+https://pxhere.com/it/photo/1629588
+https://pxhere.com/it/photo/791903
+https://pxhere.com/it/photo/1456485
