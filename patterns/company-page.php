@@ -92,8 +92,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom","width":"33.33%","className":"negative-left-margin"} -->
-<div class="wp-block-column is-vertically-aligned-bottom negative-left-margin" style="flex-basis:33.33%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"backgroundColor":"secondary-background","textColor":"secondary-foreground","fontSize":"x-large"} -->
-<div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background has-x-large-font-size" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60);font-style:normal;font-weight:700"><!-- wp:paragraph -->
+<div class="wp-block-column is-vertically-aligned-bottom negative-left-margin" style="flex-basis:33.33%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:custom|xl-spacing","right":"var:custom|xl-spacing","bottom":"var:custom|xl-spacing","left":"var:custom|xl-spacing"}},"typography":{"fontStyle":"normal","fontWeight":"700"}},"backgroundColor":"secondary-background","textColor":"secondary-foreground","fontSize":"x-large"} -->
+<div class="wp-block-group has-secondary-foreground-color has-secondary-background-background-color has-text-color has-background has-x-large-font-size" style="padding-top:var(--wp--custom--xl-spacing);padding-right:var(--wp--custom--xl-spacing);padding-bottom:var(--wp--custom--xl-spacing);padding-left:var(--wp--custom--xl-spacing);font-style:normal;font-weight:700"><!-- wp:paragraph -->
 <p><?php echo esc_html_x( '“Here I can find original items, low prices without to lose quality or sustainability. Love it!“', 'demo-contents', 'yith-wonder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
@@ -104,7 +104,7 @@
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":"var:preset|spacing|90"}}} -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":"var:custom|4xl-spacing"}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/demo-content/company/high-quality.svg" alt=""/></figure>
