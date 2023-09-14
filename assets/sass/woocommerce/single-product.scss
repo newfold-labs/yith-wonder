@@ -21,10 +21,20 @@
 	& > * {
 		display: block;
 	}
-} 
+}
 
+.woocommerce .wp-block-woocommerce-product-image-gallery {
+    max-width: 600px;
+}
 
 .woocommerce div.product div.images {
+
+	.flex-control-thumbs {
+		margin-inline: calc(-1 * var(--wp--preset--spacing--20));
+		margin-block-start: var(--wp--preset--spacing--20);
+	}
+
+
 	.flex-control-thumbs li {
 		padding: var(--wp--preset--spacing--20);
 	}
