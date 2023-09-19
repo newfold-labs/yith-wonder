@@ -22,17 +22,46 @@
 }
 
 /* WooCommerce blocks */
-.wc-block-components-totals-wrapper::after,
-.is-large.wc-block-cart .wc-block-cart-items::after,
-.is-large.wc-block-cart .wc-block-cart-items td::after {
-	border-width: 0;
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input, 
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input,
+.wc-block-components-form .wc-block-components-text-input input[type=email], 
+.wc-block-components-form .wc-block-components-text-input input[type=number], 
+.wc-block-components-form .wc-block-components-text-input input[type=tel], 
+.wc-block-components-form .wc-block-components-text-input input[type=text], 
+.wc-block-components-form .wc-block-components-text-input input[type=url], 
+.wc-block-components-text-input input[type=email], 
+.wc-block-components-text-input input[type=number], 
+.wc-block-components-text-input input[type=tel], 
+.wc-block-components-text-input input[type=text], 
+.wc-block-components-text-input input[type=url] {
+	border-color: var(--wp--custom--input-border-color);
+}
+.is-large.wc-block-cart .wc-block-cart-items {
+	border-collapse: collapse;
+
+	td {
+		vertical-align: middle;
+
+		&:after {
+			border-color: var(--wp--custom--input-border-color);
+		}
+	}
+
+	input[type=number] {
+		min-height: 0;
+	}
+
+	&:after {
+		border-color: var(--wp--custom--input-border-color);
+	}
 }
 
-table.wc-block-cart-items .wc-block-cart-items__header th,
-.is-large.wc-block-cart .wc-block-cart__totals-title {
-	font-size: var(--wp--preset--font-size--medium);
-	font-weight: 600;
-	text-transform: initial;
+.wc-block-components-totals-wrapper:after {
+	border-color: var(--wp--custom--input-border-color);
+}
+
+.wc-block-cart__submit-button {
+	padding-block: var(--wp--preset--spacing--20);
 }
 
 .wc-block-grid.has-3-columns:not(.alignwide):not(.alignfull) {
@@ -225,6 +254,10 @@ Tables
 
 .woocommerce form .form-row .input-checkbox {
     display: inline-block;
+}
+
+.wc-block-components-quantity-selector:after {
+	border-color: var(--wp--custom--input-border-color);
 }
 
 /**
