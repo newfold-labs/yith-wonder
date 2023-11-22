@@ -783,9 +783,9 @@
 			"colum-negative-horizontal-margin": "-100px",
 			"single-post-feature-image-orverlap-vertical-margin": "-250px",
 			"vertical-spacing": "1.25rem",
-			"3xs-spacing": "clamp(0.19rem, calc(0.14rem + 0.24vw), 0.31rem)",
+			"3-xs-spacing": "clamp(0.19rem, calc(0.14rem + 0.24vw), 0.31rem)",
 			"xl-spacing": "clamp(2.5rem, calc(2.01rem + 2.44vw), 3.75rem)",
-			"4xl-spacing": "clamp(5.63rem, calc(4.41rem + 6.1vw), 8.75rem)"
+			"4-xl-spacing": "clamp(5.63rem, calc(4.41rem + 6.1vw), 8.75rem)"
 
 		}
 	},

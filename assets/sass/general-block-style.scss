@@ -68,11 +68,11 @@ header.wp-block-template-part + main {
 @media (min-width: 1200px) {
 	.wp-block-post-template.is-flex-container,
 	.wp-block-query-loop.is-flex-container {
-		gap: var(--wp--custom--4xl-spacing);
+		gap: var(--wp--custom--4-xl-spacing);
 	}
 	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
 	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
-		width: calc((100% / 2) - var(--wp--custom--4xl-spacing) + (var(--wp--custom--4xl-spacing) / 2));
+		width: calc((100% / 2) - var(--wp--custom--4-xl-spacing) + (var(--wp--custom--4-xl-spacing) / 2));
 	}
 }
 
