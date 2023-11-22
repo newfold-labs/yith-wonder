@@ -1,4 +1,5 @@
-:root {
-    --wp--preset--color--background: #fff;
-    --wp--preset--color--foreground: #404040;
+body {
+    --wp--preset--color--background: var(--wp--preset--color--base);
+    --wp--preset--color--foreground: var(--wp--preset--color--contrast);
+    --wp--preset--spacing--60: var(--wp--preset--spacing--50);
 }
