@@ -66,9 +66,6 @@
 		},
 		"spacing": {
 			"units": [ "px", "em", "rem", "vh", "vw", "%" ],
-			"padding": true,
-			"margin": true,
-			"blockGap": true,
 			"spacingScale": {
 				"steps": 0
 			},
@@ -115,7 +112,6 @@
 			"wideSize": "1800px"
 		},
 		"typography": {
-			"dropCap": true,
 			"fluid": true,
 			"fontFamilies": [
 				{
@@ -767,12 +763,6 @@
 					"slug": "huge"
 				}
 			]
-		},
-		"border": {
-			"color": true,
-			"radius": true,
-			"style": true,
-			"width": true
 		},
 		"custom": {
 			"input-border-color": "rgba(0, 0, 0, 0.2)",
