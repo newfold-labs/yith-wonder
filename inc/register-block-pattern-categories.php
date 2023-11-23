@@ -49,6 +49,6 @@ function yith_wonder_register_block_pattern_category() {
 		'yith-wonder-utilities',
 		array( 'label' => esc_html__( 'Wonder - Utilities', 'yith-wonder' ) )
 	);
-
 }
+
 add_action( 'init', 'yith_wonder_register_block_pattern_category', 5 );

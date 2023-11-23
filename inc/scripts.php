@@ -81,7 +81,6 @@ if ( ! function_exists( 'yith_wonder_theme_setup' ) ) {
 			);
 			wp_enqueue_block_style( 'core/' . $block_name, $args );
 		}
-
 	}
 	add_action( 'after_setup_theme', 'yith_wonder_theme_setup' );
 }

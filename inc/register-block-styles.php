@@ -98,7 +98,6 @@ function yith_wonder_register_block_styles() {
 			'label' => esc_html__( 'Unscaled background', 'yith-wonder' ),
 		)
 	);
-
 }
 
 add_action( 'init', 'yith_wonder_register_block_styles' );
