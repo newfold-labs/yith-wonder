@@ -44,7 +44,7 @@
 					<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer -->
 
-					<!-- wp:post-excerpt {"moreText":"<?php echo esc_attr_e( 'READ MORE →', 'yith-wonder' ); ?>","textColor":"contrast","fontSize":"small"} /-->
+					<!-- wp:post-excerpt {"moreText":"<?php echo esc_attr_e( 'READ MORE', 'yith-wonder' ); ?> <span aria-hidden='true'>→</span>","textColor":"contrast","fontSize":"small"} /-->
 				</div>
 				<!-- /wp:group -->
 				</div>
