@@ -18,8 +18,8 @@
 	<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"120px"}}} -->
-	<h1 class="has-text-align-center" style="font-size:120px">4🙃4</h1>
+	<!-- wp:heading {"textAlign":"center","level":2,"style":{"typography":{"fontSize":"120px"}}} -->
+	<h2 class="has-text-align-center" style="font-size:120px">4🙃4</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:heading {"textAlign":"center","level":2,"fontSize":"huge"} -->
