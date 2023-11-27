@@ -23,9 +23,10 @@
 	<!-- /wp:column -->
 
 	<!-- wp:column {"verticalAlignment":"top","layout":{"inherit":true}} -->
-	<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":3,"textColor":"secondary"} -->
-	<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'About us', 'demo contents', 'yith-wonder' ); ?></h3>
-	<!-- /wp:heading -->
+	<div class="wp-block-column is-vertically-aligned-top">
+		<!-- wp:heading {"level":2,"textColor":"secondary","fontSize":"normal"} -->
+		<h2 class="wp-block-heading has-secondary-color has-text-color has-normal-font-size"><?php echo esc_html_x( 'About us', 'demo contents', 'yith-wonder' ); ?></h2>
+		<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"fontSize":"small"} -->
 	<p class="has-small-font-size"><?php echo esc_html_x( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tincidunt tortor in bibendum. Phasellus tellus elit, placerat et orci id, commodo finibus tortor.', 'demo contents', 'yith-wonder' ); ?></p>
@@ -33,9 +34,10 @@
 	<!-- /wp:column -->
 
 	<!-- wp:column {"verticalAlignment":"top"} -->
-	<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"level":3,"textColor":"secondary"} -->
-	<h3 class="has-secondary-color has-text-color"><?php echo esc_html_x( 'Customer service', 'demo contents', 'yith-wonder' ); ?></h3>
-	<!-- /wp:heading -->
+	<div class="wp-block-column is-vertically-aligned-top">
+		<!-- wp:heading {"level":2,"textColor":"secondary","fontSize":"normal"} -->
+		<h2 class="wp-block-heading has-secondary-color has-text-color has-normal-font-size"><?php echo esc_html_x( 'Customer service', 'demo contents', 'yith-wonder' ); ?></h2>
+		<!-- /wp:heading -->
 
 	<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"spacing":{"blockGap":"0px"}},"fontSize":"small"} /--></div>
 	<!-- /wp:column --></div>
