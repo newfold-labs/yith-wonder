@@ -20,7 +20,7 @@
 			<!-- wp:site-logo {"width":150} /-->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
-				<!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|header-foreground"}}}}} /-->
+				<!-- wp:site-title {"level":0,"style":{"elements":{"link":{"color":{"text":"var:preset|color|header-foreground"}}}}} /-->
 				<!-- wp:site-tagline /-->
 			</div>
 			<!-- /wp:group -->

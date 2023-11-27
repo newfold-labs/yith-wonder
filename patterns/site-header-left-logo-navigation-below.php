@@ -22,7 +22,7 @@
 			<div class="wp-block-group">
 				<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical"}} -->
 				<div class="wp-block-group">
-					<!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|header-titles"}}}},"textColor":"header-titles"} /-->
+					<!-- wp:site-title {"level":0,"style":{"elements":{"link":{"color":{"text":"var:preset|color|header-titles"}}}},"textColor":"header-titles"} /-->
 				</div>
 				<!-- /wp:group -->
 
