@@ -413,7 +413,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">9101 InternationalOrlando - Florida32819 (407) 370-4392</p>
+<p class="has-small-font-size">9101 International - Orlando - Florida - 32819 (407) 370-4392</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -423,7 +423,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Aattokatu 16 104Nadjaharju - Uusimaa18374</p>
+<p class="has-small-font-size">Aattokatu 16 104 - Nadjaharju - Uusimaa - 18374</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -445,7 +445,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">9101 InternationalOrlando - Florida32819 (407) 370-4392</p>
+<p class="has-small-font-size">9101 International - Orlando - Florida - 32819 (407) 370-4392</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -455,7 +455,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"fontSize":"small"} -->
-<p class="has-small-font-size">Aattokatu 16 104Nadjaharju - Uusimaa18374</p>
+<p class="has-small-font-size">Aattokatu 16 104 - Nadjaharju - Uusimaa - 18374</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
