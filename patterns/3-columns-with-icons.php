@@ -5,6 +5,7 @@
  * Categories: yith-wonder-page-sections
  * Keywords: columns
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section of three icons and description.
  *
  * @package yith-wonder
  * @since 1.0.0

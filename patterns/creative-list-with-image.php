@@ -5,6 +5,7 @@
  * Categories: yith-wonder-page-sections
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section of two columns. First row with big photo of a model, second row with a list of company services and values. Decorated with a dotted background cover block.
  *
  * @package yith-wonder
  * @since 1.0.0

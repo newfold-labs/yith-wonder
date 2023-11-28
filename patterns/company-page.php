@@ -4,6 +4,7 @@
  * Slug: yith-wonder/company-page
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: A corporate page template to show your company values and a big testimonial in the bottom section.
  *
  * @package yith-wonder
  * @since 1.0.0

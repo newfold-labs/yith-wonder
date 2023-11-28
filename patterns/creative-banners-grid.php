@@ -5,6 +5,7 @@
  * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section with 3 cover blocks in a creative grid layout. Sample images are jewelry related and can be replaced.
  *
  * @package yith-wonder
  * @since 1.3.0

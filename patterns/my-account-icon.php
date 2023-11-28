@@ -12,6 +12,7 @@ if ( class_exists( 'woocommerce' ) ) :
 	 * Slug: yith-wonder/my-account-icon
 	 * Categories: yith-wonder-utilities
 	 * Block Types: core/image
+	 * Description: This pattern will ad a shortcut icon for the WooCommerce my-account area of your website. It will be registered only if WooCommerce is enabled.
 	 */
 
 	?>

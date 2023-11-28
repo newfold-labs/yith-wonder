@@ -4,6 +4,7 @@
  * Slug: yith-wonder/blog-page
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: A page template to show all your posts in a styled cards layouts.
  *
  * @package yith-wonder
  * @since 1.0.0

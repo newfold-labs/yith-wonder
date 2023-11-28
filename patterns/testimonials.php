@@ -4,6 +4,7 @@
  * Slug: yith-wonder/testimonials-page
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: A corporate page template to show your testimonials and quotes in a masonry layout using columns.
  *
  * @package yith-wonder
  * @since 1.0.0

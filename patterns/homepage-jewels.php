@@ -4,6 +4,7 @@
  * Slug: yith-wonder/homepage-jewels
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: Homepage template dedicated to jewelry products. Designed around the Gold Shades style variation of the theme.
  *
  * @package yith-wonder
  * @since 1.3.0

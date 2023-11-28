@@ -4,6 +4,7 @@
  * Slug: yith-wonder/homepage-1
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: Homepage template containing hero section, alternated banner sections, WooCommerce product blocks and testimonial section.
  *
  * @package yith-wonder
  * @since 1.0.0

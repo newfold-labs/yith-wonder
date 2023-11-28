@@ -5,6 +5,7 @@
  * Categories: yith-wonder-site-footer
  * Block Types: core/columns, core/navigation
  * Keywords: site footer
+ * Description: A footer template based on 3 columns layout. First with site logo, the other with navigation blocks.
  *
  * @package yith-wonder
  * @since 1.1.0

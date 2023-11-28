@@ -5,6 +5,7 @@
  * Categories: yith-wonder-site-header
  * Block Types: core/site-title, core/site-logo, core/navigation
  * Keywords: site header
+ * Description: A site header with navigation menu splitted by the site logo.
  *
  * @package yith-wonder
  * @since 1.0.0

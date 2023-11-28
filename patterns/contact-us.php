@@ -4,6 +4,7 @@
  * Slug: yith-wonder/contact-us
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: A page template containing a contact form (WP Forms free plugin needed).
  *
  * @package yith-wonder
  * @since 1.0.0

@@ -5,6 +5,7 @@
  * Categories: yith-wonder-site-header
  * Block Types: core/site-title, core/site-logo, core/navigation
  * Keywords: site header
+ * Description: A centered site header with site logo and navigation below. Above, two columns to add socials or contact informations. WooCommerce minicart display when plugin is enabled.
  *
  * @package yith-wonder
  * @since 1.0.0

@@ -5,6 +5,7 @@
  * Categories: yith-wonder-page-sections
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section of five columns including jewelry images miming product categories.
  *
  * @package yith-wonder
  * @since 1.3.0

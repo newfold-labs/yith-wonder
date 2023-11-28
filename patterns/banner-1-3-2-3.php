@@ -5,6 +5,7 @@
  * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section of two columns columns with 1/3 and 2/3 proportions.
  *
  * @package yith-wonder
  * @since 1.0.0

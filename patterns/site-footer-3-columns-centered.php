@@ -5,6 +5,7 @@
  * Categories: yith-wonder-site-footer
  * Block Types: core/columns, core/navigation
  * Keywords: site footer
+ * Description: A footer template based on 3 columns layout. Phone number, site logo, social icons. Below a full row with the site navigation and another with credits.
  *
  * @package yith-wonder
  * @since 1.1.0

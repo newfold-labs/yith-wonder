@@ -4,6 +4,7 @@
  * Slug: yith-wonder/homepage-orchid
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: A corporate homepage template dedicated to company mission and customer care. WooCommerce products block inside. Designed around the Orchide Shades style variation of the theme.
  *
  * @package yith-wonder
  * @since 1.4.0

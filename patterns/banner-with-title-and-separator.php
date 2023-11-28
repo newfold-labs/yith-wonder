@@ -5,6 +5,7 @@
  * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section with a full width cover image and title and description divided by a separator block.
  *
  * @package yith-wonder
  * @since 1.3.0

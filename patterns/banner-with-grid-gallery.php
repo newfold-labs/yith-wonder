@@ -5,6 +5,7 @@
  * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section of two columns containing a call to action and a gallery grid miming product categories.
  *
  * @package yith-wonder
  * @since 1.3.0

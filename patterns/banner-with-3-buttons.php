@@ -5,6 +5,7 @@
  * Categories: yith-wonder-banners
  * Keywords: banners
  * Block Types: core/group, core/columns, core/image, core/cover
+ * Description: A page section with a big image in a column and 3 buttons in another column.
  *
  * @package yith-wonder
  * @since 1.0.0

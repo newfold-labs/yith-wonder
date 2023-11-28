@@ -4,6 +4,7 @@
  * Slug: yith-wonder/homepage-3
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: Homepage template containing fine spaced banner sections, WooCommerce product blocks, images with call to actions and lists.
  *
  * @package yith-wonder
  * @since 1.0.0

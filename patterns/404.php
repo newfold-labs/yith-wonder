@@ -4,6 +4,7 @@
  * Slug: yith-wonder/404-page
  * Categories: yith-wonder-pages
  * Block Types: core/post-content
+ * Description: The 404 page template with large 404 text and a search box below.
  *
  * @package yith-wonder
  * @since 1.0.0

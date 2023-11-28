@@ -5,6 +5,7 @@
  * Categories: yith-wonder-testimonials
  * Keywords: testimonials
  * Block Types: core/cover, core/group, core/media-text, core/spacer
+ * Description: A page section displaying a testimonial and the related quote in a full width cover block.
  *
  * @package yith-wonder
  * @since 1.0.0

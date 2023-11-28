@@ -5,6 +5,7 @@
  * Categories: yith-wonder-site-header
  * Block Types: core/site-title, core/site-logo, core/navigation
  * Keywords: site header
+ * Description: A left aligned site header with horizontal stacked elements: site logo, title, tagline and navigation block. WooCommerce mini cart display when plugin is enabled.
  *
  * @package yith-wonder
  * @since 1.0.0
