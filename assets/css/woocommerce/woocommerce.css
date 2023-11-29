@@ -391,6 +391,10 @@ Responsive
   filter: brightness(94%) !important;
 }
 
+.woocommerce ul.products-block-post-template {
+  padding-inline: 0;
+}
+
 /*--------------------------------------------------------------
 # Single product
 --------------------------------------------------------------*/

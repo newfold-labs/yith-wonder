@@ -60,7 +60,7 @@
 }
 
 /* REMOVE MAIN UPPER BLOCK SPACING */
-header.wp-block-template-part + main {
+body.page-template-no-title header.wp-block-template-part + main {
 	margin-block-start: 0;
 }
 

@@ -39,7 +39,6 @@ body {
 }
 
 /* Add horizontal padding to elements */
-header > .wp-block-group,
 main > :not(.alignfull),
 .sidebar > :not(.alignfull),
 main > .wp-block-query > :not(.alignfull),
@@ -51,4 +50,8 @@ main .entry-content .wp-block-columns.alignfull p,
 .sidebar .entry-content .wp-block-columns.alignfull p,
 footer > .wp-block-group {
 	padding-inline: var(--wp--preset--spacing--40);
+}
+
+header > .wp-block-group {
+	padding-inline: 0;
 }

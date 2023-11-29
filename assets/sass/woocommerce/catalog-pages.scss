@@ -68,3 +68,7 @@
 	color: var(--wp--preset--color--contrast);
 	filter: brightness(94%) !important;
 }
+
+.woocommerce ul.products-block-post-template {
+	padding-inline: 0;
+}
