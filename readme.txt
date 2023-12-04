@@ -2,9 +2,9 @@
 Contributors: yithemes
 Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
 Requires at least: 5.9
-Tested up to: 6.2
+Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 1.3.3
+Stable tag: 2.0.0
 Wonder, Copyright 2022-2023 YITH
 Wonder is distributed under the terms of the GNU GPL
 License: GNU General Public License v2 or later
@@ -25,6 +25,52 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 2.0.0 - December 04 2023 =
+New Orchide Shades style
+New homepage-orchid page template
+New "dashed" style for separator block
+New "with-shadow" group style
+New unscaled background cover block variation
+New spacing sizes to theme.json
+New custom spacing properties to theme.json
+New single-product block template
+New archive-product block template
+New product-search-results block template
+New cart block template
+New support to WordPress 6.4
+New support to WooCommerce 8.3
+Add support to block image lightbox feature
+Add basic design to legacy thankyou page
+Add description meta to registered patterns.
+Improve nav typography
+Improve link color handling
+Improve box shadow
+Fix headers color wrong name
+Fix missing comments in registered block style css
+Fix woocommerce products block style in backend
+Fix heading typography globally
+Fix posts header background color
+Fix backwards-compatibility css variables
+Fix missing tagname attribute in some templates
+Fix missing aria-hidden attribute to read more arrows
+Fix site-title and content title heading levels
+Fix missing <main> element in woo templates
+Fix secondary color to be WCAG 3.01 AA compliat.
+Fix headers spacings
+Fix homepage-1 pattern button attributes
+Fix 404 template page heading to be h2.
+Fix footers headings to be H2 and improve SEO structure.
+Fix spacer block syntax in some templates.
+Solve issue #13 by @carolinan
+Solve issue #14 by @carolinan
+Solve issue #15 by @carolinan
+Solve issue #16 by @carolinan
+Use spacing values in templates
+Move css spacing into variables
+Remove unnecessary woocommerce buttons CSS
+Remove unnecessary default settings in theme.json.
+Remove unnecessary woocommerce css code
+
 = 1.3.3 - July 05 2023 =
 - Fix: color naming in various patterns
 - Fix: color renaming in CSS files

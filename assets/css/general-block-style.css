@@ -242,3 +242,9 @@ body .wc-block-grid.has-5-columns.alignfull .wc-block-grid__product {
 body .wc-block-grid.has-3-columns:not(.alignwide):not(.alignfull) {
   font-size: 1em !important;
 }
+
+/* FIX HEADER MOBILE */
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+  background-color: var(--wp--preset--color--header-background) !important;
+  padding: var(--wp--preset--spacing--40);
+}
