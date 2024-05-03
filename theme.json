@@ -1053,6 +1053,16 @@
 			"name": "sidebar-left",
 			"title": "Sidebar (left)",
 			"postTypes": [ "post","page" ]
+		},
+		{
+			"name": "no-title",
+			"title": "No title",
+			"postTypes": [ "post","page" ]
+		},
+		{
+			"name": "no-header-footer",
+			"title": "No Header/Footer",
+			"postTypes": [ "post","page" ]
 		}
 	]
 }
