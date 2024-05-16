@@ -1,13 +1,13 @@
 const { __ } = wp.i18n;
 
-/* Transparent header. */
+/* Default header. */
 wp.blocks.registerBlockVariation( 'core/template-part', {
-	name: 'header-overlay',
-	title: 'Header overlay',
-	description: __( 'Overlay header.' ),
+	name: 'header-default',
+	title: 'Header default',
+	description: __( 'Default style' ),
 	scope: [ 'transform' ],
 	attributes: {
-		className: 'is-style-yith-wonder-overlay-header',
+		className: 'is-style-default'
 	},
 });
 
@@ -22,13 +22,13 @@ wp.blocks.registerBlockVariation( 'core/template-part', {
 	},
 });
 
-/* Default header. */
+/* Transparent header. */
 wp.blocks.registerBlockVariation( 'core/template-part', {
-	name: 'header-default',
-	title: 'Header default',
-	description: __( 'Default style' ),
+	name: 'header-overlay',
+	title: 'Header overlay',
+	description: __( 'Overlay header.' ),
 	scope: [ 'transform' ],
 	attributes: {
-		className: 'is-style-default'
+		className: 'is-style-yith-wonder-overlay-header',
 	},
 });

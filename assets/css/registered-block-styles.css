@@ -135,13 +135,14 @@ blockquote.is-style-yith-wonder-quote-with-icon p:first-child {
   z-index: 10;
 }
 
-.admin-bar .is-style-yith-wonder-sticky-header {
-  top: 32px;
+@media (min-width: 600px) {
+  .admin-bar .is-style-yith-wonder-sticky-header {
+    top: 32px;
+  }
 }
-
 /* Overlay header */
 .is-style-yith-wonder-overlay-header {
-  margin-bottom: -97px;
-  position: relative;
+  position: absolute;
   z-index: 10;
+  width: 100%;
 }
