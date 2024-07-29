@@ -96,6 +96,7 @@ input[type=week],
   min-height: var(--wp--custom--input-min-height);
   min-width: 80px;
   padding: 0.3rem 1rem;
+  color: var(--wp--preset--color--contrast);
 }
 
 .select2-container .select2-selection--single .select2-selection__arrow {
