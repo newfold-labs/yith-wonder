@@ -1018,6 +1018,11 @@
 			"area": "header"
 		},
 		{
+			"name": "header-transparent",
+			"title": "Header Transparent",
+			"area": "header"
+		},
+		{
 			"name": "footer",
 			"title": "Footer",
 			"area": "footer"

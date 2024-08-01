@@ -24,6 +24,9 @@ require_once get_theme_file_path( 'inc/register-block-pattern-categories.php' );
 // Block styles.
 require_once get_theme_file_path( 'inc/register-block-styles.php' );
 
+// Block variations.
+require_once get_theme_file_path( 'inc/register-block-variations.php' );
+
 // WooCommerce.
 if ( class_exists( 'woocommerce' ) ) {
 	require_once get_theme_file_path( 'inc/woocommerce.php' );
