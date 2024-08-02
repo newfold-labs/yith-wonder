@@ -7,7 +7,7 @@
 .wp-block-post-featured-image + .wp-block-group .vertical-overlap {
     margin-top: var(--wp--custom--single-post-feature-image-orverlap-vertical-margin);
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 
 /* STICKY POSTS FIX */
@@ -122,6 +122,20 @@ select {
 }
 
 input[type="submit"],
+button[type="submit"] {
+	background-color: var(--wp--preset--color--primary);
+    border-radius: var(--wp--custom--button-border-radius);
+    border-width: 0;
+    border-style: solid;
+    color: var(--wp--preset--color--base);
+    font-weight: 500;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+input[type="submit"],
 button[type="submit"],
 .button,
 .btn {
@@ -197,6 +211,14 @@ input.wpcf7-not-valid {
 }
 .wpcf7-not-valid-tip {
 	font-size: 0.8em;
+}
+
+/* COMMENT FORM */
+form.comment-form {
+	textarea {
+		margin-block: 15px;
+		border-radius: 15px;
+	}
 }
 
 /* EDITOR CREATIVE CSS CLASSES */
