@@ -130,3 +130,23 @@ blockquote.is-style-yith-wonder-quote-with-icon {
 .is-style-yith-wonder-cover-unscaled-background .wp-block-cover__image-background{
     object-fit: contain;
 }
+
+/* Sticky header */
+.is-style-yith-wonder-sticky-header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+@media ( min-width: 600px ) {
+    .admin-bar .is-style-yith-wonder-sticky-header {
+        top: 32px;
+    }
+}
+
+/* Overlay header */
+.is-style-yith-wonder-overlay-header {
+	position: absolute;
+    z-index: 10;
+    width: 100%;
+}
