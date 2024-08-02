@@ -1,5 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
 	"customTemplates": [
 		{
 			"name": "sidebar-right",
@@ -1228,6 +1229,5 @@
 			"name": "vertical-sidebar-2",
 			"title": "Vertical Sidebar 2"
 		}
-	],
-	"version": 3
+	]
 }
