@@ -34,3 +34,6 @@ if ( class_exists( 'woocommerce' ) ) {
 
 // Backward compatibility.
 require_once get_theme_file_path( 'inc/backward-compatibility.php' );
+
+// Block variations.
+require_once get_theme_file_path( 'inc/registered-block-patterns-override.php' );

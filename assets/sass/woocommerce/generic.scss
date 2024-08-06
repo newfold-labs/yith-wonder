@@ -301,6 +301,43 @@ Fix WooCommerce layout max-width introduced in version 7.2
     max-width: var(--wp--style--global--content-size);
 }
 
+.wc-block-components-form .wc-block-components-text-input label,
+.wc-block-components-text-input label,
+.wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label {
+    font-size: 0.875em;
+}
+
+.wc-block-components-form .wc-block-components-text-input input[type=email],
+.wc-block-components-form .wc-block-components-text-input input[type=number],
+.wc-block-components-form .wc-block-components-text-input input[type=tel],
+.wc-block-components-form .wc-block-components-text-input input[type=text],
+.wc-block-components-form .wc-block-components-text-input input[type=url],
+.wc-block-components-text-input input[type=email],
+.wc-block-components-text-input input[type=number],
+.wc-block-components-text-input input[type=tel],
+.wc-block-components-text-input input[type=text],
+.wc-block-components-text-input input[type=url],
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input,
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input {
+	font-size: var(--wp--preset--font-size--x-small);
+}
+
+.wc-block-components-form .wc-block-components-text-input input:-webkit-autofill+label,
+.wc-block-components-form .wc-block-components-text-input.is-active label,
+.wc-block-components-text-input input:-webkit-autofill+label,
+.wc-block-components-text-input.is-active label,
+.wc-block-components-combobox.is-active .wc-block-components-combobox-control label.components-base-control__label, 
+.wc-block-components-combobox:focus-within .wc-block-components-combobox-control label.components-base-control__label, 
+.wc-block-components-combobox.is-active .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-form .wc-block-components-combobox:focus-within .wc-block-components-combobox-control label.components-base-control__label {
+    transform: translateY(.5em) scale(.7) !important;
+}
+
+.wc-block-components-validation-error p {
+	font-size: var(--wp--preset--font-size--x-small) !important;
+}
+
 /**
 Responsive
 */
