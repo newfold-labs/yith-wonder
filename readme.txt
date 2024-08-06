@@ -2,10 +2,10 @@
 Contributors: yithemes
 Tags: blog, e-commerce, portfolio, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, block-patterns, wide-blocks, full-site-editing, template-editing
 Requires at least: 5.9
-Tested up to: 6.4
+Tested up to: 6.6
 Requires PHP: 7.0
-Stable tag: 2.0.0
-Wonder, Copyright 2022-2023 YITH
+Stable tag: 2.1.0
+Wonder, Copyright 2022-2024 YITH
 Wonder is distributed under the terms of the GNU GPL
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -25,6 +25,20 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+= 2.1.0 - August 06 2024 =
+- New support to WP 6.6
+- New theme.json v3
+- New block variations for sticky header and overlay header
+- New order-confirmation template
+- Improve single post comments design
+- Override woocommerce registered patterns to match new order-received design
+- Fix custom template selector in edit post/page
+- Fix Single post comment submit button appearance (solve issue #18)
+- Fix font sizes according to new theme.json schema v3
+- Fix html select element style
+- Fix woo inputs label position and font size
+
+
 = 2.0.0 - December 04 2023 =
 - New Orchid Shades style
 - New homepage-orchid page template
