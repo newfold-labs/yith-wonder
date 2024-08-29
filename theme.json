@@ -190,23 +190,23 @@
 							"fontFamily": "Mulish",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "200 900",
+							"fontWeight": "200 1000",
 							"src": [
-								"file:./assets/fonts/Mulish-VariableFont_wght.ttf"
+								"file:./assets/fonts/Mulish-VariableFont_wght.woff2"
 							]
 						},
 						{
 							"fontFamily": "Mulish",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
-							"fontWeight": "200 900",
+							"fontWeight": "200 1000",
 							"src": [
-								"file:./assets/fonts/Mulish-Italic-VariableFont_wght.ttf"
+								"file:./assets/fonts/Mulish-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Mulish",
-					"name": "Mulish, sans-serif",
+					"fontFamily": "Mulish, Seravek, \"Gill Sans Nova\", Ubuntu, Calibri, \"DejaVu Sans\", source-sans-pro, sans-serif",
+					"name": "Mulishf",
 					"slug": "mulish"
 				},
 				{
@@ -217,7 +217,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Raleway-VariableFont_wght.ttf"
+								"file:./assets/fonts/Raleway-VariableFont_wght.woff2"
 							]
 						},
 						{
@@ -226,12 +226,12 @@
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Raleway-Italic-VariableFont_wght.ttf"
+								"file:./assets/fonts/Raleway-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Raleway",
-					"name": "Raleway, sans-serif",
+					"fontFamily": "Raleway, Avenir, Montserrat, Corbel, \"URW Gothic\", source-sans-pro, sans-serif",
+					"name": "Raleway",
 					"slug": "raleway"
 				},
 				{
@@ -242,12 +242,12 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/RobotoSlab-VariableFont_wght.ttf"
+								"file:./assets/fonts/RobotoSlab-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Roboto Slab",
-					"name": "Roboto Slab, serif",
+					"fontFamily": "Roboto Slab, Rockwell, \"Rockwell Nova\", \"Roboto Slab\", \"DejaVu Serif\", \"Sitka Small\", serif",
+					"name": "Roboto Slab",
 					"slug": "roboto-slab"
 				},
 				{
@@ -258,7 +258,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Jost-VariableFont_wght.ttf"
+								"file:./assets/fonts/Jost-VariableFont_wght.woff2"
 							]
 						},
 						{
@@ -267,12 +267,12 @@
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Jost-Italic-VariableFont_wght.ttf"
+								"file:./assets/fonts/Jost-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Jost",
-					"name": "Jost, sans-serif",
+					"fontFamily": "Jost, Avenir, Montserrat, Corbel, \"URW Gothic\", source-sans-pro, sans-serif",
+					"name": "Jost",
 					"slug": "jost"
 				},
 				{
@@ -283,7 +283,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Montserrat-VariableFont_wght.ttf"
+								"file:./assets/fonts/Montserrat-VariableFont_wght.woff2"
 							]
 						},
 						{
@@ -292,12 +292,12 @@
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf"
+								"file:./assets/fonts/Montserrat-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Montserrat",
-					"name": "Montserrat, sans-serif",
+					"fontFamily": "Montserrat, ui-rounded, \"Hiragino Maru Gothic ProN\", Quicksand, Comfortaa, Manjari, \"Arial Rounded MT\", \"Arial Rounded MT Bold\", Calibri, source-sans-pro, sans-",
+					"name": "Montserrat",
 					"slug": "montserrat"
 				},
 				{
@@ -308,7 +308,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/Nunito-VariableFont_wght.ttf"
+								"file:./assets/fonts/Nunito-VariableFont_wght.woff2"
 							]
 						},
 						{
@@ -317,12 +317,12 @@
 							"fontStyle": "italic",
 							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/Nunito-Italic-VariableFont_wght.ttf"
+								"file:./assets/fonts/Nunito-Italic-VariableFont_wght.woff2"
 							]
 						}
 					],
-					"fontFamily": "Nunito",
-					"name": "Nunito, sans-serif",
+					"fontFamily": "Nunito, Avenir, Montserrat, Corbel, \"URW Gothic\", source-sans-pro, sans-serif",
+					"name": "Nunito",
 					"slug": "nunito"
 				},
 				{
@@ -368,8 +368,8 @@
 							]
 						}
 					],
-					"fontFamily": "Solway",
-					"name": "Solway, serif",
+					"fontFamily": "Solway, Rockwell, \"Rockwell Nova\", \"Roboto Slab\", \"DejaVu Serif\", \"Sitka Small\", serif",
+					"name": "Solway",
 					"slug": "solway"
 				},
 				{
@@ -399,103 +399,21 @@
 					"fontFace": [
 						{
 							"fontFamily": "Source Sans Pro",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-200.woff2"
-							]
+							"src": [ "file:./assets/fonts/source-sans-pro[wght].woff2" ]
 						},
 						{
 							"fontFamily": "Source Sans Pro",
+							"fontWeight": "200 900",
+							"fontStretch": "normal",
 							"fontStyle": "italic",
-							"fontWeight": "200",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-200italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-300.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-300italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-600.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-600italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-700.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-700italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-900.woff2"
-							]
-						},
-						{
-							"fontFamily": "Source Sans Pro",
-							"fontStyle": "italic",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/source-sans-pro-v21-latin-900italic.woff2"
-							]
+							"src": [ "file:./assets/fonts/source-sans-pro-italic[wght].woff2" ]
 						}
 					],
-					"fontFamily": "Source Sans Pro",
-					"name": "Source Sans Pro, sans-serif",
+					"fontFamily": "Source Sans Pro, Bahnschrift, \"DIN Alternate\", \"Franklin Gothic Medium\", \"Nimbus Sans Narrow\", sans-serif-condensed, sans-serif",
+					"name": "Source Sans Pro",
 					"slug": "source-sans-pro"
 				},
 				{
@@ -565,8 +483,8 @@
 							]
 						}
 					],
-					"fontFamily": "Merriweather",
-					"name": "Merriweather, serif",
+					"fontFamily": "Merriweather, Rockwell, \"Rockwell Nova\", \"Roboto Slab\", \"DejaVu Serif\", \"Sitka Small\", serif",
+					"name": "Merriweather",
 					"slug": "merriweather"
 				},
 				{
@@ -716,7 +634,7 @@
 							]
 						}
 					],
-					"fontFamily": "Poppins",
+					"fontFamily": "Poppins, Inter, Roboto, \"Helvetica Neue\", \"Arial Nova\", \"Nimbus Sans\", Arial, sans-serif",
 					"name": "Poppins",
 					"slug": "poppins"
 				},
@@ -731,7 +649,7 @@
 							]
 						}
 					],
-					"fontFamily": "Satisfy",
+					"fontFamily": "Satisfy, \"Segoe Print\", \"Bradley Hand\", Chilanka, TSCu_Comic, casual, cursive",
 					"name": "Satisfy",
 					"slug": "satisfy"
 				},
@@ -746,7 +664,7 @@
 							]
 						}
 					],
-					"fontFamily": "Forum",
+					"fontFamily": "Forum, \"Iowan Old Style\", \"Palatino Linotype\", \"URW Palladio L\", P052, serif",
 					"name": "Forum",
 					"slug": "forum"
 				},
@@ -793,110 +711,28 @@
 							]
 						}
 					],
-					"fontFamily": "Oswald",
+					"fontFamily": "Oswald, Bahnschrift, \"DIN Alternate\", \"Franklin Gothic Medium\", \"Nimbus Sans Narrow\", sans-serif-condensed, sans-serif",
 					"name": "Oswald",
 					"slug": "oswald"
 				},
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Playfair Display",
+							"fontFamily": "Playfair Displa",
+							"fontWeight": "400 900",
+							"fontStretch": "normal",
 							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-regular.woff2"
-							]
+							"src": [ "file:./assets/fonts/playfair-display-latin-wght-normal.woff2" ]
 						},
 						{
 							"fontFamily": "Playfair Display",
+							"fontWeight": "400 900",
+							"fontStretch": "normal",
 							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-500.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-500italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-600.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-600italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-700.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-700italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-800.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "italic",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-800italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "normal",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-900.woff2"
-							]
-						},
-						{
-							"fontFamily": "Playfair Display",
-							"fontStyle": "italic",
-							"fontWeight": "900",
-							"src": [
-								"file:./assets/fonts/playfair-display-v29-latin-900italic.woff2"
-							]
+							"src": [ "file:./assets/fonts/playfair-display-latin-wght-italic.woff2" ]
 						}
 					],
-					"fontFamily": "Playfair Display",
+					"fontFamily": "Playfair Display, Charter, \"Bitstream Charter\", \"Sitka Text\", Cambria, serif",
 					"name": "Playfair Display",
 					"slug": "playfair"
 				}
