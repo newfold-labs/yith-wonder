@@ -206,7 +206,7 @@
 						}
 					],
 					"fontFamily": "Mulish, Seravek, \"Gill Sans Nova\", Ubuntu, Calibri, \"DejaVu Sans\", source-sans-pro, sans-serif",
-					"name": "Mulishf",
+					"name": "Mulish",
 					"slug": "mulish"
 				},
 				{
@@ -296,7 +296,7 @@
 							]
 						}
 					],
-					"fontFamily": "Montserrat, ui-rounded, \"Hiragino Maru Gothic ProN\", Quicksand, Comfortaa, Manjari, \"Arial Rounded MT\", \"Arial Rounded MT Bold\", Calibri, source-sans-pro, sans-",
+					"fontFamily": "Montserrat, ui-rounded, \"Hiragino Maru Gothic ProN\", Quicksand, Comfortaa, Manjari, \"Arial Rounded MT\", \"Arial Rounded MT Bold\", Calibri, source-sans-pro, sans-serif",
 					"name": "Montserrat",
 					"slug": "montserrat"
 				},
@@ -718,7 +718,7 @@
 				{
 					"fontFace": [
 						{
-							"fontFamily": "Playfair Displa",
+							"fontFamily": "Playfair Display",
 							"fontWeight": "400 900",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
