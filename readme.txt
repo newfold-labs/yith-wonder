@@ -25,6 +25,13 @@ Wonder is the new block-based, multi-purpose, WordPress theme by YITH. Compose y
 == Frequently Asked Questions ==
 
 == Changelog ==
+
+= 2.1.1 - April 09 2025 =
+- Swap to WOFF2 variable fonts, add CLS fallbacks
+- Fix typos in theme.json file
+- Tested support to WP 6.7
+- Tested suppoet to WC 9.7
+
 = 2.1.0 - August 06 2024 =
 - New support to WP 6.6
 - New theme.json v3
